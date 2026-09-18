@@ -1,0 +1,191 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "registry-practice",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 25,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> ODS-C 是美国国家肿瘤登记师协会（NCRA）的肿瘤登记专业认证，中文常称“肿瘤数据专员”认证。它不是肿瘤医生资格，也不是通用数据分析师证书。本文回答 ODS-C 是什么、谁可以报考、三条资格路径分别是什么、2026年考试内容与费用、美国相关岗位的薪资情况，以及中国肿瘤登记人员如何判断是否适合报考。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 22,
+      "sample": "ODS对应的是美国肿瘤登记岗位，以下数字不能直接换算为中国单位的工资。NCRA 2022年调查显示，受访全职年薪人员平均年薪为82,683美元，按小时计薪人员平均时薪为30.61美元；这不是2026年的实时招聘报价。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 24,
+      "sample": "薪资会随经验和岗位层级变化：1—5年经验的全职年薪平均为62,106美元，20年以上为99,195美元；登记员或摘录员平均为60,644美元，管理岗位平均为75,627—98,230美元。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 40,
+      "sample": "以NCRA的2026年《ODS考试手册》为准，报考资格共有三条路径。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 42,
+      "sample": "### 路径1：NCRA认可的副学士项目"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 46,
+      "sample": "### 路径2：已有大专层次学历，再读认可证书项目"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 48,
+      "sample": "需要副学士学位或等同的60个大学学分，再完成NCRA认可的肿瘤登记管理证书项目和实习。这条路径适合已有其他专业高等教育背景，但缺少系统肿瘤登记课程与实习的人。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 50,
+      "sample": "### 路径3：学历加肿瘤登记工作经验"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 52,
+      "sample": "需要副学士学位或等同60个大学学分，包括或另外完成两学期人体解剖与生理学，成绩达到C或以上；同时具备1,950小时肿瘤登记领域工作经验，相当于一年全职工作量。工作经验需由了解情况的上级或人力资源人员核验。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 60,
+      "sample": "## 2026年ODS-C考试内容与题型"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 62,
+      "sample": "现行考试共180道选择题，总考试时4小时。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 66,
+      "sample": "| 肿瘤登记专业的法律与伦理 | 30 | 闭卷 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "| 肿瘤登记运行 | 45 | 闭卷 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 68,
+      "sample": "| 肿瘤登记数据识别 | 45 | 闭卷 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 69,
+      "sample": "| 肿瘤登记编码与摘录 | 60 | 开卷 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "前120题闭卷2小时，中间强制休息15分钟；后60题开卷2小时。开卷不等于可以携带自己的书籍或笔记：可用文件会以可搜索PDF的形式嵌入考试平台。考试仅提供英语。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 85,
+      "sample": "5. **按当年参考资料训练搜索。** 2026年清单涉及STORE、AJCC分期、Grade Manual、Solid Tumor Rules和Summary Stage等。备考时要练习在有限时间内找到对应规则，不只是收藏PDF。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 88,
+      "sample": "## 2026年ODS-C考试时间、费用与证书维持"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 90,
+      "sample": "以2026年8月31日的NCRA官方信息为准，本年尚未开始的考试窗口为10月23日至11月14日，申请截止日为10月7日。考试费为NCRA会员335美元、非会员435美元。境外申请人选择线上远程考试不收取额外国际考试费；在美国以外的考试中心参加线下考试，官方列出150美元附加费。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 92,
+      "sample": "通过考试并不是资格管理的终点。NCRA 2026年手册要求：每两年提交20个继续教育学分，每四年提交8个 Continuing Education In-Person（CEIP）学分，并每年缴纳认证维持费。肿瘤登记标准会持续更新，证书也通过继续教育来要求持证人跟上变化。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 100,
+      "sample": "对已有肿瘤登记经验的人，第一步往往不是备考，而是确认自己能否走路径3。对没有登记经验的人，则需先评估路径1或路径2所需的认可教育和实习。路径一旦选对，后面的课程、经验累积和考试准备才有清楚顺序。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 106,
+      "sample": "2. National Cancer Registrars Association. 2026 ODS Exam Handbook & Candidate Application"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 112,
+      "sample": "5. National Cancer Registrars Association. References for ODS Certification Examinations in 2026"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 118,
+      "sample": "8. National Cancer Registrars Association. Salary Considerations for Cancer Registrars: 2022"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 120,
+      "sample": "> 本文根据2026年9月5日可访问的NCRA与CDC资料整理。薪资数据来自NCRA 2022年调查，不代表2026年具体职位报价；考试资格、日期、费用、参考资料和继教要求可能调整，实际申请应以当年手册和NCRA个案审核为准。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-27-ai-search-pubmed/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "别让 AI 瞎编参考文献：让它去 PubMed 或 Zotero 找",
+    "title_chars": 34,
+    "summary_chars": 0,
+    "body_chars": 4489,
+    "headings": 9,
+    "paragraphs": 46,
+    "images": 6,
+    "images_missing_alt": 0,
+    "links": 10,
+    "opening_160_chars": "别让 AI 瞎编参考文献：让它去 PubMed 或 Zotero 找 把一段研究背景交给 AI，再补一句“请附上 5 篇参考文献”，很快就能得到格式完整的作者、题名、期刊、年份和 DOI。 麻烦在于：%%这些文献看起来像真的，不代表它们真的存在。%% 有的题名是模型拼出来的；有的论文确实存在，却被配上了错误作者或 DO"
+  },
+  "keywords": [
+    {
+      "keyword": "别再让AI瞎编参考文献了：让它直接搜索PubMed",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "research-tools",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "literature-interpretation",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "long_title",
+      "level": "low",
+      "message": "标题较长，复核搜索结果中是否易读或被截断；32 字是审计启发式而非平台阈值。"
+    }
+  ],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

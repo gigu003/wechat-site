@@ -1,0 +1,90 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-30-researcher-leadership-styles",
+  "article_id": "2026-08-30-researcher-leadership-styles",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "科研工作者如何识别不同类型的领导，并选择合适的应对方式",
+  "created_at": "2026-08-30T23:45:58+08:00",
+  "updated_at": "2026-08-31T00:38:05+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "cb69ad56fe37f89caf37dfca9b60088de4c67fbb0253221fc6c5bdb84ea1e590"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "c9a2fc88e2af213338c19c1d300423c8be6331d3ee8517646ae2b8e21e7949c2"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "b1465cae16770818f3c856340c08aee19081d7b0d5d356faacca6c7ed2b7958b"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "c4d1115402309736cd6fc23c596f777e3670aea68f00494f28674009a0a6f7b0"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "941f6f646d3d071a4e6bc4da1e1b1ed43bfa5091b8f6d31d5264d51efa133621"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:49+08:00",
+      "error": null,
+      "input_hash": "6b4fa46c856a8fd08b678e86be08c1d6e1581beaa84d62d51da9c932b15117ea"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:37:54+08:00",
+      "error": null,
+      "input_hash": "daae0ce8415f9a22960cd75ad162884692303558496815d5305a4f3084482d69"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T00:38:05+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T00:37:54+08:00",
+    "hashes": {
+      "ai_score.json": "ebf6bc43125052dfa71baa455c561af816ebf7ae6c02e65fdc67a6e3eb45f80c",
+      "article.md": "504e775ad658a424a9318032510d0c227d157ef37c0844bb842dc4135e68fb2d",
+      "brief.md": "32949ddfc8498defdb98fe07f72eb70d7583138ed3a88e7509147145c650988d",
+      "cover.png": "3eaf922763ee30e029ddd7618096b1ed4a01e009db990cf163dbbc900609d084",
+      "images/01-six-signals.png": "de75a980c9c59fb33d8d6fc2014b6bc0a699ce4b66032014346ad2a25e62f8b5",
+      "images/02-response-map.png": "83a5014dd17cf6028b9f7e731d05e8f6290b06764b6c11be07181529a4b02a65",
+      "images/03-minimum-records.png": "7eaabe53401816676430427986157b11c00d402ecaa32c8b5fc97e9aa15e4634",
+      "persona_report.json": "d6884666d984bd17e2d1145c4e1b0000b03aeac8ba0bb9eda9ee3a574f4628fc"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-SvP7Z6rVToH148ZLFEMmdFR9_87U57MiHQITagFwGHT",
+    "created_at": "2026-08-31T00:38:05+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-30T23:45:58+08:00"
+  }
+}

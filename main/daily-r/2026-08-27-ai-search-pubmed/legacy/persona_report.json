@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "tool-guide",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 9,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 22,
+      "sample": "2023 年一项针对当时 GPT-3.5 和 GPT-4 的研究发现，模型生成的引文中既有完全虚构的记录，也有真实文献被配错题名、作者或 DOI 的情况（PMID: 37679503）。另一项同期研究也报告了类似问题（PMID: 37337480）。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 65,
+      "sample": "例如，把 DOI `10.1038/s41598-023-41032-5` 交给 PubMed 搜索接口："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 87,
+      "sample": "再用 PMID `37679503` 获取记录，可以核到："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 90,
+      "sample": "- PMID：37679503"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "- DOI：10.1038/s41598-023-41032-5"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 92,
+      "sample": "- PMCID：PMC10484980"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 96,
+      "sample": "PubMed MCP 多为社区项目，不等于 NCBI 官方产品。使用前应检查代码来源、维护状态、实际暴露的工具、返回是否截断，以及 NCBI API key 和邮箱怎样保存。NCBI 还要求控制程序化请求频率：无 API key 时通常不超过每秒 3 次；使用 key 后默认可提高到每秒 10 次。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 102,
+      "sample": "Zotero 官方提供 Local API。近期版本的 Zotero Desktop 可以在 `localhost:23119/api/` 暴露本地文献库；启用“允许本机其他应用与 Zotero 通信”后，程序可在不读取 SQLite 文件的情况下搜索条目。官方文档说明，本地读取可以离线工作，也没有 Web API 的"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 104,
+      "sample": "本文核验环境为 Zotero 10.0.1，Local API 与 Connector 均返回正常状态。不同版本和不同 Zotero MCP 项目提供的工具名称会有差异，常见能力包括："
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-30-china-31-province-cancer-burden",
+  "article_id": "2026-08-30-china-31-province-cancer-burden",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "cancer-registry",
+  "theme": "refined-blue",
+  "image_style": "hand-drawn-blue",
+  "topic": "31省癌症负担差异：肺癌主导下的不同癌谱",
+  "created_at": "2026-08-30T10:10:09+08:00",
+  "updated_at": "2026-08-31T18:13:58+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "b903c82aac4e8b1b34a655f6c0ec4c39acdfea8723e0941dacb35e764546cef9"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "4311263e2197ef04dc4ac43baff9fa9e1381b50bd9933e18d1810f03418f9aed"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "6d3dc608bc69d813ad7703edff54f16a05c265c8cf8c22eb4a3cea2b28205011"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "5f4ffc0ffd848615c3bca31d6a60f565a051bce152ff5f44142b87a15a2d22c8"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "4df00d4ec5cae5c896b2f811d65a9ce80f31364513130affa1ced1e07f192006"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T11:45:06+08:00",
+      "error": null,
+      "input_hash": "3ee1e026300b6e2f94b394746799d4ac360ba359d6a50a76b37836ff88b02304"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:13:42+08:00",
+      "error": null,
+      "input_hash": "ad456aa05026bf62da4651300b3fe0cf221ca96a1526f88cb578201d2d360556"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:13:58+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:13:42+08:00",
+    "hashes": {
+      "ai_score.json": "bc3a4e8f398a9be6f5d85bd7c8f794f742872b1f33806a63ee67a9d52b39c124",
+      "article.md": "47da9fee11a1d3c7701e6724c4c44c608450fb259de127757053127453a81ed2",
+      "brief.md": "3b769375f914d7989d8fdf46231e86ea974111644c744aefb48083e4c8021890",
+      "cover.png": "46f4740a3e2551a3d8b747a5b2318adc544a275d02b28e9385feedb6b9ba4bd7",
+      "images/01-lung-dominance.png": "b777cedfc43fbd05573bc24c0b26703f68f28c0930137ffc3a5151bb7c37ffd6",
+      "images/02-regional-patterns.png": "bd5580ffbd78c584b1702cbe051941e15da3717e3cfcb3ac28b19c9501c67c7c",
+      "images/03-how-to-read.png": "697588ee508719b383f8bc1dedc708a8abb724cafa0db17281a7abbab1ed2209",
+      "images/04-estimation-path.png": "4ec967f4e32e2c7248033a82be005fb1092c2e08c145858c993cf68f20e3825d",
+      "images/05-three-metrics.png": "7f58d15859ea09bb423c4188d4f644b8e6c4662a0ca18b74f5b6862240e0d50f",
+      "images/06-original-incidence-ranking.png": "b85d13afe835dba7f50f08ce757c7a67b7e7f26df67b49e0c35e86b661e1ff67",
+      "images/07-original-mortality-ranking.png": "7f87f3500f53c02cf9dda524f369f171d7337ebae7f7b37c6ece388d10a184a8",
+      "persona_report.json": "c115bd44248a130af59f97a67cfdbc2f770f5e76923c7ec40f70b3d3b6b8c849",
+      "wechat_seo_report.json": "9470bb4f7ea7370130d7d6db070d24bbaae9914c3682775d6c4872a2a5d1b4bd"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-X_Jnj05--9NUurYlzkpmJvQrz7zF9Cvcpifm4dsh06y",
+    "created_at": "2026-08-31T18:13:58+08:00",
+    "account": "main",
+    "forced_new_draft": true
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-30T10:10:09+08:00"
+  },
+  "publication_history": [
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-RQ-kSHBDCg9v4ii4ZW58n99f6YUsyZ5peS3ktq3ihTA",
+      "created_at": "2026-08-30T21:27:43+08:00",
+      "account": "main",
+      "forced_new_draft": false
+    },
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-S1sPe03Uyd7t0_BFMNbY71YuOKUIJVz2ItutZDvw8iX",
+      "created_at": "2026-08-30T23:15:25+08:00",
+      "account": "main",
+      "forced_new_draft": true
+    }
+  ]
+}

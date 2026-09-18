@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-25-formaldehyde-iarc",
+  "article_id": "2026-08-25-formaldehyde-iarc",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "topic": "从甲醛白菜事件读懂 IARC 致癌物分组",
+  "created_at": "2026-08-25T21:41:11+08:00",
+  "updated_at": "2026-08-30T21:29:35+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:18+08:00",
+      "error": null,
+      "input_hash": "b6c81334de06cefda0a665225c81a5956ecc51980fcc06617e770aa1fa449b70"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:18+08:00",
+      "error": null,
+      "input_hash": "fb89c2e5cdd1d3d5a44c1f3f1797cb236852355d84530507eb198583be01a26b"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:18+08:00",
+      "error": null,
+      "input_hash": "64d2d548397b2f321c915b27a2b2f29ff0ef58ed0a4686c3c2157c1e9adedd38"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:18+08:00",
+      "error": null,
+      "input_hash": "eb6a89828daee6578621770b28bbe99abfaad13fcc6a82828b3d30dea647135e"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:18+08:00",
+      "error": null,
+      "input_hash": "f345584d8049f4784a64e17aaf9bf311422872fb9c93bdaccfbca875c253c13f"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:22+08:00",
+      "error": null,
+      "input_hash": "1819fabf75f6351a85a31c5c553e1ca682022516f64f12965cf61ce2e487f24d"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:22+08:00",
+      "error": null,
+      "input_hash": "4a27c722a715aa21090abc87783113e0340e59116c818a5838268291f92a1830"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:29:35+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-30T21:29:22+08:00",
+    "hashes": {
+      "ai_score.json": "85cda16b2ce14e3c903125420ca98bc301d84e6b973291be5967b9b9b6c9e15f",
+      "article.md": "25aaf9bd62bd4628ccb8867defd231f2418cab42c8880ef6836f9b15c1062f53",
+      "brief.md": "d162a5be47bad3e04d16de01c04a1d96f1e577baed3a1a106eb726b71ecdfb17",
+      "cover.jpg": "7be023c02424a6f72691053668d1d3d40540853e49a8ce709fa38d0f163d5fcc",
+      "images/00-formaldehyde-cabbage-timeline.png": "2114c25e6ea7af932fb3bc53bbe2242b52b371946e66baabccac8417c7f4636d",
+      "images/01-hazard-vs-risk.png": "1686ec8011eeae5d7efeb06a273bf5390fc699ed0a79604b17a7d3d0d35f57d5",
+      "images/02-iarc-groups.png": "f39dba1e7ccf88aac2a40aa03ce07582c6e54a48ffe60b7629377df116e7d4ee",
+      "images/03-formaldehyde-evidence.png": "3c39753c8bf2e72fa52c6be8ed4f3094289384f45b401b24ff4f21fc5ffb7e2b",
+      "images/04-smell-vs-test.png": "0311f0f1e55f7f215404cdb28263bbe7d389b3e56e19b59a85d06d73ba841ac7",
+      "images/05-exposure-control.png": "393315b30fea71d5a67c972b719a4bfb4b8903368540b9e5a75c7682b5e15578",
+      "images/cover-news.png": "a2a194b433d327b99f458dfffba0ef062ec93fe9a15fc7f364ea120851e9c8fe",
+      "images/cover.png": "64529b1059a1985d74752f62824cf5c945d33a7e54b25e4c248040517d18b008",
+      "persona_report.json": "d2d16074e69ee6ac857a970fea926e4c16ba5eab4b56075670f7dc53e35767ec"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-U4wlSyjXxTmJB7mNzAeHJkUHGe0VbZWGhwsKEjPQkCJ",
+    "created_at": "2026-08-30T21:29:35+08:00",
+    "account": "main",
+    "forced_new_draft": true
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "publication_history": [
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-YxtIIZz8vsJaQNv65nfZ3JpDv3XbdHtWf0pcDDMjY3Q",
+      "created_at": "2026-08-25T22:56:00+08:00",
+      "account": "main",
+      "forced_new_draft": false
+    }
+  ]
+}

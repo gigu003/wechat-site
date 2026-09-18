@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-25-standard-deviation-standard-error",
+  "article_id": "2026-08-25-standard-deviation-standard-error",
+  "account": "main",
+  "type": "news",
+  "content_type": "statistical-method",
+  "topic": "标准差与标准误",
+  "created_at": "2026-08-25T09:32:52+08:00",
+  "updated_at": "2026-08-25T10:23:53+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "5e2021400480a2cdc1d8d16c3000556bcc60b45ee57a814335959edc01f026ac"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "7aa9dc82cd0520e017be98779e25f144b1144f042166aae62aeb0bcd67c97e83"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "a10aa8741f9111068ef9ec8a413ef92bc306031b1837086e77417aadfbd935b4"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "9440c7887237001e12718268859fdfc05f6fc7c3eda8abad0582fe9e3adadfff"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "0e09a0146242ceb6b52a22de61dfeb420c9ef4ddad90bed54855064cf1852767"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:17:00+08:00",
+      "error": null,
+      "input_hash": "08bfd8881e15a1ba814e79170b1064928b16025fa8d3e8235f710614d3b5b24c"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:20:03+08:00",
+      "error": null,
+      "input_hash": "cb98fbf25264b5bab9d8cb369b80847aee0db5107f3293f6baa23b4be1ad3068"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-25T10:23:53+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-25T10:20:03+08:00",
+    "hashes": {
+      "ai_score.json": "f72d122213fbe0a6c7f2c5246b497edb204c41a6cdc13f696a7832eba15b9c74",
+      "article.md": "7e750f4d79d80c512d4e1cf712a8520bb27f70eab6f3da47a163744a8b94b617",
+      "brief.md": "7ff94af1ddfe38fbce82992a5de39ca7b5cfe95d8f73827aaca39f47b8c778e3",
+      "cover.jpg": "56a1da470adeecd54e8405de36ec9f408e8eea924fcf666ba353a38d1e13f323",
+      "images/01-two-questions.png": "56847797543804d6e144a540e41fcfa9b923adcd1ac30b08afee45eff1eba6e5",
+      "images/02-sd-spread.png": "e70039f37c75ea72111216b5584c7357db50353e53009fcb83f5254c118f1889",
+      "images/03-se-sampling.png": "3773464692d0ed048324070393070ac742513097aa9f5784242e4af0fc8b9c34",
+      "images/04-ci-from-se.png": "121c43c827f0249eb6c936012db8d83f03e55711f8733679aa714c1d0d43dd84",
+      "images/05-error-bars.png": "a3b3f1922971e43a09df03a30e9f5965c46bbf8cbe910a0a9ad9b8ff622fe99a",
+      "images/06-registry-rate-se.png": "12d5323bb459f1b58cdc534067c2fc7593f4aa5636ba99e280d6305aee7b18fe",
+      "images/07-reporting-guide.png": "5eedfc9493842f16024df0817c7e42ec4b348359a9d1d6412a539f0752482c64",
+      "persona_report.json": "ea214c567bb4c292989a5b998479d62bebf0cb34dff513af94adedf000c5d058"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-TIGXTAys3A-xqYXe2SGUYzd8c0tqI1SiCPGBPpPw3KW",
+    "created_at": "2026-08-25T10:23:53+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

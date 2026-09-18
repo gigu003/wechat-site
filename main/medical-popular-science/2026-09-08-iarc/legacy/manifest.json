@@ -1,0 +1,84 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-09-08-iarc",
+  "article_id": "2026-09-08-iarc",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-review",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "东亚和东南亚全面实施控烟政策可预防多少癌症：IARC建模研究解读",
+  "created_at": "2026-09-08T21:54:11+08:00",
+  "updated_at": "2026-09-08T22:26:57+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:48+08:00",
+      "error": null,
+      "input_hash": "8ea6a62a88362436056e0534debf25c099db87ca618a8d5ec9e908c57e66f592"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:48+08:00",
+      "error": null,
+      "input_hash": "537314054d7b414473af46cfcdaec2a636d088d9ab17a80c12db646124b7e1c0"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:48+08:00",
+      "error": null,
+      "input_hash": "a7cee8676d4e72d930627f4c8e97fdfd47449e2aa7ae8c343f02614308dbcc4e"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:48+08:00",
+      "error": null,
+      "input_hash": "6ec09b7a4365561b6fce89e06187c0cb43448ca570d182b70f1dcb15395c3ff8"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:48+08:00",
+      "error": null,
+      "input_hash": "4187fd57f4f298e2a0e0e8a0b1006be9bc6910820373d25d58017c8d995e19eb"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-08T22:26:57+08:00",
+      "error": null,
+      "input_hash": "c3b08b46d1a56de103a4bf8049d66af6197fd0314522350f87a49f940c7d9193"
+    },
+    "approval": {
+      "status": "pending",
+      "updated_at": null,
+      "error": null
+    },
+    "publish": {
+      "status": "pending",
+      "updated_at": null,
+      "error": null
+    }
+  },
+  "approval": null,
+  "publication": null,
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": {
+    "path": "sources/paper-review.json",
+    "sha256": "67e6270842ccdc9f7b8ceae31514719acd63ddf1da41d2b9c70f9b0fdbed1152",
+    "schema_version": "1.1.0",
+    "review_depth": "abstract_only",
+    "doi": "10.1016/j.lanwpc.2026.101962",
+    "pmid": "42668493",
+    "zotero_key": null,
+    "source_review_path": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-08-iarc/paper-review.json",
+    "store_root": "/Users/qc0824/Documents/2_Areas/文献研读/paper-reviews",
+    "attached_at": "2026-09-08T22:06:23+08:00"
+  },
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-09-08T21:54:10+08:00"
+  }
+}

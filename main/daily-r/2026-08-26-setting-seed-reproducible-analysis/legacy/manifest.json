@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-26-setting-seed-reproducible-analysis",
+  "article_id": "2026-08-26-setting-seed-reproducible-analysis",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "series": "reproducible-data-analysis",
+  "theme": "sage-premium",
+  "image_style": "data-chart",
+  "topic": "设置种子，保证数据分析的可重复性",
+  "created_at": "2026-08-26T09:09:46+08:00",
+  "updated_at": "2026-09-07T16:56:26+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:11+08:00",
+      "error": null,
+      "input_hash": "bb5bb8e7a8a3d5b69eb1fdcb815c19d2ba455ea3d328cd875acbd2e04c2e40e7"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:11+08:00",
+      "error": null,
+      "input_hash": "1f332557264056c28febdfbb5059eed9ab97a34e2be2d16781e417305fee83fa"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:11+08:00",
+      "error": null,
+      "input_hash": "ecb779942a972c4ef3d3d8a80928bebad1b446da6fce03d613ce26f458cc2506"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:11+08:00",
+      "error": null,
+      "input_hash": "66fd3f748c5c61df90870755fc27ef3a201e3030485a0efeff340052d9b0158c"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:11+08:00",
+      "error": null,
+      "input_hash": "c2b8fb634ac05421c3d7be579b5da39f97e44676315d0345deb71494bdb42fc0"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:30:18+08:00",
+      "error": null,
+      "input_hash": "5217db4ef4e863edb7ccb0311ad1b1dc43900f362c4b04c5e1b38d994b36a315"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:42:12+08:00",
+      "error": null,
+      "input_hash": "d161bcbdb3ef922827da24a663d5627b3f7403268c0cfcd707134d2e2e92c0ab"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-07T16:56:26+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-07T16:42:12+08:00",
+    "hashes": {
+      "ai_score.json": "8d831404bdc34e386bbdc780ae34a2cb02b5d8c0bcbce282a3b0c523207211da",
+      "article.md": "fd8fea25678b134bd7000fca065a0346a8603be109e75561617393c2712cfd8b",
+      "brief.md": "1dcc6415e3609ab8ab08d42dffed9efbb253a123c08cdef5231df795850842a8",
+      "content_value_report.json": "8a6d9ca01a464f69b026d806e5cf7a8912f732f332252cfd9c4c277d51b27f09",
+      "cover.png": "c3719dd55af29dad18f793cce9fb0ef362acd9f7325ee09edc873be438e57be3",
+      "images/01-cover-seed-stream.png": "c3719dd55af29dad18f793cce9fb0ef362acd9f7325ee09edc873be438e57be3",
+      "images/02-randomness-map.png": "17cbd8b8a4500b72998e0bbbec66460267c708de78ceb47228f20efbb1c54d97",
+      "images/03-seed-placement.png": "9b62020cfe2b766db9002c0cd4a33866624404f527268d5bd0407f198c20132d",
+      "images/04-call-order.png": "602ee434f12cb4ead686a4c3a68a8a6d45231db8d7bb7a9e90e1a7bda5cb4572",
+      "images/05-parallel-streams.png": "0dd21629876cd071dcb761a7d46c18af440b98a48d8d9f2729687919a538ec25",
+      "images/06-reproducibility-layers.png": "e11dc7f03a01c0ff0a824936c1691eff3b1c5b3ddb8091bd5bd815318e13d00e",
+      "images/07-checklist.png": "03b9c2b7defcffffce9f4c904e7c457e53c487f94fa77e67efb17c4e912e0e2a",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "6fb976c759a37e6c026972fa0dc47ff4382d17a03a8a7ff42e3c7afc6aa19633",
+      "wechat_seo_report.json": "4c3df0fee8b05f2c50b985ae7122cd6e4e7460b7adf78990851c2c50eb13fc00",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-cLC9j7DZMvT6jVN4vQHBV_c1PT-pymJSx_2kA_2_zcF",
+    "created_at": "2026-09-07T16:56:26+08:00",
+    "account": "main",
+    "forced_new_draft": true
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "publication_history": [
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-XbGm3TdpntaFcSlEUcGoWZWWiRuW63LfKya3IRHn7yh",
+      "created_at": "2026-08-31T18:08:19+08:00",
+      "account": "main",
+      "forced_new_draft": false
+    }
+  ]
+}

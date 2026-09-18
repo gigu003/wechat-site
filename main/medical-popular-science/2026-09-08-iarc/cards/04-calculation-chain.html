@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+  :root {
+    --ink: #143e35;
+    --deep: #0d332b;
+    --sage: #dcece2;
+    --mist: #f5f9f5;
+    --warm: #cf6845;
+    --line: #b8d4c7;
+  }
+  * { box-sizing: border-box; }
+  html, body { width: 1440px; height: 810px; margin: 0; overflow: hidden; }
+  body {
+    padding: 55px 68px 42px;
+    background:
+      radial-gradient(circle at 95% 5%, rgba(207, 104, 69, 0.12), transparent 19%),
+      linear-gradient(135deg, #f8fbf7 0%, #edf5ef 100%);
+    color: var(--ink);
+    font-family: "PingFang SC", "Noto Sans SC", sans-serif;
+  }
+  .eyebrow {
+    color: var(--warm);
+    font-family: "SF Mono", "Menlo", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+  }
+  h1 { margin: 14px 0 8px; font-size: 47px; line-height: 1.14; letter-spacing: -1.2px; }
+  .lead { margin: 0; color: #607c72; font-size: 21px; line-height: 1.5; }
+  .chain {
+    display: grid;
+    grid-template-columns: 1fr 52px 1.08fr 52px 1fr 52px 1.18fr;
+    align-items: center;
+    margin-top: 39px;
+  }
+  .node {
+    position: relative;
+    min-height: 345px;
+    padding: 29px 27px 25px;
+    border: 1px solid rgba(20, 62, 53, 0.13);
+    border-radius: 20px 32px 20px 32px;
+    background: rgba(255, 255, 255, 0.82);
+    box-shadow: 0 14px 32px rgba(20, 62, 53, 0.07);
+  }
+  .node::before {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 46px;
+    height: 4px;
+    border-radius: 0 0 8px 8px;
+    background: var(--warm);
+    content: "";
+  }
+  .step { color: #708a80; font-family: "SF Mono", "Menlo", monospace; font-size: 16px; font-weight: 700; letter-spacing: 1.25px; }
+  .node h2 { margin: 13px 0 12px; font-size: 29px; line-height: 1.25; }
+  .node p { margin: 0; color: #527067; font-size: 18px; line-height: 1.55; }
+  .data { margin-top: 21px; display: grid; gap: 9px; }
+  .chip { display: inline-flex; width: fit-content; padding: 6px 11px; border-radius: 999px; background: var(--sage); color: #245c4d; font-size: 16px; font-weight: 650; }
+  .formula {
+    margin-top: 21px;
+    padding: 13px 14px;
+    border-left: 3px solid var(--warm);
+    background: #fbf5ef;
+    color: #805038;
+    font-family: "SF Mono", "Menlo", monospace;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .arrow { position: relative; height: 2px; background: var(--line); }
+  .arrow::after { position: absolute; top: -7px; right: -1px; width: 13px; height: 13px; border-top: 2px solid var(--line); border-right: 2px solid var(--line); transform: rotate(45deg); content: ""; }
+  .arrow span { position: absolute; top: -31px; left: 50%; transform: translateX(-50%); color: #789287; font-size: 14px; white-space: nowrap; }
+  .outcome { background: var(--deep); border-color: var(--deep); color: white; }
+  .outcome::before { background: #f3b08e; }
+  .outcome .step, .outcome p { color: #b9d5c8; }
+  .outcome h2 { color: #fff; }
+  .outcome .formula { border-color: #f3b08e; background: rgba(255, 255, 255, 0.1); color: #fff4e8; }
+  .result { margin-top: 20px; color: #f3b08e; font-size: 36px; font-weight: 800; line-height: 1; }
+  footer { display: flex; justify-content: space-between; align-items: center; margin-top: 28px; color: #627d72; font-size: 17px; }
+  footer strong { color: var(--ink); }
+</style>
+</head>
+<body>
+  <div class="eyebrow">COUNTERFACTUAL MODEL · 2025—2050</div>
+  <h1>350万例不是直接读取的数字</h1>
+  <p class="lead">它来自一条“政策评分 → 吸烟率 → 未来发病负担 → 归因差异”的条件性计算链。</p>
+
+  <main class="chain" aria-label="可预防癌症病例数计算流程">
+    <section class="node">
+      <div class="step">01 · 输入</div>
+      <h2>政策与背景数据</h2>
+      <p>把各国政策实施程度与社会经济背景转为可比较的模型输入。</p>
+      <div class="data">
+        <span class="chip">GHO：吸烟率与 MPOWER</span>
+        <span class="chip">UNDP：HDI</span>
+        <span class="chip">7项政策评分，最高34分</span>
+      </div>
+    </section>
+    <div class="arrow"><span>固定效应模型</span></div>
+    <section class="node">
+      <div class="step">02 · 情景</div>
+      <h2>两种未来吸烟率</h2>
+      <p>分别估计延续当前趋势，以及 MPOWER 提升至最高评分时的吸烟率。</p>
+      <div class="formula">当前评分与34分的差距<br>× 政策效应 → 情景吸烟率</div>
+    </section>
+    <div class="arrow"><span>逐国、逐年、分性别</span></div>
+    <section class="node">
+      <div class="step">03 · 负担</div>
+      <h2>未来癌症发病数</h2>
+      <p>将吸烟率情景投向未来的癌症发病负担，而非已发生的病例数。</p>
+      <div class="data">
+        <span class="chip">GCO / GLOBOCAN</span>
+        <span class="chip">15国 · 30岁及以上</span>
+        <span class="chip">13类烟草相关癌症</span>
+      </div>
+    </section>
+    <div class="arrow"><span>Levin 公式</span></div>
+    <section class="node outcome">
+      <div class="step">04 · 差异</div>
+      <h2>PAF → PIF → 病例数</h2>
+      <p>比较两种情景的吸烟归因分值，再乘以预测发病数。</p>
+      <div class="formula">PIF = PAF<sub>当前趋势</sub> − PAF<sub>全面实施</sub><br>可预防病例数 = PIF × 预测发病数</div>
+      <div class="result">约 350 万例</div>
+    </section>
+  </main>
+
+  <footer><span><strong>读图要点：</strong>GCO/GLOBOCAN 提供未来发病负担输入，不直接给出“可预防病例数”。</span><span>来源：Nemati et al., 2026</span></footer>
+</body>
+</html>

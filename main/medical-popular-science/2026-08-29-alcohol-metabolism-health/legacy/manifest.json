@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-29-article-c35d8c52cc",
+  "article_id": "2026-08-29-article-c35d8c52cc",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "酒精进入身体后发生了什么：代谢过程与健康伤害",
+  "created_at": "2026-08-29T23:01:05+08:00",
+  "updated_at": "2026-08-30T21:30:45+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:33+08:00",
+      "error": null,
+      "input_hash": "c3002014d3abac77bf1a71c2886ccf24066f2ba1dd95b7181b63b9ea26910c6e"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:33+08:00",
+      "error": null,
+      "input_hash": "3a5ce1492cb9c1a7c45fd088a18033086f358e83101fc96e8bae29265186cd4a"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:33+08:00",
+      "error": null,
+      "input_hash": "039ff613200ea381c57b728c259fb4e2b902655d9e5bb0e4540d3782682c9048"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:33+08:00",
+      "error": null,
+      "input_hash": "e6f7e74d6c4f7bb526043152fe8b6413c34c061ea2ce45eeb640c0d7ba32a9fe"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:33+08:00",
+      "error": null,
+      "input_hash": "38bb27e3e300cf0f52fb8d9a5cf7eb10c655396a40a030bc425bcf49c3b1a51d"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:34+08:00",
+      "error": null,
+      "input_hash": "1f66fe8588ca1c502b7a3cf9b81cffb454102c933d62115c4c348456c48648df"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:34+08:00",
+      "error": null,
+      "input_hash": "b74fabdaf03e5ac06e5569a0030aaedadf9dd8804de7122f4eddd92acfd32bfb"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-30T21:30:45+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-30T21:30:34+08:00",
+    "hashes": {
+      "ai_score.json": "636a2bdfc4cef7ae4bbb3e408eecfdd842292168ac150a819f02ac67964becb2",
+      "article.md": "d40c339204d4ea1e27cc4f54ef98b6c968901b5613ec586c46865323f9bdc491",
+      "brief.md": "0708f334649bbaf35d261a90954ec1f8238f4acc4e852558500757c1b8c6fbfb",
+      "cover.png": "a946ae0b859861835c80c00054cf976abce5bf2e8b102245334e5819efba8d75",
+      "images/01-metabolism.png": "d00f05ae047feac77b014451c26a1c6ca5213a765deed1e4a8d6a8526ff06f55",
+      "images/02-body-harms.png": "7ba6479409606dc4dfe2eb93c1f93515b29e55fce1d01586a0a4c30577dbca86",
+      "images/03-less-is-safer.png": "3403ac23bd3254bfb155b1229ba38f3592617fa3a680206db461edfc6eef3c56",
+      "images/04-alcohol-cancer-risk.png": "44246892e19b90094f66f8ef78367ad4f0f4d50599062561306f6074e66267e5",
+      "persona_report.json": "d58df839aed6b72e6d2b91bb88146fa1bf63458abb0bd5079f5917dd9f7dc378"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-WtmMonQH_GpHtDSgPGl2KEPFbpBvM9U3MrCFvpNe2PC",
+    "created_at": "2026-08-30T21:30:45+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

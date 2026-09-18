@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "tool-guide",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 7,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "UC Berkeley 的 Data 8 入门课程把推断思维、计算思维和真实问题放在一起，同时教授编程与统计推断。ACM 的数据科学计算能力框架也把编程列为组成部分。这些资料成形于不同时期，它们不能直接规定 AI 时代的学习顺序，但指向同一件事：数据分析从来不是单纯点击软件得到答案。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 39,
+      "sample": "2026 年一项有 52 名主要为初级软件工程师参与的随机试验，让参与者学习新的 Python 库。使用 AI 的一组，随后理解测试的平均成绩低了 ==17%==。研究者同时观察到，把 AI 用来追问解释、建立理解的参与者，学得更好。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 66,
+      "sample": "下面的代码使用 R 4.5.2 和内置数据 `mtcars`，不需要安装扩展包。它的目的不是教会线性回归，而是演示一个小而完整的检查回路。代码注释中列出了本机实测的预期输出。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "这段代码已在干净的本机会话中实际运行。`stopifnot()` 没有输出，表示行数和变量名检查通过；三个变量中没有缺失值。回归使用了 32 条记录。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "但还不能停在“成功跑出 0.827”。需要继续问：`mpg`、`wt` 和 `hp` 各是什么单位？线性关系假设是否合理？是否检查残差和异常值？样本来源允许把结果推到哪些车辆？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 119,
+      "sample": "还有一个容易被忽略的边界：不要把某个效率研究推广到所有人。2025 年 METR 对 16 名资深开源开发者和 246 项真实任务做了随机试验，在那个特定设置下，允许使用早期 2025 AI 工具后，完成时间增加了 19%。这不能推出“AI 一定让人变慢”；它提醒我们，^^主观上觉得更快，不代表总用时和错误率真的下降。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 134,
+      "sample": "本文的 R 示例使用 R 4.5.2 本机运行。文中引用的 AI 研究场景、样本和工具时点并不相同，不宜直接比较效应大小，也不宜外推到所有数据分析任务。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

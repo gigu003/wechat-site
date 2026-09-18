@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-28-china-anticancer-code-15",
+  "article_id": "2026-08-28-china-anticancer-code-15",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "中国抗癌守则15条：把防癌建议变成日常行动",
+  "created_at": "2026-08-28T08:42:38+08:00",
+  "updated_at": "2026-08-29T00:11:38+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:28+08:00",
+      "error": null,
+      "input_hash": "ffe4e96c5cfd4b5be1f055136b16b667e59dd67d613ddf40fa363c6bd40e9b98"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:28+08:00",
+      "error": null,
+      "input_hash": "85ab9121bc8e0d3fad9183cd54f457fe8246176fae544dd355cfbe39b6155283"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:28+08:00",
+      "error": null,
+      "input_hash": "3fc4979286c56927fb9bf4f53baf383b7ef503dc4d6678c203c48da259c9e8c9"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:28+08:00",
+      "error": null,
+      "input_hash": "9fc64c79cde6066cfe7c4ecfcfaf757ddd69730c58e3a8fa606c78701baeb141"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:28+08:00",
+      "error": null,
+      "input_hash": "b3bd3e08c62fcc10a20843e49af41ffba8ac8f15a6b88dfb10623b63254a28bd"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:32+08:00",
+      "error": null,
+      "input_hash": "8a0d03d74dc603d79fd3b626215678e8caf043277adaf577d1faa191a85bdd4c"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:09:36+08:00",
+      "error": null,
+      "input_hash": "6195c227b57c29e0e3ae395798119b7d7a27e74b0f46feb679e86cdd29210cf9"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-29T00:11:38+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-29T00:09:36+08:00",
+    "hashes": {
+      "ai_score.json": "f236b600ed4a82d03d76916f7aa0cef8f8f6ec7a4718a8f5e6da9cebc9b6b66f",
+      "article.md": "c7939806221fd6392c4c2b3d179c0a49c5519f7fad7143d95a7e2fef7ea019dd",
+      "brief.md": "bf155ddc6029c32a0a2825423153f7ceedd207802ffd58c3aa90c81445b849c9",
+      "cover.png": "3de4ee962baa8539dd9497674ec932397abc77a3406da2cc896d5c153aa81a23",
+      "images/01-five-groups.png": "018ca2ffc47002f18f8a7f639d68d0487a70b7e238ef32c9491d53a8736a77af",
+      "images/01-lifestyle-anime.png": "7b3e218ff186de869d1c79b4256729913b6539e21d84389370e039009119196f",
+      "images/02-action-layers.png": "7c5a6dcfb8cdd94ae20c3799cb95a84c498f3bce5d76d1cfc90b36c028545ffd",
+      "images/02-diet-anime.png": "ce26c2334820ec0fb72684ef9d378b9d5848efff1e5cc85cb8a57ffac214ac69",
+      "images/03-infection-prevention-anime.png": "ac8a5dab0cdc108c1e4ec3f6f11f6f8ba5b835bfec668c2f74db06b71731e9ee",
+      "images/04-exposure-protection-anime.png": "200659b61ed5e35c2dbf23d7752a4874489c61a9de124d8f4886f6807900a23a",
+      "images/05-breastfeeding-support-anime.png": "f79a73d8e1f1b2040226556d840bd755cc0d6066b25bfbd8fed650fde15707f4",
+      "images/cover.png": "3de4ee962baa8539dd9497674ec932397abc77a3406da2cc896d5c153aa81a23",
+      "persona_report.json": "fada3f5bd6993ce1f4c662bd12d305cdd5bcebfd97b49cd15b1ed03834cd84e6"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-XOszXel1cxwOjfSu1TaFM5Dj-rk5nI9nT4ibInLHKRm",
+    "created_at": "2026-08-29T00:11:38+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

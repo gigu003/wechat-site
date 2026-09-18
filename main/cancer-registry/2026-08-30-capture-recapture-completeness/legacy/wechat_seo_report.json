@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-30-capture-recapture-completeness/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "漏报的癌症病例，怎样估计？三源捕获-再捕获研究解读",
+    "title_chars": 25,
+    "summary_chars": 0,
+    "body_chars": 3297,
+    "headings": 9,
+    "paragraphs": 25,
+    "images": 3,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "漏报的癌症病例，怎样估计？三源捕获-再捕获研究解读 三个资料源去重后记录了9,574例胃肠道癌，模型估计实际可能有14,462.7例。两者之间相差约4,889例，登记完整性为66.2%。这组数字来自伊朗5省的一项研究。它展示了捕获-再捕获方法的用途，也提醒我们：完整性估计离不开记录链接和模型假设。 登记库看不见“从未被"
+  },
+  "keywords": [
+    {
+      "keyword": "捕获-再捕获法如何评估肿瘤登记完整性：伊朗五省研究解读",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "literature-interpretation",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "data-quality",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "statistical-methods",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

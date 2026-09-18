@@ -1,0 +1,79 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "tool-guide",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 9,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "以本文验证的 R 4.5.2 环境运行，预期输出如代码注释所示："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "这段代码在 R 4.5.2 的干净会话中已实际运行。两次抽样结果完全相同，原因并不神秘：每次抽样前，伪随机数生成器都回到了同一个起点。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "种子值不需要有特殊寓意。`42` 不比 `20260826` 更“随机”。真正重要的是，&&把整数种子写进脚本、配置文件或分析记录，不要只留在运行者的记忆里。&&"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 114,
+      "sample": "第二个原因是版本或算法变化。R 在 3.6.0 更改过 `sample()` 使用的默认抽样方法。R 官方因此提供 `RNGversion()`，用于在必要时采用某个旧 R 版本的默认 RNG 配置。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 208,
+      "sample": "**1. R Core Team：Random Number Generation**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 211,
+      "sample": "**2. withr：Random seed**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 214,
+      "sample": "**3. R Core Team：parallel 包文档**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 217,
+      "sample": "**4. Python：random — Generate pseudo-random numbers**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 220,
+      "sample": "**5. NumPy：Random Generator**"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

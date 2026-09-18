@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-01-scientific-paper-writing/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "如何写好一篇科学论文：从研究问题到投稿前检查",
+    "title_chars": 22,
+    "summary_chars": 0,
+    "body_chars": 5054,
+    "headings": 17,
+    "paragraphs": 42,
+    "images": 5,
+    "images_missing_alt": 0,
+    "links": 5,
+    "opening_160_chars": "如何写好一篇科学论文：从研究问题到投稿前检查 一篇科学论文的任务，不是把做过的工作全部写下来，而是让读者看懂：你要回答什么问题，用什么证据回答，结果能支持到哪一步。 很多稿件的问题不在英语、格式或图表数量，而在论证链没有成形。研究问题太宽，方法没有写到可以复核，结果和讨论互相重复，结论又比数据走得更远。修改句子只能缓解"
+  },
+  "keywords": [
+    {
+      "keyword": "如何写好一篇科学论文",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "literature-interpretation",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

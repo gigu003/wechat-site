@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-30-capture-recapture-completeness",
+  "article_id": "2026-08-30-capture-recapture-completeness",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "cancer-registry",
+  "theme": "refined-blue",
+  "image_style": "hand-drawn-blue",
+  "topic": "捕获-再捕获法如何评估肿瘤登记完整性：伊朗五省研究解读",
+  "created_at": "2026-08-30T21:37:30+08:00",
+  "updated_at": "2026-08-31T18:09:44+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "885afd62fd71384b60e3460ea13c120bb2f11124d9e378181ee1637f75fc2d57"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "599da8921a01dd79865413c4405bc560db8e995a0b5630f21d95845b179d0b3d"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "c6da2ab3ac6193d0cc61fec85f4b7b8baf1fc029cb2794a3804afc2808c2f2e9"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "d38bf4ef05d5ed775cbcb74b9c61431bca971d60660ba263facbc442597f97d9"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "0fe2841ab3790f8fad34ee5511a51e6a418a2e305cebd5d879e7fb16a6709406"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "86fda9911d5f955726ad47be3521a425f8cab06e8e82a9e439d84dc8e97e2027"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "6a3f3fd1dfe75fd05610221b1dcc1ac28e842abfa4b27431c3b8e6f7a1f942e7"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:09:44+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "68c8db7a5ae7a750bd10374c161b752040e453ece6e6836ae90a8fefec4c1040",
+      "article.md": "98a095c7fe05aa964f77e95a8a704db118f327153bd0dfd1916a0a397cffe235",
+      "brief.md": "b09b23da138218014283545d8fc3d78c58b73186829e9e97411bc78c0f2f01fa",
+      "cover.png": "0a762c6f49b73b189542f7c7ecbdf6e6795b2fce0638119982c2cdd1a437b097",
+      "images/01-three-sources.png": "267dd75956cd9c5423fa273a9d6e34245958134a293296068456fc1a6a68569f",
+      "images/02-main-estimate.png": "344f1a2db98090e350081b797b776e46d1266c0d8cc2ccc35245f3878a608433",
+      "images/03-reporting-checks.png": "f5d35b2a6dd4a29584190180c1e4cf0fc7a80b29e578902940457522116eee05",
+      "persona_report.json": "2c9beb49b067786594772e9b713a6b3e755ddd8328fffc190b37a3aa9bc288d9",
+      "wechat_seo_report.json": "5fa02181ace7da4a5f6386577f767918faa6424f697d3d179020933a8efcc55e"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-bmkuZqDeO7V5F1oBt6oQOcuOXhKw9XDHv8-WCbmhlLf",
+    "created_at": "2026-08-31T18:09:44+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-30T21:37:30+08:00"
+  }
+}

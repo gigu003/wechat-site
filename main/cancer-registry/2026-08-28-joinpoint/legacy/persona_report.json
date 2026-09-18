@@ -1,0 +1,163 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "statistical-method",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 21,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "2000年，Kim、Fay、Feuer和Midthune在《Statistics in Medicine》发表方法论文，系统说明了后来成为经典实现的一套方案：**网格搜索估计位置，Monte Carlo置换检验选择数量，再根据数据的方差和相关结构调整推断。**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "`τⱼ` 是未知的Joinpoint。`(x - τⱼ)₊` 在 `x≤τⱼ` 时为0，在 `x>τⱼ` 时等于 `x-τⱼ`。因此，曲线在连接点处保持连续，只改变斜率。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 54,
+      "sample": "网格搜索也有类似的取舍。它实现直接，在Joinpoint较少时效率尚可；`k`个Joinpoint对应`k`维搜索，拐点增多后计算量迅速上升。2000年论文描述的程序最多拟合4个Joinpoint。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 56,
+      "sample": "NCI后来继续发展模型选择方法。2023年发表的一项方法研究提出结合BIC与惩罚更强的BIC3，用partial R²确定两者权重，目的之一就是减少默认置换检验的计算成本。因此，理解这篇经典论文时，需要区分“方法基础”和“当前软件的全部选项”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "模拟使用27个年度点，每种报告设置重复10,000次。对于独立对数正态误差，零假设下的经验拒绝率为0.0467—0.0525，接近名义水平0.05。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 73,
+      "sample": "| 不校正异方差 | 0.0547—0.0643 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 74,
+      "sample": "| 加权并缩放残差 | 0.0446—0.0518 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 76,
+      "sample": "未经校正的检验更容易拒绝零假设。调整后，经验错误率更接近0.05，论文报告的成对情景中功效也有所改善。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 78,
+      "sample": "原论文Table I(a)后来发布过勘误：部分情景中，APC组合 `(3, 2.4)` 与 `(3, 1.5)` 对应的平均Joinpoint估计和标准误需要互换。这里引用的零假设size范围，以及Poisson和自相关模拟结果，不受这项互换影响。使用原表中的拐点均值时，应同时查看官方勘误。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 84,
+      "sample": "论文模拟了lag-1相关结构。在相关系数 `ρ=0.6` 时："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 88,
+      "sample": "| 0 vs 1个Joinpoint | 0.4033 | 0.0760 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 89,
+      "sample": "| 1 vs 2个Joinpoint | 0.3966 | 0.1054 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "调整大幅降低了错误率，但强正相关下仍高于0.05，同时功效下降。这组结果说明，自相关选项不是无关紧要的高级设置。误差模型选错后，最终Joinpoint数量可能改变。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 95,
+      "sample": "较新的NCI方法允许复杂抽样的聚合估计纳入完整方差—协方差矩阵。这也提醒我们：如果数据来自重复抽样、共享调查单元或其他复杂设计，简单的独立误差或lag-1结构未必足够。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 97,
+      "sample": "## 同一组发病率，为什么得到3个或2个拐点"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 99,
+      "sample": "论文分析了1973—1995年的SEER前列腺癌年龄标化发病率，以及1969—1995年的美国前列腺癌死亡率。实例使用0.1年网格、1,000次Monte Carlo置换和3次Bonferroni校正检验，总体α为0.05。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 105,
+      "sample": "| 异方差、无自相关 | 1985.4、1989.0、1992.0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 106,
+      "sample": "| 异方差、有自相关 | 1988.4、1992.0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 108,
+      "sample": "无自相关模型多识别出一个较轻微的早期变化。死亡率分析则较稳定，两种误差模型都选择1986.8和1991.4两个Joinpoint，不过具体检验路径和p值并不相同。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 112,
+      "sample": "1,000次置换还带来一个数值解释问题。把真实统计量计入置换分布时，`p=0.001`已经接近这次计算能够表达的最小分辨率。它表示结果位于经验分布极端位置，不等于尾概率已经被精确估计到更多小数位。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 132,
+      "sample": "2000年论文采用连续的分段线性模型。时间点太少、年度计数稀疏、残差相关较强或存在复杂的过度离散时，拐点的数量和位置可能随模型设定而改变。如果编码规则调整造成的是一次水平跳跃，这种变化也不符合标准Joinpoint模型的连续性假设。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

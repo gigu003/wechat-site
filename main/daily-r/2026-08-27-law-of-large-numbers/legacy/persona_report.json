@@ -1,0 +1,128 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "statistical-method",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 16,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 9,
+      "sample": "以一枚公平硬币为例。每次投掷仍然可能是正面或反面，无法事先确定；投掷次数足够多时，正面所占比例通常会靠近 0.5。公平六面骰子也一样：单次点数仍在 1—6 之间跳动，多次点数的平均值则趋向 3.5。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "“趋近”有不同的严格表达。**弱大数定律**通常说，对任意给定误差范围，样本均值跑到范围外的概率趋近于 0；**强大数定律**则用“几乎必然收敛”描述整条无限序列的长期行为。两者的数学表述不同，日常数据分析最需要抓住的共同核心是："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "下面是在 R 4.5.2 中实际运行的结果。模拟一枚正面概率为 0.5 的硬币，记录同一条序列的累计正面比例："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 59,
+      "sample": "从 10 次到 100 次，正面比例由 0.4000 变为 0.3800，离理论值 0.5 更远；继续增加到 10000 次，它才来到 0.4987。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 69,
+      "sample": "只看一条模拟路径，容易把偶然的平滑或反复当成规律。于是再做 10000 次独立实验，每次分别掷 10、100、1000 次硬币，观察每次实验的正面比例。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "| 每次实验的样本量 | 正面比例的标准差 | 落在 0.4—0.6 内的实验比例 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "| 10 | 0.1580 | 0.6519 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 94,
+      "sample": "| 100 | 0.0502 | 0.9654 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 95,
+      "sample": "| 1000 | 0.0160 | 1.0000* |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 101,
+      "sample": "样本量增加 10 倍，正面比例在重复实验间的标准差大约缩小到原来的 1／√10，也就是约 31.6%。这里既能看到大数定律的稳定趋势，也能看到有限样本仍然有波动。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 125,
+      "sample": "### 1. 选择偏倚"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 129,
+      "sample": "### 2. 测量误差与口径漂移"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 133,
+      "sample": "### 3. 观测并非可交换或相互独立"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 137,
+      "sample": "### 4. 期望本身不存在"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 139,
+      "sample": "标准 Cauchy 分布是一个经典反例。它有对称的钟形外观，却没有有限期望。下面的一次模拟中，运行均值先接近 0，后来又被极端值拉到 -1.5702："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 157,
+      "sample": "没有一个普适的“样本量超过 30 就够大”。尾部分布、依赖强度、目标精度和研究设计不同，所需样本量也不同。与其背一个神奇阈值，不如在分析前逐项检查："
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

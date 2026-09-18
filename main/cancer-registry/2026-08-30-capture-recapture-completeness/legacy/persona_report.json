@@ -1,0 +1,142 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 18,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 三个资料源去重后记录了9,574例胃肠道癌，模型估计实际可能有14,462.7例。两者之间相差约4,889例，登记完整性为66.2%。这组数字来自伊朗5省的一项研究。它展示了捕获-再捕获方法的用途，也提醒我们：完整性估计离不开记录链接和模型假设。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 15,
+      "sample": "把病理、住院和死亡登记分别记为三份名单，一名患者可能只出现在一个来源，也可能同时出现在两个或三个来源。三份名单一共形成8种组合，其中7种可以观察，最后一种是“病理没有、住院没有、死亡登记也没有”。这正是需要估计的不可见单元。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 21,
+      "sample": "研究者因此拟合了8个对数线性模型，用不同的两两交互项表示来源依赖，再用G²、AIC和BIC选择模型。最终模型包含全部两两交互项；无法由现有数据识别的三阶交互项被设为0。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "## 9,574例被观察到，模型估计为14,462.7例"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 25,
+      "sample": "选定模型估计，2008—2010年5省共有14,462.7例胃肠道癌，95%置信区间为13,434.9—15,764.2例。与观察到的9,574例相比，约4,888.7例没有被任何一个来源捕获。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "由此得到的三年合计登记完整性为66.2%。换一种说法，在该研究的数据和模型设定下，三个来源合并后仍可能漏掉约三分之一的胃肠道癌病例。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 31,
+      "sample": "表3还报告，男性完整性为71.1%，女性为59.9%；40岁以下、40—59岁、60岁及以上分别为38.1%、55.4%和76.6%。论文另称胃癌完整性为85.3%、结直肠癌为78.7%，肝癌漏报比例为43%。这些分层数字并不具有同样的可靠性，原因在后面。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 33,
+      "sample": "## 66.2%不是脱离模型的“真实答案”"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "8个候选模型给出的胃肠道癌总数从11,533.1例到18,801.5例，相差超过7,000例。模型对来源依赖的描述不同，估计出的不可见单元也随之改变。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "最终模型的拟合指标最低，只能说明它在候选模型中更贴合已观察到的7个单元。它不能验证被设为0的三阶交互，也不能证明14,462.7就是唯一正确的病例总数。论文报告的95%置信区间反映了选定模型内部的统计不确定性，没有包含模型选择带来的全部不确定性。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "- 表3显示男性完整性71.1%、女性59.9%，结果正文却写成女性高于男性；摘要中的男性值又写为71.2%。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 46,
+      "sample": "- 40岁以下完整性在摘要和表3为38.1%，结果与讨论正文写成31.8%。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 47,
+      "sample": "- 表2、表3和图2标注2008—2010年，方法与部分结果却使用“2008年3月至2011年3月”或“从2008年3月到2011年3月”的说法。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 48,
+      "sample": "- 摘要和讨论写“全部癌症漏报49%”，核心模型表的标题和估计对象则是胃肠道癌。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 52,
+      "sample": "这些问题不等于整项研究失去价值，但会降低精确分层结论的可信度。引用时应优先回到表格，同时明确报告冲突；年度变化和“全部癌症漏报49%”不宜作为稳固结论。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "2025年一项纳入83项成人群体肿瘤登记研究的系统综述也显示，完整性评价没有一种方法适合所有登记处。独立病例查找最常见，捕获-再捕获用于其中15项；具体选择取决于可用资料源和数据质量。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "研究支持的结论是：在当时伊朗5省、三个特定资料源和所选对数线性模型下，胃肠道癌登记完整性估计为66.2%，而且不同亚组可能存在差异。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 73,
+      "sample": "它不能证明伊朗全国的登记完整性就是66.2%，也不能把这个比例直接套到中国登记处。身份标识质量、死亡登记覆盖、就医和转诊路径、癌种构成以及来源依赖结构不同，都会改变估计。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

@@ -1,0 +1,58 @@
+---
+title: '<span class="home-channel-mark" aria-hidden="true"></span><span class="home-title-text">普癌新声</span>'
+page-title: "普癌新声"
+subtitle: '<span class="home-rss-directory" role="group" aria-label="RSS 订阅"><span class="home-rss-label">RSS 订阅</span><a class="home-rss-link" href="index.xml">订阅全部文章</a></span>'
+description: "让数据更可靠，让方法可复现，让健康知识有证据。"
+page-layout: full
+body-classes: home-page
+toc: false
+format:
+  wechat-html:
+    include-after-body: _extensions/wechat/includes/article-list-new-tab.html
+listing:
+  - id: series-directory
+    contents:
+      - categories/cancer-registry.qmd
+      - categories/daily-r.qmd
+      - categories/medical-popular-science.qmd
+    type: custom
+    template: _extensions/wechat/listings/category-overlay.ejs.md
+    template-params:
+      columns: 3
+    grid-columns: 3
+    sort: "order"
+    fields: [image, kicker, title, subtitle, description]
+    filter-ui: false
+    sort-ui: false
+  - id: recent-articles
+    contents:
+      - main/**/index.qmd
+    type: custom
+    template: _extensions/wechat/listings/article-grid.ejs.md
+    template-params:
+      columns: 3
+    grid-columns: 3
+    sort: "date desc"
+    fields: [image, date, date-modified, title, description, categories]
+    field-display-names:
+      date-modified: "更新于"
+    max-items: 6
+    filter-ui: false
+    sort-ui: false
+    feed:
+      title: "普癌新声 · 全部文章"
+      description: "肿瘤登记、R语言与数据科学、肿瘤防治与健康科普的新文章。"
+      language: zh-CN
+      type: partial
+      items: 100
+---
+
+## 栏目合集 {.home-section-title}
+
+::: {#series-directory .home-series-listing aria-label="文章栏目"}
+:::
+
+## 最近更新 {.home-section-title}
+
+::: {#recent-articles}
+:::

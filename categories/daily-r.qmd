@@ -1,0 +1,41 @@
+---
+title: "R语言与数据科学"
+kicker: "R & Data Science"
+subtitle: '<span class="category-rss-directory" role="group" aria-label="R语言与数据科学 RSS 订阅"><span class="category-rss-label">RSS 订阅</span><a class="category-rss-link" href="daily-r.xml">订阅本栏目</a></span>'
+description: "R语言、统计学、可复现数据分析与科研工具。"
+image: ../_extensions/wechat/assets/brand/category-data-science-watercolor.png
+order: 2
+body-classes: category-page category-data-science
+page-layout: full
+toc: false
+format:
+  wechat-html:
+    include-after-body: ../_extensions/wechat/includes/article-list-new-tab.html
+listing:
+  id: daily-r-articles
+  contents:
+    - ../main/daily-r/**/index.qmd
+  type: custom
+  template: ../_extensions/wechat/listings/article-grid.ejs.md
+  template-params:
+    columns: 2
+  grid-columns: 2
+  sort: "date desc"
+  fields: [image, date, date-modified, title, description, categories]
+  field-display-names:
+    date-modified: "更新于"
+  page-size: 6
+  filter-ui: true
+  sort-ui: false
+  feed:
+    title: "普癌新声 · R语言与数据科学"
+    description: "R语言、统计学、可复现数据分析与科研工具的新文章。"
+    language: zh-CN
+    type: partial
+    items: 100
+---
+
+<div class="category-masthead-meta" role="group" aria-label="R语言与数据科学栏目导航">
+  <span class="category-masthead-count">共 <span class="series-count"><!--COUNT:daily-r--></span> 篇</span>
+  <a class="category-masthead-back" href="../index.html">← 返回全部栏目</a>
+</div>

@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-27-ai-search-pubmed",
+  "article_id": "2026-08-27-ai-search-pubmed",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "series": "reproducible-data-analysis",
+  "theme": "sage-premium",
+  "image_style": "data-chart",
+  "topic": "别再让AI瞎编参考文献了：让它直接搜索PubMed",
+  "created_at": "2026-08-27T22:18:00+08:00",
+  "updated_at": "2026-08-31T18:09:33+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "c4ffaec2d3d4c8a11c325586260534ea76ea2aea95bfb9fbcf5c8ae747ae8671"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "3cfbbd958baf9c48880fe408cd37356e93228107cd26fb2456cfb3e27cc13940"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "54ec73db91a913fd4a013591260326efe79c40035a7a9bec6ec3f87e2d2fe8f0"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "cf1ac31e19033516cea6ff727dca63e7cbbf31a9fd0c5154ef55f1862fd5894d"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "6a59d8a0b8655c5559052f533dc33ec4b19dea8b0b8fe88b0e87644488dbacb9"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "04012bde036e009f5255c2c537b59b49e24fbf48204c22d80ac4e377f102d5fc"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "078347b715fcb522b2e6a35e34992ce42461fa7e1d5e0d60cd8c7ea6c8ffe495"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:09:33+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "72351ba62a1aa317169ec0ece0ac7e3f885bfd32bda93ac85666335107e8fda8",
+      "article.md": "b9edeee0ddb4aa408a2b87038c1faaf9d74cd598e0baed8267c04440197c53ea",
+      "brief.md": "9a5d6cb67d49f8cf9f227a966c2d9e59da9479a56f3be14497fbd65b932df95b",
+      "cover.png": "87901097c8c4150ec493681027cb5c7f7b51098431b6ee5ff4e91f68992765b0",
+      "images/01-doi-to-pmid.png": "2a09012745f76b59d16d84ffb222d082c455eb225c463b140c6e13b0e441f355",
+      "images/02-api-flow.png": "b69b43a12c862f96d7ca12a3a3796318cee554b9c48576cc00d1fc76c577fdcb",
+      "images/03-api-vs-mcp.png": "055eba1510dbd0ea4e3e1add020d15226e2d5c226ac78f0efa9a9c4e0a965ea5",
+      "images/04-search-contract.png": "06ad48057e2678774dec7f9f5469544d1567597a6d619bf5bbe5cebaf155f2c2",
+      "images/05-four-checks.png": "cd0435509e62d1552c57ba5e1d4feca524a438633daa6b5a1b4663130449d5ec",
+      "images/06-boundaries.png": "7dbf7b88b4ca09f81f50972a792978bffd6738d10262f0400afa679d94c23ae7",
+      "images/cover.png": "1d72842d5eccc163d87cd3751cbdf7e9109641e89378f9a40af1a1d5957b6f95",
+      "persona_report.json": "b93126a19fe92ef8c39e0290c0db3a0f97dc574af47cf5843311d239b9cdf9a2",
+      "wechat_seo_report.json": "11c8e8c3fbe36186c27f4830faca30264f0ab10f8c762e4d0e7df5f8b89b01e3"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-a4-sw65KUS6ftSNIuHMnESPc6J4d6daB8LUPUAdB-d4",
+    "created_at": "2026-08-31T18:09:33+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

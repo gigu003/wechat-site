@@ -1,0 +1,58 @@
+{
+  "theme_name": "literary-prose",
+  "description": "文学素笺 - 无背景色、宋体长文、舒展行距与克制细线，适合散文、随笔、书评和纯文字公众号",
+  "styles": {
+    "body": "font-family: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'STSong', 'SimSun', serif; font-size: 16.5px; color: #2f2c28; line-height: 2.05; letter-spacing: 0.75px; word-spacing: 2px; padding: 14px 6px;",
+    "h1": "font-size: 24px; font-weight: 600; color: #24211e; text-align: center; margin: 44px 0 34px; padding: 0; letter-spacing: 4px; line-height: 1.55;",
+    "h2": "font-size: 18.5px; font-weight: 600; color: #24211e; margin: 46px 0 22px; padding: 0; line-height: 1.65; letter-spacing: 2px;",
+    "h3": "font-size: 16.5px; font-weight: 600; color: #4a4540; margin: 34px 0 16px; padding: 0; line-height: 1.7; letter-spacing: 1.2px;",
+    "p": "margin: 20px 0; text-indent: 2em; text-align: justify; color: #2f2c28; line-height: 2.08;",
+    "blockquote": "margin: 30px 0; padding: 2px 0 2px 22px; border-left: 1px solid #9b948b; color: #5a554f; font-size: 15.5px; border-radius: 0; line-height: 2.05; letter-spacing: 0.6px; font-style: normal;",
+    "img": "max-width: 100%; height: auto; border-radius: 0; margin: 30px auto; display: block; border: none;",
+    "strong": "color: #211f1c; font-weight: 700;",
+    "em": "font-style: italic; color: #5d5650;",
+    "code_inline": "color: #594f46; padding: 0 3px; border-bottom: 1px dotted #9b948b; border-radius: 0; font-size: 13.5px; font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace;",
+    "code_block": "color: #403b36; padding: 16px 18px; border-radius: 0; font-size: 12.5px; line-height: 1.75; font-family: 'JetBrains Mono', 'Menlo', 'Consolas', monospace; overflow-x: auto; white-space: pre; margin: 28px 0; border: 1px solid #d5d0ca; -webkit-overflow-scrolling: touch; -moz-tab-size: 2; tab-size: 2; font-variant-ligatures: none; -webkit-font-smoothing: antialiased;",
+    "ul": "margin: 22px 0; padding-left: 0; list-style: none;",
+    "ol": "margin: 22px 0; padding-left: 0; list-style: none; counter-reset: list;",
+    "li": "margin: 12px 0; line-height: 2.0; color: #2f2c28; font-weight: 400;",
+    "li_bullet": "color: #6f6861; font-weight: 400; font-size: 12px; display: inline-block; min-width: 16px; margin-right: 9px; text-align: left;",
+    "li_bullet_char": "·",
+    "li_number": "color: #4a4540; font-weight: 500; font-size: 14px; min-width: 22px; display: inline-block; margin-right: 10px;",
+    "hr": "border: none; border-top: 1px solid #c8c2bb; height: 0; margin: 46px 0;",
+    "a": "color: #4f5964; text-decoration: none; border-bottom: 1px dotted #7f8992;",
+    "table": "width: 100%; border-collapse: collapse; margin: 28px 0; font-size: 14px; border-top: 1px solid #5f5a54; border-bottom: 1px solid #5f5a54; table-layout: fixed; word-break: break-word;",
+    "th": "color: #2f2c28; padding: 11px 8px; text-align: left; font-weight: 600; font-size: 13px; border-bottom: 1px solid #8f8982; letter-spacing: 0.8px; word-break: break-word; line-height: 1.6;",
+    "td": "padding: 11px 8px; border-bottom: 1px solid #ddd8d2; color: #403c37; font-size: 13px; word-break: break-word; line-height: 1.65;",
+    "caption": "font-size: 12.5px; color: #7a746d; text-align: center; margin-top: 12px; letter-spacing: 0.8px; font-style: normal;",
+    "section_divider": "text-align: center; color: #8f8982; letter-spacing: 16px; font-size: 12px; margin: 44px 0; user-select: none;"
+  },
+  "highlights": {
+    "hl_yellow": "color: #594514; padding: 0 2px; border-bottom: 2px solid #c9b36a; font-weight: 500;",
+    "hl_blue": "color: #354c62; padding: 0 2px; border-bottom: 2px solid #879cad; font-weight: 500;",
+    "hl_pink": "color: #70464f; padding: 0 2px; border-bottom: 2px solid #b9979d; font-weight: 500;",
+    "hl_green": "color: #435446; padding: 0 2px; border-bottom: 2px solid #91a293; font-weight: 500;",
+    "em_red": "color: #7a3535; font-weight: 600;",
+    "em_blue": "color: #3f566c; font-weight: 600;",
+    "em_orange": "color: #795439; font-weight: 600;"
+  },
+  "section_divider_text": "·　·　·",
+  "code_colors": {
+    "kw": "color: #6c526a; font-weight: 600;",
+    "str": "color: #586b4d;",
+    "num": "color: #765b42;",
+    "fn": "color: #435e72;",
+    "cls": "color: #62554a;",
+    "comm": "color: #8a837b; font-style: italic;",
+    "punct": "color: #625e59;"
+  },
+  "list_style": {
+    "label": "A · 文学素笺",
+    "num_container": "display: inline-block; color: #4a4540; font-family: 'Songti SC','STSong',serif; font-weight: 500; font-size: 15px; min-width: 22px; margin-right: 10px;",
+    "num_prefix": "",
+    "num_suffix": "、",
+    "num_formatter": "chinese",
+    "bullet_container": "display: inline-block; color: #6f6861; font-size: 14px; margin-right: 10px;",
+    "bullet_char": "·"
+  }
+}

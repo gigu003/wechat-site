@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-11-ai/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "AI 从聊天工具到生产力：当工作流越来越完善，我会被 AI 取代吗？",
+    "title_chars": 34,
+    "summary_chars": 0,
+    "body_chars": 1550,
+    "headings": 1,
+    "paragraphs": 23,
+    "images": 3,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "AI 从聊天工具到生产力：当工作流越来越完善，我会被 AI 取代吗？ 从 2022 年底 ChatGPT 发布以来，我面对 AI 的态度一直在变化。 刚开始接触 ChatGPT 时，我把它理解成一种聊天工具，可以帮助我整理和理解一些过去不容易搜索的问题。那时，我更愿意把 AI 看成一个更高级的搜索引擎，或者一个随时可以"
+  },
+  "keywords": [
+    {
+      "keyword": "AI 从聊天工具到生产力：工作流越完善，越容易被取代吗？",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "registry-practice",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "long_title",
+      "level": "low",
+      "message": "标题较长，复核搜索结果中是否易读或被截断；32 字是审计启发式而非平台阈值。"
+    },
+    {
+      "id": "weak_structure",
+      "level": "medium",
+      "message": "长文小标题较少，复核是否便于扫描和定位答案。"
+    }
+  ],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

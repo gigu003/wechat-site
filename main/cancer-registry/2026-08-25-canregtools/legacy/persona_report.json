@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "tool-guide",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [
+    "用户明确说明 canregtools 是我们自己编写的包，并提供本地源码路径",
+    "本地 DESCRIPTION 的作者与 main 账号作者一致"
+  ],
+  "error_count": 0,
+  "warning_count": 18,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# canregtools 0.2.11：把肿瘤登记分析串成一条流程"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 从 Excel 或数据框出发，用一套明确的对象和函数，完成病例计数、率的计算、质量指标、年龄别率与报告准备。本文代码按 canregtools 0.2.11 实际运行结果编写。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "本文使用的公开版本是 ==canregtools 0.2.11==，要求 R 4.1.0 或更高。截至 2026 年 8 月 25 日，该版本可从作者的 R-universe 安装，R-universe 构建记录对应公开提交 `0838ce7`。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 54,
+      "sample": "| `FBcases` | 发病病例 | `sex`、`birthda`、`inciden`、`basi`、`icd10`、`morp`、`topo` |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "| `SWcases` | 死亡病例 | `sex`、`birthda`、`deathda`、`icd10` |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "包内数据 `canregs` 可以直接用于学习。它包含 3 个示例登记处。下面取第一个登记处，并把病例按年龄组和癌种归类计数。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 110,
+      "sample": "`cancer_type` 决定 ICD-10 的分组口径："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 112,
+      "sample": "- `\"big\"`：26 个常用大类；"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 113,
+      "sample": "- `\"small\"`：59 个较细类别；"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 136,
+      "sample": "`event = \"fbs\"` 计算发病，改成 `event = \"sws\"` 计算死亡。默认倍率为每 10 万人，默认保留两位小数。`std` 可以指定中国 2000 年标准人口、1985 年世界标准人口等；`show_ci = TRUE` 会同时返回区间估计。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 138,
+      "sample": "在包内示例的首个登记处中，2021 年“口腔和咽（除外鼻咽）”有 38 例，粗率为 5.53/10万，中标率为 3.74/10万，世标率为 3.79/10万。这些数字只是演示输出结构，不代表某地区的最新疾病负担。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 161,
+      "sample": "在同一示例层级中，口腔和咽类发病 38 例、死亡 20 例，M:I 为 0.53，MV% 为 73.7。**这些指标是发现异常的线索，不是脱离癌种构成、登记流程和数据年份就能直接判定“合格或不合格”的分数。**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 243,
+      "sample": "canregtools 0.2.11 的公开版本已经覆盖清理、重构、分类、率估计、年龄标化、质量评估、可视化和报告准备。它适合常规人群肿瘤登记分析，也适合把一次性的脚本改成可重复运行的流程。它不负责替代源数据核查、登记规则判断或结果解释；这些仍然需要登记专业人员完成。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 247,
+      "sample": "**1. canregtools 官方文档**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 250,
+      "sample": "**2. canregtools R-universe 页面**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 253,
+      "sample": "**3. canregtools GitHub 源码**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 256,
+      "sample": "**4. create_asr() 函数文档**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 259,
+      "sample": "**5. create_quality() 函数文档**"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

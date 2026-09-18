@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-09-03-ci5-xiii-call-for-data",
+  "article_id": "2026-09-03-ci5-xiii-call-for-data",
+  "account": "main",
+  "type": "news",
+  "content_type": "release-note",
+  "series": "cancer-registry",
+  "theme": "refined-blue",
+  "image_style": "hand-drawn-blue",
+  "topic": "五大洲癌症发病率第十三卷（CI5-XIII）：倡议全球肿瘤登记处提交2018—2022年登记数据",
+  "created_at": "2026-09-03T11:40:15+08:00",
+  "updated_at": "2026-09-04T09:09:09+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "9fb6aca16d1210474a41cd2eabbc19fb2876de1c68bbcd38d7301160916d9bd9"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "518d0a8068e4264d76769556085f3210d084bc64742d12ff0d5c6d9bfe91e60f"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "10a85cb9fa15c2c2a0de582f32d81a6939253e0cb6bc45cf6ae55bf2fc4f19c2"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "fbcc26315d3931a12b6f5c24853556cb6cb1e75f24651f896503f0d89760c552"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "ed809893ff013984aed19b5ac37fae59d0948b97b723f4610051169b52f43939"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "9711f912f541fd6372225ca44325673242fd436104b7aa806785d95f7f4da19d"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:08:49+08:00",
+      "error": null,
+      "input_hash": "f9d591d174b75daee146ce24e4cdb52bfd4137e3c60f595af6bcef142e0a3d31"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-04T09:09:09+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-04T09:08:49+08:00",
+    "hashes": {
+      "ai_score.json": "8eafb7fb84a7dad8b146dc3299e09b3f17b3cc83b553ad2308806b3645389768",
+      "article.md": "06de0df1a16815d21de894f1a3af94b9c8aaf3eea7549db52db6150efa0a8c74",
+      "brief.md": "5553e02bc6d71cdbf1a4f99c988d024a89cbab94e070e9ab279cfaa12f2bec86",
+      "cover.png": "c25128b5c09141867f4d869228d6470ddf5fe1a7974a7058e72b2a37d1372196",
+      "images/01-submission-checklist.png": "50975c4e89ff7fc192a6ad3a27c09cf2b308cdef8d6b4e67de1e83b2b49e0666",
+      "images/02-preflight.png": "21ccd825a6ebf5f6f06ae72b913250dc196c1515c25cdf1a2ebd5f1d30b626ae",
+      "images/03-ci5-uses.png": "bd199008448d65835442e5403f9907ecdf33881b207ca406e668e0053d95d7be",
+      "images/04-incidence-core.png": "3bd7ebf7282fa00a3124e7b42031018ed3b00759828d02976f50e418d0db4c38",
+      "images/05-supporting-data.png": "35ca989fa9d8c9cab1e16e6962c24d6ed5163c021fbf70c65581ddd662fc512e",
+      "images/06-coding-file.png": "3ee8ed27c42069e28608c8022aeebefe613044b91e2f5fea5958f28710030cf7",
+      "images/cover.png": "c25128b5c09141867f4d869228d6470ddf5fe1a7974a7058e72b2a37d1372196",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "a964e7d22483a681828b18167b050dcd1f4bddb5e6f49c6bec61a72bc6cfec38",
+      "wechat_seo_report.json": "0c749f874261060b4530192736323a056cba0a39dfb7f282beff9282db985eb6",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-fodEH78uVouHu1Xetv_DrnR01n3k0LV_KgsLZgZifEp",
+    "created_at": "2026-09-04T09:09:09+08:00",
+    "account": "main",
+    "forced_new_draft": true
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-09-03T11:40:15+08:00"
+  },
+  "publication_history": [
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-ZQCPYpWyHLSyLRf0jahBIoiiyMV3bT4agOvkdtFUUp_",
+      "created_at": "2026-09-04T08:58:26+08:00",
+      "account": "main",
+      "forced_new_draft": false
+    }
+  ]
+}

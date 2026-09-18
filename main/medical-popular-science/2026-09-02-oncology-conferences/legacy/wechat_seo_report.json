@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-02-oncology-conferences/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "2026年9月至11月肿瘤相关会议精选：国内外40场，癌症登记、临床肿瘤、生物统计、公共卫生与癌症预防一览",
+    "title_chars": 53,
+    "summary_chars": 0,
+    "body_chars": 7301,
+    "headings": 11,
+    "paragraphs": 15,
+    "images": 2,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "2026年9月至11月肿瘤相关会议精选：国内外40场，癌症登记、临床肿瘤、生物统计、公共卫生与癌症预防一览 2026 年 9 月至 11 月，国内外将举办多场肿瘤、癌症预防、生物统计和公共卫生相关学术会议。本文根据会议主办方或学会官网截至 2026 年 9 月 2 日公开的信息，按举办月份整理会议名称、地点和主要方向，"
+  },
+  "keywords": [
+    {
+      "keyword": "2026年9月至11月肿瘤相关会议",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "news-information",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "long_title",
+      "level": "low",
+      "message": "标题较长，复核搜索结果中是否易读或被截断；32 字是审计启发式而非平台阈值。"
+    }
+  ],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

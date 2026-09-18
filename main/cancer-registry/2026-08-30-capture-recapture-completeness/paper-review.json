@@ -1,0 +1,476 @@
+{
+  "schema_version": "1.0.0",
+  "metadata": {
+    "title": "Estimating Completeness of Cancer Registration in Iran with Capture-Recapture Methods",
+    "authors": [
+      "Gohar Mohammadi",
+      "Mohammad Esmaeil Akbari",
+      "Yadolah Mehrabi",
+      "Ali Ghanbari Motlagh",
+      "Elham Partovi Pour",
+      "Gholamreza Roshandel",
+      "Ardasheir Khosravi"
+    ],
+    "journal": "Asian Pacific Journal of Cancer Prevention",
+    "year": 2016,
+    "doi": "10.7314/APJCP.2016.17.S3.93",
+    "pmid": "27165215",
+    "zotero_key": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27165215/",
+    "citation": "Mohammadi G, Akbari ME, Mehrabi Y, et al. Estimating Completeness of Cancer Registration in Iran with Capture-Recapture Methods. Asian Pac J Cancer Prev. 2016;17(S3):93-99. doi:10.7314/APJCP.2016.17.S3.93."
+  },
+  "review_context": {
+    "input_type": "local_pdf",
+    "source_used": "full_text_pdf",
+    "review_depth": "full_text",
+    "reviewed_at": "2026-08-30T21:38:00+08:00",
+    "access_notes": "User-provided 7-page PDF. Native-text routing found usable text on all 7 pages. Parsed locally with Docling standard pipeline and --no-ocr to Markdown and DoclingDocument JSON. Key methods, Tables 2-3, and internal inconsistencies were checked against the original PDF text layer and rendered pages 95-97.",
+    "ocr_used": false,
+    "supplement_reviewed": false
+  },
+  "full_text_available": true,
+  "study_type": "methodological_study",
+  "classification_basis": "The primary question is whether three-source capture-recapture with log-linear models can estimate unobserved gastrointestinal cancer cases and registration completeness; registry data provide the application setting.",
+  "research_question": "在伊朗5个省份中，能否利用病理、住院和死亡登记三个来源，通过捕获-再捕获及对数线性模型估计未登记的胃肠道癌病例和登记完整性？",
+  "background": "肿瘤登记完整性指目标人群中符合登记条件的新发病例被纳入登记系统的比例。漏报会使发病负担和分层比较偏离真实情况。",
+  "knowledge_gap": "伊朗当时的全国癌症登记主要依赖病理来源，其他医疗和死亡资料未被完整整合；研究试图用多来源重叠信息估计未被任何来源捕获的病例。",
+  "study_design": {
+    "summary": "横断面、回顾性的三源捕获-再捕获方法学评价。",
+    "details": {
+      "geography": "Golestan, Isfahan, Kermanshah, Semnan, Bushehr",
+      "analytic_target": "gastrointestinal cancers",
+      "calendar_description": "Methods describe March 2008 to March 2011; tables label 2008-2010."
+    },
+    "evidence_ids": ["ev-002", "ev-014"]
+  },
+  "population": {
+    "description": "5个省份诊断时居住于当地的胃肠道癌病例；主要分析为去重后的9,574例胃肠道癌。",
+    "setting": "伊朗5个省份的人群肿瘤登记及国家级病理、住院和死亡资料来源。",
+    "sample_size": 9574,
+    "eligibility": "诊断时为5省居民；论文称选择胃、结直肠和肝等胃肠道癌，但完整癌种定义未充分报告。",
+    "period": "表格标为2008-2010；方法和正文亦使用March 2008 to March 2011的表述。",
+    "evidence_ids": ["ev-002", "ev-005", "ev-014"]
+  },
+  "data_source": {
+    "summary": "国家病理数据库、国家医院出院数据库、国家死亡登记数据库。",
+    "details": {
+      "source_1": "pathology reports",
+      "source_2": "hospital discharge records",
+      "source_3": "death registry",
+      "raw_source_records_all_cancers": 53398,
+      "deduplicated_all_cancer_cases": 35643
+    },
+    "evidence_ids": ["ev-002", "ev-005"]
+  },
+  "exposure_or_intervention": {
+    "summary": "不适用；研究评价的是病例在三个资料来源中的捕获组合。",
+    "details": {
+      "capture_histories": "three binary source indicators, yielding eight possible cells including the unobserved cell"
+    },
+    "evidence_ids": ["ev-004"]
+  },
+  "comparator": {
+    "summary": "不同来源依赖结构的8个对数线性模型相互比较。",
+    "details": {
+      "model_selection": "G2/deviance, AIC and BIC; lower values treated as better fit"
+    },
+    "evidence_ids": ["ev-004", "ev-006"]
+  },
+  "outcomes": [
+    {
+      "name": "登记完整性",
+      "role": "primary",
+      "definition": "观察病例数除以模型估计病例总数。",
+      "timepoint": "2008-2010三年合计及论文报告的年度、性别、年龄和癌种分层",
+      "evidence_ids": ["ev-003", "ev-007"]
+    },
+    {
+      "name": "未被任何来源捕获的病例数",
+      "role": "secondary",
+      "definition": "最佳拟合对数线性模型估计的不可见单元病例数。",
+      "timepoint": "2008-2010三年合计",
+      "evidence_ids": ["ev-006"]
+    }
+  ],
+  "methods": {
+    "summary": "先连接三个来源并去重，再用三源捕获历史拟合含不同两两交互项的对数线性模型，估计零捕获单元。",
+    "details": {
+      "linkage_fields": ["first name", "last name", "father's name", "date of birth", "ICD code", "residential address"],
+      "deduplication_software": "Microsoft Excel",
+      "analysis_software": "Stata 13",
+      "source_dependency": "modeled with pairwise interaction terms",
+      "three_way_interaction": "not identifiable from observed data and assumed zero"
+    },
+    "evidence_ids": ["ev-003", "ev-004"]
+  },
+  "statistical_analysis": {
+    "summary": "拟合8个对数线性模型，以G2、AIC和BIC选择模型，并报告估计总数及95%置信区间。",
+    "details": {
+      "selected_model": "Model 8 with all pairwise source interactions",
+      "selected_model_AIC": 73.8,
+      "selected_model_BIC": 73.4,
+      "selected_model_G2": 0.0
+    },
+    "evidence_ids": ["ev-004", "ev-006"]
+  },
+  "main_findings": [
+    {
+      "finding": "三个来源去重后观察到9,574例胃肠道癌；选定模型估计总数为14,462.7例，因此约有4,888.7例未被任何来源捕获。",
+      "outcome": "胃肠道癌病例总数和未捕获病例数",
+      "effect_estimate": "observed 9,574; estimated total 14,462.7; estimated unseen 4,888.7",
+      "confidence_interval": "estimated total 95% CI 13,434.9-15,764.2",
+      "p_value": null,
+      "comparison": "观察病例与模型估计病例总数",
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "2008-2010",
+      "evidence_ids": ["ev-005", "ev-006"]
+    },
+    {
+      "finding": "三年合计登记完整性为66.2%。",
+      "outcome": "登记完整性",
+      "effect_estimate": "66.2%",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": null,
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "2008-2010",
+      "evidence_ids": ["ev-007"]
+    },
+    {
+      "finding": "表3报告男性完整性71.1%，女性59.9%；但结果正文反向写成女性高于男性。",
+      "outcome": "性别分层完整性",
+      "effect_estimate": "male 71.1%; female 59.9%",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "男性与女性",
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "2008-2010",
+      "evidence_ids": ["ev-008", "ev-012"]
+    },
+    {
+      "finding": "表3报告完整性随年龄升高：40岁以下38.1%、40-59岁55.4%、60岁及以上76.6%；正文把最低值写成31.8%。",
+      "outcome": "年龄分层完整性",
+      "effect_estimate": "38.1%, 55.4%, 76.6%",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "三个年龄组",
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "2008-2010",
+      "evidence_ids": ["ev-009", "ev-013"]
+    },
+    {
+      "finding": "论文报告胃癌完整性85.3%、结直肠癌78.7%，肝癌漏报比例43%；2008年肝癌和胰腺癌因样本量低未估计。",
+      "outcome": "癌种分层完整性",
+      "effect_estimate": "stomach 85.3%; colorectal 78.7%; liver underestimation 43%",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "胃、结直肠、肝等癌种",
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "论文称2010或研究期末",
+      "evidence_ids": ["ev-010", "ev-017"]
+    },
+    {
+      "finding": "8个候选模型给出的估计总数从11,533.1例到18,801.5例，说明结果明显依赖来源依赖结构的设定。",
+      "outcome": "模型敏感性",
+      "effect_estimate": "estimated total range 11,533.1-18,801.5",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "8个对数线性模型",
+      "population": "伊朗5省胃肠道癌病例",
+      "timepoint": "2008-2010",
+      "evidence_ids": ["ev-011"]
+    }
+  ],
+  "authors_conclusion": {
+    "statement": "作者认为癌症登记存在低估，需要加强病例收集、覆盖和资料有效性；在满足捕获-再捕获适用条件时，该方法可用于估计漏报病例数。",
+    "evidence_ids": ["ev-015"]
+  },
+  "strengths": [
+    {
+      "strength": "使用病理、住院和死亡三个来源，而非依赖单一资料源。",
+      "why_it_matters": "来源重叠提供了估计零捕获单元所需的信息，并能显式讨论来源依赖。",
+      "credibility_effect": "提高了发现单一来源漏报和量化完整性的可能性。",
+      "evidence_ids": ["ev-002", "ev-004"]
+    },
+    {
+      "strength": "比较8个包含不同两两交互项的对数线性模型。",
+      "why_it_matters": "三类资料来源很可能并非独立，交互项比简单独立模型更符合实际。",
+      "credibility_effect": "较直接采用独立性假设更稳健，但未消除不可识别的高阶依赖。",
+      "evidence_ids": ["ev-004", "ev-006"]
+    },
+    {
+      "strength": "报告了估计病例总数的95%置信区间并进行年龄、性别、年份和癌种分层。",
+      "why_it_matters": "读者可以看到统计不确定性和完整性并非对所有亚组相同。",
+      "credibility_effect": "增加了结果的可解释性，但部分分层报告存在内部不一致。",
+      "evidence_ids": ["ev-006", "ev-008", "ev-009", "ev-010"]
+    }
+  ],
+  "limitations": {
+    "author_reported": [
+      {
+        "limitation": "2008年肝癌和胰腺癌样本量低，未计算完整性。",
+        "evidence_ids": ["ev-017"]
+      },
+      {
+        "limitation": "作者提出死亡证明中的部分转移性肝癌可能被误登记为原发性肝癌。",
+        "evidence_ids": ["ev-018"]
+      }
+    ],
+    "reviewer_assessed": [
+      {
+        "limitation": "记录链接和去重方法报告不足。",
+        "rationale": "论文只列出姓名、父名、出生日期、ICD编码和地址，并称在Excel中去重，未报告匹配规则、缺失字段处理、人工复核或链接准确性验证。",
+        "likely_consequence": "错误合并或漏合并会改变来源重叠格局，从而偏倚未捕获病例数。",
+        "confidence": "high",
+        "evidence_ids": ["ev-003"]
+      },
+      {
+        "limitation": "结果对模型选择敏感，最高阶依赖不可由数据检验。",
+        "rationale": "8个模型估计总数相差约7,268例；最终选择包含所有两两交互的饱和可见单元模型，并把不可识别的三阶交互设为0，未见模型平均或敏感性区间。",
+        "likely_consequence": "66.2%不应理解为脱离模型假设的真实完整性。",
+        "confidence": "high",
+        "evidence_ids": ["ev-004", "ev-006", "ev-011"]
+      },
+      {
+        "limitation": "关键分层结果存在相互矛盾的数字和方向。",
+        "rationale": "表3显示男性高于女性，正文却写女性高于男性；40岁以下为38.1%，正文和讨论写31.8%；摘要男性为71.2%，表3为71.1%。",
+        "likely_consequence": "性别和年龄分层结论的可引用性下降，应优先引用表格并注明冲突。",
+        "confidence": "high",
+        "evidence_ids": ["ev-008", "ev-009", "ev-012", "ev-013"]
+      },
+      {
+        "limitation": "研究期和结局范围表述不一致。",
+        "rationale": "方法称March 2008 to March 2011，表格与图题写2008-2010，正文又写完整性从March 2008升至March 2011；摘要和讨论称全部癌症漏报49%，核心模型表则针对胃肠道癌。",
+        "likely_consequence": "年度趋势和“全部癌症漏报49%”不宜作为稳固结论。",
+        "confidence": "high",
+        "evidence_ids": ["ev-014", "ev-016"]
+      },
+      {
+        "limitation": "未充分报告登记定义与人群覆盖。",
+        "rationale": "论文未清楚给出癌种编码范围、多个原发规则、各省人口覆盖、各来源捕获概率异质性及迁移处理。",
+        "likely_consequence": "结果难以复现，也不能直接外推到伊朗全国或其他国家的登记系统。",
+        "confidence": "moderate",
+        "evidence_ids": ["ev-002", "ev-004"]
+      }
+    ]
+  },
+  "interpretation": "研究演示了三源捕获-再捕获的实用路径：来源连接、建立捕获历史、用交互项处理来源依赖、估计零捕获单元，再计算完整性。66.2%提示这些资料源合并后仍可能漏掉约三分之一的胃肠道癌病例。不过，这个比例依赖链接质量、来源依赖和高阶交互为零等假设。论文的多处内部不一致进一步限制了精确分层解读。",
+  "generalizability": "结果主要适用于2008-2010年前后伊朗5省、由病理/住院/死亡三个来源构成的登记环境。病例发现路径、身份标识质量、死亡登记覆盖和医疗转诊结构不同，都会改变来源重叠和捕获概率；不能把66.2%直接用于中国肿瘤登记处。可迁移的是方法框架和质量检查清单。",
+  "practical_implications": "肿瘤登记机构若采用捕获-再捕获，应先定义目标人群和病例口径，评估记录链接质量，绘制各来源重叠，比较多个依赖模型并报告模型敏感性。完整性估计应与MV%、DCO%、M/I、历史趋势等指标并列，而非替代全部数据质量评价。",
+  "take_home_messages": [
+    "观察到的病例数不等于真实病例总数；多来源重叠可以帮助估计完全未被捕获的病例。",
+    "该研究的核心估计是胃肠道癌登记完整性66.2%，但这一数字高度依赖链接质量和模型假设。",
+    "表格与正文存在性别、年龄和研究期不一致，分层结果应谨慎引用。",
+    "对中国登记实践最有价值的是方法步骤与核查问题，而不是照搬伊朗5省的完整性比例。"
+  ],
+  "study_specific": {
+    "cancer_registry": {
+      "registry_name": "Population-based cancer registry program in five Iranian provinces",
+      "registry_type": "population-based cancer registry application using three national data sources",
+      "number_of_registries": 5,
+      "population_coverage": "not reported",
+      "registration_period": "tables: 2008-2010; text: March 2008-March 2011",
+      "cancer_definition": "gastrointestinal cancers, described as gastric, colorectal and liver; exact ICD ranges not reported",
+      "coding_system": "ICD codes used in linkage, version and site definitions not reported",
+      "multiple_primary_rules": "not reported",
+      "population_denominator": "not reported",
+      "data_quality": [
+        "duplicate checking used names, father's name, date of birth, ICD code and address",
+        "completeness estimated with three-source capture-recapture",
+        "no detailed linkage validation reported"
+      ],
+      "standard_population": "not applicable",
+      "measures_used": ["observed cases", "estimated unseen cases", "estimated total cases", "registration completeness"],
+      "evidence_ids": ["ev-002", "ev-003", "ev-007", "ev-014"]
+    },
+    "other": {
+      "method": "three-source capture-recapture with log-linear models",
+      "sources": ["pathology", "hospital", "death registry"],
+      "candidate_models": 8,
+      "unidentifiable_assumption": "three-way interaction fixed at zero",
+      "selected_model": "all pairwise interactions"
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev-001",
+      "claim": "论文书目信息",
+      "value": {"journal": "Asian Pacific Journal of Cancer Prevention", "year": 2016, "volume": "17(S3)", "pages": "93-99", "doi": "10.7314/APJCP.2016.17.S3.93", "pmid": "27165215"},
+      "source": {"page": 93, "section": null, "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 1; PubMed metadata"},
+      "evidence_type": "metadata",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "DOI and page range appear in the PDF; PMID verified in PubMed."
+    },
+    {
+      "evidence_id": "ev-002",
+      "claim": "研究使用伊朗5省的病理、医院和死亡登记三个来源。",
+      "value": ["pathology", "hospital discharge", "death registry"],
+      "source": {"page": 94, "section": "Materials and Methods - Sources of data", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 2"},
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-003",
+      "claim": "论文用姓名、父名、出生日期、ICD编码和地址进行连接与去重，并以观察数/估计总数定义完整性。",
+      "value": null,
+      "source": {"page": 95, "section": "Materials and Methods - Statistical methods", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 3"},
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "未报告链接阈值、缺失值处理或验证指标。"
+    },
+    {
+      "evidence_id": "ev-004",
+      "claim": "三源对数线性模型包含不同两两交互项；三阶交互不可由数据检验并被设为0。",
+      "value": {"candidate_models": 8, "three_way_interaction": 0},
+      "source": {"page": "94-95", "section": "Materials and Methods - Statistical methods", "table": "Table 1", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file pages 2-3"},
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-005",
+      "claim": "三个来源共有53,398条全癌种记录，去重后为35,643例；其中胃肠道癌9,574例。",
+      "value": {"raw_all_cancer_records": 53398, "deduplicated_all_cancer_cases": 35643, "observed_gi_cancers": 9574},
+      "source": {"page": 96, "section": "Results", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 4, left column"},
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-006",
+      "claim": "模型8给出最低AIC/BIC，估计胃肠道癌总数14,462.7例，95%CI 13,434.9-15,764.2，未捕获4,888.7例。",
+      "value": {"estimated_unseen": 4888.7, "estimated_total": 14462.7, "lower_95_ci": 13434.9, "upper_95_ci": 15764.2, "AIC": 73.8, "BIC": 73.4},
+      "source": {"page": "95-96", "section": "Results", "table": "Table 2", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file pages 3-4"},
+      "evidence_type": "table",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "正文把BIC写为73.3，表2为73.4。"
+    },
+    {
+      "evidence_id": "ev-007",
+      "claim": "三年合计胃肠道癌登记完整性为66.2%。",
+      "value": "66.2%",
+      "source": {"page": 96, "section": "Results", "table": "Table 3", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 4"},
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "由9,574/14,462.7得到，与表3一致。"
+    },
+    {
+      "evidence_id": "ev-008",
+      "claim": "表3报告男性完整性71.1%，女性59.9%。",
+      "value": {"male": "71.1%", "female": "59.9%"},
+      "source": {"page": 96, "section": "Results", "table": "Table 3", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 4"},
+      "evidence_type": "table",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "摘要将男性值写为71.2%。"
+    },
+    {
+      "evidence_id": "ev-009",
+      "claim": "表3报告三个年龄组完整性为38.1%、55.4%和76.6%。",
+      "value": {"under_40": "38.1%", "age_40_59": "55.4%", "age_60_plus": "76.6%"},
+      "source": {"page": 96, "section": "Results", "table": "Table 3", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 4"},
+      "evidence_type": "table",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Age2边界由摘要的40-60岁表述辅助识别；表3仅写Age1-3。"
+    },
+    {
+      "evidence_id": "ev-010",
+      "claim": "论文报告胃癌完整性85.3%、结直肠癌78.7%，肝癌漏报43%。",
+      "value": {"stomach_completeness": "85.3%", "colorectal_completeness": "78.7%", "liver_underestimation": "43%"},
+      "source": {"page": 97, "section": "Results/Discussion", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 5"},
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "moderate",
+      "notes": "缺少完整的癌种分层表格和统一时间标签。"
+    },
+    {
+      "evidence_id": "ev-011",
+      "claim": "8个候选模型估计总数范围为11,533.1至18,801.5例。",
+      "value": {"minimum": 11533.1, "maximum": 18801.5},
+      "source": {"page": 95, "section": "Results", "table": "Table 2", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 3"},
+      "evidence_type": "table",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Reviewer summary of the minimum and maximum N across reported models."
+    },
+    {
+      "evidence_id": "ev-012",
+      "claim": "性别分层的正文方向与表3相反。",
+      "value": {"table": "male higher", "results_text": "female higher"},
+      "source": {"page": 96, "section": "Results", "table": "Table 3", "figure": null, "supplement": null, "paragraph": "paragraph below Table 3", "locator": "PDF file page 4"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Same-page internal contradiction."
+    },
+    {
+      "evidence_id": "ev-013",
+      "claim": "40岁以下完整性在表3为38.1%，结果和讨论正文为31.8%。",
+      "value": {"table": "38.1%", "text": "31.8%"},
+      "source": {"page": "96-97", "section": "Results/Discussion", "table": "Table 3", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file pages 4-5"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "摘要与表3均支持38.1%。"
+    },
+    {
+      "evidence_id": "ev-014",
+      "claim": "研究期在方法正文与表格之间不一致。",
+      "value": {"methods_text": "March 2008 to March 2011", "tables": "2008-2010"},
+      "source": {"page": "94-96", "section": "Materials and Methods/Results", "table": "Tables 2-3", "figure": "Figure 2", "supplement": null, "paragraph": null, "locator": "PDF file pages 2-4"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-015",
+      "claim": "作者认为登记存在低估，应改善收集、覆盖和有效性，并在满足条件时使用捕获-再捕获估计漏报。",
+      "value": null,
+      "source": {"page": 98, "section": "Discussion - final paragraph", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 6"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-016",
+      "claim": "摘要和讨论称全部癌症漏报49%，但核心捕获-再捕获模型表标注为胃肠道癌。",
+      "value": {"claimed_all_cancer_underreporting": "49%", "model_table_target": "gastrointestinal tract"},
+      "source": {"page": "93, 95, 97", "section": "Abstract/Results/Discussion", "table": "Table 2", "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file pages 1, 3, 5"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Scope inconsistency limits interpretation of the 49% statement."
+    },
+    {
+      "evidence_id": "ev-017",
+      "claim": "2008年肝癌和胰腺癌因样本量低未估计完整性。",
+      "value": null,
+      "source": {"page": 97, "section": "Results", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 5, left column"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-018",
+      "claim": "作者认为死亡证明中的转移性肝癌可能被误登记为原发性肝癌。",
+      "value": null,
+      "source": {"page": 97, "section": "Discussion", "table": null, "figure": null, "supplement": null, "paragraph": null, "locator": "PDF file page 5, right column"},
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    }
+  ]
+}

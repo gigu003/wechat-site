@@ -1,0 +1,72 @@
+project:
+  type: website
+  # The brand asset remains bundled with the local `wechat` extension. Quarto
+  # must see it at project scope to compile its palette and Google font faces.
+  brand: _extensions/wechat/brand.yml
+  output-dir: _site
+  render:
+    - index.qmd
+    - categories/*.qmd
+    - main/**/index.qmd
+    - "!**/*.md"
+
+lang: zh
+
+website:
+  title: "普癌新声"
+  # Quarto uses this canonical public address when it builds absolute links in
+  # RSS entries. Update it here if the website is moved to another domain.
+  site-url: "https://wechat.chenq.site"
+  description: "让数据更可靠，让方法可复现，让健康知识有证据。"
+  navbar:
+    title: '普癌新声 <span class="navbar-channel-label">· 公众号</span>'
+    logo: _extensions/wechat/assets/brand/puai-channel-mark-inverse.svg
+    logo-alt: ""
+    background: primary
+    foreground: light
+    left:
+      - href: index.qmd
+        text: 首页
+      - href: categories/cancer-registry.qmd
+        text: 肿瘤登记
+      - href: categories/daily-r.qmd
+        text: R语言与数据科学
+      - href: categories/medical-popular-science.qmd
+        text: 肿瘤防治与健康科普
+  search: true
+  page-navigation: true
+  back-to-top-navigation: true
+  # body-footer accepts Markdown. Keep the component here so Quarto places it
+  # after every document body, regardless of that document's nesting depth.
+  body-footer: |
+    <aside class="wechat-follow-card" aria-labelledby="wechat-follow-title">
+    <div class="wechat-follow-copy">
+    <span class="wechat-follow-kicker">微信公众号</span>
+    <h2 id="wechat-follow-title">关注“普癌新声”</h2>
+    <p>持续获取肿瘤登记、R语言与数据科学、肿瘤防治与健康科普内容。</p>
+    <div class="wechat-follow-topics" aria-label="公众号内容方向">
+    <span>让数据更可靠</span>
+    <span>让方法可复现</span>
+    <span>让健康知识有证据</span>
+    </div>
+    </div>
+    <div class="wechat-follow-scan">
+    <div class="wechat-follow-qr" role="img" aria-label="普癌新声微信公众号二维码"></div>
+    <span>微信扫一扫，关注公众号</span>
+    </div>
+    </aside>
+  page-footer:
+    left: "© 2026 普癌新声"
+    right: "肿瘤登记 · R语言与数据科学 · 肿瘤防治与健康科普"
+
+crossref:
+  fig-title: "图"
+  fig-prefix: "图"
+  tbl-title: "表"
+  tbl-prefix: "表"
+
+# 网站统一使用本地扩展提供的 HTML 格式。品牌、样式和过滤器均随
+# `_extensions/wechat/` 分发；正文是否启用主题由 `article-theme` 元数据决定。
+# 微信隔离渲染与草稿发布由显式调用的 pub-wechat2 skill 托管。
+format:
+  wechat-html: default

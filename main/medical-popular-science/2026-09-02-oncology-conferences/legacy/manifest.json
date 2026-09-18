@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-09-02-oncology-conferences",
+  "article_id": "2026-09-02-oncology-conferences",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "2026年9月至11月肿瘤相关会议",
+  "created_at": "2026-09-02T08:12:33+08:00",
+  "updated_at": "2026-09-02T10:02:17+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:15+08:00",
+      "error": null,
+      "input_hash": "9ad4a0b7614ea6e4d33c69176a1627277e58f60480351032f9945f31d6667b60"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:15+08:00",
+      "error": null,
+      "input_hash": "85af7ada9aa43fcf16bddc8ac30782e968929556ff1eddfe3c7022e71868446f"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:15+08:00",
+      "error": null,
+      "input_hash": "822706dbef9ad1b95e1694d011ef1d86f87b5ee2bf4999e7f2a06c1e518eff83"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:15+08:00",
+      "error": null,
+      "input_hash": "c48f7153e171afcab8fc337e943da68078fae538cdbbccdf31bc97b660c6f8f9"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:15+08:00",
+      "error": null,
+      "input_hash": "61f600ed3ce196a6ae4de7edacdb234846ee736dcc078f7d412f95bd1b0d8017"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-02T09:55:20+08:00",
+      "error": null,
+      "input_hash": "b7ec370df3933e397dede48c94be2bc91b74ca5dc95e57032904d29d9f516793"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-02T10:00:00+08:00",
+      "error": null,
+      "input_hash": "c54d14a4c3a0ab0635eff20bbcdae820bba1a8052d595a02bce31d700a5018cc"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-02T10:02:17+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-02T10:00:00+08:00",
+    "hashes": {
+      "ai_score.json": "3aa577498142d4a8e4fe28ee002d1eb9c3e2793cfc198366b5cfde6dbb8a9be1",
+      "article.md": "974ef4d259d19bc20adfb66983a765dcde7af7843564186b094d616b76e47ec0",
+      "brief.md": "6472bca440bcd24e452589f2b8d5e39967f3e59b78f9a46012d14fda25905eb1",
+      "cover.png": "30f667285f8d44a113b62868e0c73a1d22e6eb535c72a78ba56a1376d8d42701",
+      "images/01-conference-calendar.png": "8c287b08d577a72c54fed5a4a0f59f14539a20cd2243eabb5291d7b7963e20ab",
+      "images/02-conference-directions.png": "8df4b3cabcf705a6fd997da5c460c464effc48a83ae3e542a7da317610ffe153",
+      "images/03-meeting-preparation.png": "fd9588b0098cb2fb6170b65c6f2d822587d74ecf3d8ff8cd3ea0b11724878f3a",
+      "images/04-conference-to-registry.png": "67a4fd6f755e4678728b57260ed7b343a2731c0c66b37a54462576bd3a995441",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "81f03ac00b2d78f42ddc3081d4567258278e4fb1fb280532bdc3084adbbb0b98",
+      "wechat_seo_report.json": "5d90653057e86dab6032d637cd6cc869c8e11f0b3139b5efccdefa3220ae22d6",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-QNA1pl43m6J7VoqLqu7u6JNcrV2Or12GoFvschNRi1N",
+    "created_at": "2026-09-02T10:02:17+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-09-02T08:12:33+08:00"
+  }
+}

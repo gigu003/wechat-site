@@ -1,0 +1,18 @@
+{
+  "total_score": 6.5,
+  "mode": "news",
+  "dimensions": {
+    "burstiness": 10,
+    "phrases": 0.0,
+    "vocab": 3.9,
+    "structural": 0.0,
+    "punctuation": 30.0,
+    "style": 1.9
+  },
+  "hit_phrases": [],
+  "hit_vocab": [
+    "方法论"
+  ],
+  "threshold": 45.0,
+  "passed": true
+}

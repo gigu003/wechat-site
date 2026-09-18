@@ -1,0 +1,16 @@
+{
+  "total_ai_score": 5.5,
+  "verdict": "🟢 PASS (真人味)",
+  "mode": "news",
+  "char_count": 2497,
+  "sentence_count": 69,
+  "dimensions": {
+    "burstiness": {"score": 14.8, "detail": {"sentence_count": 69, "mean_length": 35.1, "stdev": 27.0, "cv": 0.77}},
+    "phrases": {"score": 0.0, "detail": {"hit_count": 0, "samples": []}},
+    "vocab": {"score": 0.0, "detail": {"total_hits": 0, "density_per_1k": 0.0, "top": []}},
+    "structural": {"score": 0.0, "detail": {"hit_count": 0}},
+    "punctuation": {"score": 10.0, "detail": {"flavor_points": 25, "expected": 12.5, "ratio": 2.0}},
+    "style": {"score": 8.1, "detail": {"bold": 6, "inline_headers": 0, "emoji_bullets": 0, "emoji_total": 0, "content_lines": 62}}
+  },
+  "threshold": 45
+}

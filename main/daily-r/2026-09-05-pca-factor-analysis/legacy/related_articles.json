@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T14:21:55+08:00",
+  "source": "local_analytics",
+  "account": "main",
+  "topic": "PCA和因子分析有什么区别？都是降维，为什么不能混用？",
+  "status": "no_database",
+  "candidates": []
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-31-iarc-2026",
+  "article_id": "2026-08-31-iarc-2026",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "甲状腺癌筛查与过度诊断：IARC 甲状腺癌宣传月 2026 提醒",
+  "created_at": "2026-08-31T17:04:10+08:00",
+  "updated_at": "2026-08-31T18:09:51+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "6771fde824c2cb769651fc7d7ff34f2c1f005bc74a98c1ede96e720e5c7646bd"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "52b416de46c074a07a69f67faf4eb186b465fbbb5dfe5025f06e24c3ca9c864c"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "9587db83b0b0796e9d4aa29377ee09212505b527e87d5e106c676195415089d4"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "c573933ba712dec77aa4b77ab1e6f662ec91403cd696ea890ab7dade182ffd77"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "102ccacf7ffc5b3d0ddd14c34b4b51ed42296e7bc3ced3afb7159d33ad95f0b3"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "d5361c9ace279488072162442c1db4ed13cb4b938035c6bfbfa62c577416ace5"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "1dd298705ddb12b40fbb8522dccb0e37463d902d1c41bc3d403f8502a58ffb27"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:09:51+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "9f35585ea6d5d55d8ea27e95252daa2035ac4bf612e183b3cdeb8e8ad144ad88",
+      "article.md": "f541b4353036aa37f27fe9e02bf95bf3579b53f523d5973a43baad82944fc305",
+      "brief.md": "41ff6708a98ad8521dbe651f1c75e017cc77e049dcd6d0608c207579638814c6",
+      "cover.png": "65ee23e52ece79faeeb765b0dee5d8d29fa9e8124d0567c5cee05b7b4ed893f8",
+      "images/01-key-numbers.png": "129c8eb072d0130cc49015ae54d20b94b95ab3958a6e4da35804b944c3c7bb4c",
+      "images/02-three-concepts.png": "c7c68e161b23ad62ee90eb7805ed28884a0bdb51d90d3208334f7416c49d74de",
+      "images/03-screening-boundary.png": "f4ded97962a93978f036a4538761a1f17af64420c343e0b937e41b7754c718d9",
+      "persona_report.json": "a42c72f37968183ff6cfc714213a94ab2c3ed6f50015e492a9d711cd1bd001d4",
+      "wechat_seo_report.json": "0c60f51ae030676bfb100220d927a9734cf25c912096931d7de271a7b13fbbcf"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-fv2_9GiJdSeYLeRczhW2Fb7e6y3lhn0XSyJKSss20vi",
+    "created_at": "2026-08-31T18:09:51+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-31T17:04:10+08:00"
+  }
+}

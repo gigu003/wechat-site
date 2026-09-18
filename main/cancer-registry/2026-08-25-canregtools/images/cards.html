@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body{position:relative;background:radial-gradient(circle at 82% 8%,#dfe8ff 0,#f6f8ff 31%,#eef3ff 100%);color:#0b1530;font-family:"PingFang SC","Noto Sans CJK SC",sans-serif}
+body:before{content:"";position:absolute;inset:0;opacity:.26;background-image:linear-gradient(rgba(46,91,255,.12) 1px,transparent 1px),linear-gradient(90deg,rgba(46,91,255,.12) 1px,transparent 1px);background-size:54px 54px}
+.wrap{position:absolute;inset:0;padding:72px 76px 62px;display:flex;flex-direction:column}
+.kicker{font-family:"SF Mono",Menlo,monospace;font-size:25px;letter-spacing:.12em;color:#5f6f98;text-transform:uppercase}
+.hero{margin-top:34px;font-size:72px;line-height:1.16;letter-spacing:-.02em;font-weight:850}
+.hero .em{color:#2e5bff}.sub{margin-top:24px;font-size:31px;line-height:1.55;color:#485677}
+.rule{height:4px;margin:38px 0 34px;background:linear-gradient(90deg,#2e5bff,#88a6ff 55%,transparent);border-radius:2px}
+.stack{display:flex;flex-direction:column;gap:20px}.row{display:flex;align-items:center;gap:22px;padding:23px 26px;background:rgba(255,255,255,.82);border:1px solid #d9e2ff;border-radius:22px;box-shadow:0 12px 32px rgba(38,69,150,.08)}
+.num{flex:0 0 58px;height:58px;display:flex;align-items:center;justify-content:center;border-radius:17px;background:#2e5bff;color:white;font:700 25px "SF Mono",Menlo,monospace}
+.rt{font-size:31px;line-height:1.42}.rt b{font-weight:800}.rt small{font-size:24px;color:#667291}
+.flow{display:flex;flex-direction:column;align-items:stretch;gap:13px}.node{padding:23px 30px;border-radius:20px;background:#fff;border:2px solid #d5dfff;font-size:34px;font-weight:800;text-align:center;box-shadow:0 10px 24px rgba(46,91,255,.08)}
+.node.accent{background:#2e5bff;color:#fff;border-color:#2e5bff}.arrow{text-align:center;color:#2e5bff;font-size:38px;line-height:1}
+.code{padding:32px 34px;background:#0b1530;color:#edf2ff;border-radius:24px;font:27px/1.7 "SF Mono",Menlo,monospace;box-shadow:0 18px 40px rgba(11,21,48,.2)}
+.code .fn{color:#8fb0ff}.code .str{color:#fff18a}.code .muted{color:#97a4c3}.pillrow{display:flex;gap:16px;flex-wrap:wrap}.pill{padding:15px 22px;border-radius:999px;background:#e6edff;color:#2445ae;font:700 25px "SF Mono",Menlo,monospace;border:1px solid #cbd8ff}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:22px}.box{padding:28px;background:rgba(255,255,255,.86);border:1px solid #d9e2ff;border-radius:23px}.box h3{font-size:31px;color:#2e5bff;margin-bottom:10px}.box p{font-size:25px;line-height:1.5;color:#4b5878}
+.foot{margin-top:auto;padding-top:23px;border-top:1px solid #ced9f6;font:23px "SF Mono",Menlo,monospace;color:#667291}.foot b{color:#2e5bff}
+body.cover,body.cover:before{width:1200px;height:510px}body.cover .wrap{padding:48px 64px 42px}body.cover .kicker{font-size:20px}body.cover .hero{font-size:57px;line-height:1.08;margin-top:18px;max-width:900px}body.cover .sub{font-size:25px;margin-top:15px}body.cover .badge{position:absolute;right:64px;top:64px;width:200px;height:200px;border-radius:46px;background:#2e5bff;color:white;display:flex;align-items:center;justify-content:center;text-align:center;font:800 34px/1.2 "SF Mono",Menlo,monospace;box-shadow:0 22px 42px rgba(46,91,255,.28)}body.cover .foot{font-size:18px;padding-top:14px}
+</style>
+</head>
+<body><div class="wrap" id="card"></div>
+<script>
+const cards={
+cover:`<div class="kicker">PBCR · R PACKAGE · VERSION 0.2.11</div><div class="hero"><span class="em">canregtools</span><br>肿瘤登记数据分析使用指南</div><div class="sub">从数据对象到率、质量指标、图表与报告</div><div class="badge">R<br>TOOLS</div><div class="foot">普癌新声 · 陈琼博士</div>`,
+workflow:`<div class="kicker">CANREGTOOLS · OBJECT FLOW</div><div class="hero">一条对象流，串起<br><span class="em">肿瘤登记分析</span></div><div class="rule"></div><div class="flow"><div class="node">Excel / data.frame</div><div class="arrow">↓</div><div class="node">canreg / canregs</div><div class="arrow">↓</div><div class="node accent">count_canreg()</div><div class="arrow">↓</div><div class="node">率 · 质量指标 · 图表 · 报告</div></div><div class="foot">canregtools <b>0.2.11</b> · 可复现对象流</div>`,
+install:`<div class="kicker">INSTALL · VERIFIED RELEASE</div><div class="hero">先确认版本，<br>再开始<span class="em">分析</span></div><div class="rule"></div><div class="code"><span class="fn">install.packages</span>(<br>&nbsp;&nbsp;<span class="str">"canregtools"</span>,<br>&nbsp;&nbsp;repos = c(<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"https://gigu003.r-universe.dev"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;<span class="str">"https://cloud.r-project.org"</span><br>&nbsp;&nbsp;)<br>)</div><div class="pillrow" style="margin-top:28px"><div class="pill">R ≥ 4.1.0</div><div class="pill">v0.2.11</div><div class="pill">R-universe</div></div><div class="foot">公开构建提交 <b>0838ce7</b> · 2026-07-31</div>`,
+data:`<div class="kicker">DATA CONTRACT · CANREG</div><div class="hero">输入不是一个表，<br>而是一个<span class="em">登记对象</span></div><div class="rule"></div><div class="stack"><div class="row"><div class="num">ID</div><div class="rt"><b>areacode</b><br><small>字符型登记处或地区标识</small></div></div><div class="row"><div class="num">FB</div><div class="rt"><b>FBcases</b><br><small>发病病例与诊断信息</small></div></div><div class="row"><div class="num">SW</div><div class="rt"><b>SWcases</b><br><small>死亡病例与死因信息</small></div></div><div class="row"><div class="num">POP</div><div class="rt"><b>POP</b><br><small>年份 × 性别 × 年龄组人口</small></div></div></div><div class="foot">病例与人口的分层必须能够对齐</div>`,
+code:`<div class="kicker">MINIMAL EXAMPLE · 4 LINES</div><div class="hero">从示例数据到<br><span class="em">可分析对象</span></div><div class="rule"></div><div class="code"><span class="fn">library</span>(canregtools)<br><br><span class="fn">data</span>(<span class="str">"canregs"</span>)<br>reg &lt;- canregs[[1]]<br><br>fbsw &lt;- <span class="fn">count_canreg</span>(<br>&nbsp;&nbsp;reg,<br>&nbsp;&nbsp;cancer_type = <span class="str">"big"</span><br>)</div><div class="stack" style="margin-top:27px"><div class="row"><div class="num">1</div><div class="rt"><b>canreg</b> → 单个登记处</div></div><div class="row"><div class="num">N</div><div class="rt"><b>canregs</b> → 多个登记处</div></div></div><div class="foot">固定年龄组和癌种分组口径，再计算指标</div>`,
+outputs:`<div class="kicker">THREE OUTPUTS · ONE SOURCE</div><div class="hero">三类结果，回答<br><span class="em">三个问题</span></div><div class="rule"></div><div class="stack"><div class="row"><div class="num">ASR</div><div class="rt"><b>create_asr()</b><br><small>粗率、标化率、方差与置信区间</small></div></div><div class="row"><div class="num">QC</div><div class="rt"><b>create_quality()</b><br><small>M:I、MV%、DCO% 与病例死亡数</small></div></div><div class="row"><div class="num">AGE</div><div class="rt"><b>create_age_rate()</b><br><small>各年龄组的病例数和率</small></div></div></div><div class="cols" style="margin-top:28px"><div class="box"><h3>event = "fbs"</h3><p>计算发病</p></div><div class="box"><h3>event = "sws"</h3><p>计算死亡</p></div></div><div class="foot">示例代码已在公开版 <b>0.2.11</b> 快照运行</div>`,
+reporting:`<div class="kicker">OUTPUT · REVIEW · REPORT</div><div class="hero">先审核分析表，<br>再进入<span class="em">图表与报告</span></div><div class="rule"></div><div class="flow"><div class="node accent">率与质量指标表</div><div class="arrow">↓</div><div class="node">检查分母 · 分层 · 癌种口径</div><div class="arrow">↓</div><div class="cols"><div class="box"><h3>draw_*()</h3><p>折线图、条形图、哑铃图、人口金字塔</p></div><div class="box"><h3>create_report()</h3><p>annual、quality 等模板</p></div></div></div><div class="row" style="margin-top:28px"><div class="num">!</div><div class="rt"><b>报告依赖另装</b><br><small>rmarkdown · flextable · showtext · glue</small></div></div><div class="foot">渲染环境报错 ≠ 统计计算失败</div>`
+};
+const key=new URLSearchParams(location.search).get("card")||"workflow";
+if(key==="cover")document.body.classList.add("cover");
+document.getElementById("card").innerHTML=cards[key]||cards.workflow;
+</script>
+</body>
+</html>

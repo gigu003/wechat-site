@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-27-ai-data-analysis-learn-coding",
+  "article_id": "2026-08-27-ai-data-analysis-learn-coding",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "series": "daily-r",
+  "theme": "minimal-mono",
+  "image_style": "flat-editorial",
+  "topic": "AI时代做数据分析，还要从学写代码开始吗",
+  "created_at": "2026-08-27T08:18:11+08:00",
+  "updated_at": "2026-08-27T08:53:42+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "e3cdbb79a909792af81de052c718f6d7593b0a38c914565105c6cf2fca75f49a"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "974ed8262e208a938e9cb7836e8ef2025159bf9fceb1a49887c8648cdcb0f2a3"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "da4bc39bf840b4c351b6f2d9b65389ff8717611034181a660751f27681e7d0d3"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "60ca7d8cbb077c8c90bf14c9bf01a12eb3193ec50d98628953f2d94474f8585d"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "2ee1794f021804d463a479c3fe5a0a40e11bff29a3a19958e21c303f7c28a841"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:30:03+08:00",
+      "error": null,
+      "input_hash": "a75e0334f7f175d4ea5b7abfe7ac1046dbc69555a4c02ee2a2935a3f3f5546de"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:42:34+08:00",
+      "error": null,
+      "input_hash": "f710a68085d0de0f3e3a0a609f6ef71feb4c4d71fd760aa87373dc5117ed8719"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-27T08:53:42+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-27T08:42:34+08:00",
+    "hashes": {
+      "ai_score.json": "ce39ae6a5eddf4c5be32aaf9e82619a735c3a15d3d31e4d0258c86e9e2034739",
+      "article.md": "fa3a70ce44f05a86f71a8fde610e18bf95b3e413aa2bfc73d7ddd0f4ffea1c2a",
+      "brief.md": "710e2f0c4ee6216cb8497435c39e25a3043f8e313381fd22572cd3f25dbddfc0",
+      "cover.jpg": "4e2b46b41d8cc34da010aca317a7e7a8a9f2b4b88584394091a871f091589092",
+      "images/01-cover.png": "4172004ea30f450963c56eceebcc6854a2205ab0410aead356a54bd00c40da80",
+      "images/02-three-layers.png": "125a502f6c858547107fc187283325c354350e46aae50227a386a68e11c9923a",
+      "images/03-output-vs-understanding.png": "9da0d5cd822c081698e87976c4eb92d815d409fd4c29a258c58bb506e38da002",
+      "images/04-read-edit-verify.png": "7c096df9d9b996378d3d6d448fb06879601e569f98d94846ef712a3cb4096bd0",
+      "images/05-r-minimal-example.png": "ce4949c845f7c4de9e7ab609fef3029913c4a7a1cdc8fe1d3104351d92863dc3",
+      "images/06-learning-loop.png": "07388a6f77bef619016ebc6dca95660da7bbbcc6492a41392f990715419ec233",
+      "images/07-boundaries.png": "1adccd0553387fde4e997364ee1e880af0b9162849a1bd6106bc3429a2e9304c",
+      "persona_report.json": "cebe9d8a890bb361a887760ad6e9aa3c7224939766b0a9e103a141ecf14b789f"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-Zeh9HlFYY_E_GGmlNBNKi5itgsVVWvOKkTPYrdDNSDv",
+    "created_at": "2026-08-27T08:53:42+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

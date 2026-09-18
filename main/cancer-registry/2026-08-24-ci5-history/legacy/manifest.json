@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "article_id": "2026-08-24-ci5-history",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-or-popular-science",
+  "topic": "五大洲癌症发病率发展历程",
+  "created_at": "2026-08-24T23:30:01+08:00",
+  "updated_at": "2026-08-25T00:33:05+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "d4da5f4e1615a5851b944087b3e5935cbc8b38e034047cb7f12961cb1e0301d7"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "a2d5e1d3df46054efbdeb9e10c6d476832eccab8f816691b4a316c421fa44219"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "38d13b082b0248d967683c7c013f699ad237ccad56b7560d42820b243ed11ab1"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "865329377630f6c9e253d60c8cf66cb26d491ad2468606df29572befcdfd59b4"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "e1b6eed0ddd62d3e9c004efd7db251a658788887d38c0d572673828e5520dd2d"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:25:03+08:00",
+      "error": null,
+      "input_hash": "85ca09526cbff958611ba029c3a9bd582f91b6f7fec5756cdb65458b11431bd1"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:32:54+08:00",
+      "error": null,
+      "input_hash": "e9e6d04de6c0a0c1b1892c74da8571756d2abed1cbbeebe760242717ad0f960b"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-25T00:33:05+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-25T00:32:54+08:00",
+    "hashes": {
+      "ai_score.json": "94bd2dfde276f1ab4215fc0901bd039e093130968b7426270ff54bda772e62c8",
+      "article.md": "d7cac7dcd814a21f515955b2d0f8cc53c67709e08d93f8b54e588f7ec05172ad",
+      "brief.md": "cf5deb9c87516b404221dcce96f8a631be9dcb32c83248d040e57ff2a67f7595",
+      "cover.jpg": "348bdd5d1d72acd5079ef7781b5dd818f72bd1817abd292d341c49edf2ad3ce4",
+      "images/01-1966-origin.png": "00f52a3c0beb435af37b532f9290f226c25dfb427b74fa7b9e12a765274bda75",
+      "images/02-twelve-volumes.png": "83f19df925eb2e7fd79a2df84548b6459d05c6b8055c16a870cb1ceffe869526",
+      "images/03-quality-gates.png": "5ba2b19eda48a667ed857e81f581a6fea372ee70089a8230d49b0e554f0f5aa7",
+      "images/04-geographic-variation.png": "55e7ca63e4f9f5b6d7d30c785729cbd35ac8f697dac4b4f936494e8eee0e94d0",
+      "images/05-books-to-database.png": "4b09701fcd40579e87e3eeb81a7ecf5d1e23eba5f72acc768368253c5dd15701",
+      "images/06-reading-checklist.png": "12cd2a6820c292d23be43eec1a95e7088dda69163b435d57800d308e28640b8a",
+      "images/07-china-expansion.png": "171e7c89f8ceae53f1205072bbf57238dbb40e7cff5412f492a1bc71228a008f",
+      "persona_report.json": "51cdebab780f0cdcccb9248380bfc186dedf0caf3decd3662093e1b32e657d28"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-WaHaUV0viExjmCxPco3FGsoUINH-Dq-4gLW0vvMozLZ",
+    "created_at": "2026-08-25T00:33:05+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  }
+}

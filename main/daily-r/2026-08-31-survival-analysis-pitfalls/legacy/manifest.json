@@ -1,0 +1,106 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-31-article-b2de8d370d",
+  "article_id": "2026-08-31-article-b2de8d370d",
+  "account": "main",
+  "type": "news",
+  "content_type": "literature-review",
+  "series": "daily-r",
+  "theme": "minimal-mono",
+  "image_style": "flat-editorial",
+  "topic": "肿瘤临床研究中生存分析：常用方法与误区解读",
+  "created_at": "2026-08-31T15:28:58+08:00",
+  "updated_at": "2026-08-31T18:10:01+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "fd31d90e1a0770782df171c87caa9a3efc01125bf97b9c5785eca07dab00811d"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "356a8927f524929f42b1dccd7d3db03b03df25fbdf65ebaca2f4bc7afdea22a1"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "7a4328e5cbd4bc5aeee0926465e74f5607d287328fe5bb94fcfc9ab7637bf49d"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "1a4dff8a4c1aef31dee5e2994d260d775120e4814494d5d4c8920fd52371c4af"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "29e8ec8dab21f67b47fbbf5dd35a6dcd8ce6f66779973d1efb9e0ace8ac031e7"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:14+08:00",
+      "error": null,
+      "input_hash": "aaf8dcbac3a7ecc5c18b51b36e4279ac9a7f80ee217eeb6bac49349cbb21027b"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "496d37b81d1a409927961d3c5eaaf7430681bf305c497a8ce7ab0b1fffc8146b"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:10:01+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "78f21c893f07f3e2d02931e7ee41ec998df4f32bf9caa06e0de351156eb5dd3a",
+      "article.md": "659f9f4e6c1517346573baeb0f5687db9df31471414acb527a9b3990cdb9630c",
+      "brief.md": "42c9caa99581be314e888379d982e59a3f13d91669b9fe1b06d72c81fc255362",
+      "cover.png": "b6474d94b79b2e0d2340a520332cfd035e4d5a01c64fcfd3366d383492c57a9b",
+      "images/01-analysis-map.png": "baca4ac882d243fea82db58693f300b91071dd0099952a2198e937295e32ab1c",
+      "images/02-ph-check.png": "fbb3e7c253efd14249b60a32c548b58057697d6ae2b6442bf65b5db9fe1ad252",
+      "images/03-hr-rmst.png": "f05c18dcf67b7417557ae816e97f46844980ec297b51618e32cbad415abca8fc",
+      "images/04-seven-questions.png": "71e9ba888ed3661e9a746e00213f364883c1da0ef978c9cab3ebb223a9beed6f",
+      "persona_report.json": "93764d2c24a6fd3919bb02ee1cef4e4ddb272913cb93c775a2d4d3bc1a2a76ff",
+      "sources/paper-evidence.md": "7c84c969a4429d21a78eb045ebb6d0c6b9629475960846f6a629c20f1266df50",
+      "sources/paper-review.json": "0d96fc2f4bebfca5bc90500a2a8de26ae3d49f44cd7f2a7be685fb22ef6c6b6f",
+      "wechat_seo_report.json": "06a7dc4090004040a75f9d7c3580eb8d5d37956f238810caaaeab3c1eb332cf2"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-Rgw5w-bT0Txpda4a9BFWa2_GXkRV-n1sD5F-cX900wx",
+    "created_at": "2026-08-31T18:10:01+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": {
+    "path": "sources/paper-review.json",
+    "sha256": "0d96fc2f4bebfca5bc90500a2a8de26ae3d49f44cd7f2a7be685fb22ef6c6b6f",
+    "schema_version": "1.1.0",
+    "review_depth": "full_text",
+    "doi": "10.3760/cma.j.cn112152-20250219-00067",
+    "pmid": null,
+    "zotero_key": null,
+    "source_review_path": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-31-survival-analysis-pitfalls/paper-review.json",
+    "store_root": "/Users/qc0824/Documents/2_Areas/文献研读/paper-reviews",
+    "attached_at": "2026-08-31T15:35:07+08:00"
+  },
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-31T15:28:58+08:00"
+  }
+}

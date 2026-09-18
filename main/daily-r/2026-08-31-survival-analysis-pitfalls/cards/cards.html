@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>肿瘤生存分析排版卡</title>
+<style>
+  :root{--ink:#122238;--blue:#356ae6;--cyan:#5bbcc6;--orange:#ef8d3c;--paper:#f7f9fc;--muted:#64748b;--line:#d8e2ef}
+  *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--paper);color:var(--ink);font-family:"PingFang SC","Noto Sans CJK SC",sans-serif}
+  body{background-image:linear-gradient(rgba(53,106,230,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(53,106,230,.035) 1px,transparent 1px);background-size:36px 36px}
+  .page{width:100%;height:100%;padding:64px 78px;display:none;position:relative}
+  .page.active{display:flex;flex-direction:column}
+  .kicker{font-family:"SF Mono",Menlo,monospace;font-size:21px;letter-spacing:2px;color:var(--blue);font-weight:700}
+  h1{font-size:68px;line-height:1.14;margin:24px 0 12px;letter-spacing:-2px}h2{font-size:45px;line-height:1.2;margin:20px 0 34px}
+  .accent{color:var(--blue)}.orange{color:var(--orange)}
+  .sub{font-size:28px;line-height:1.55;color:#3e526b}
+  .footer{margin-top:auto;padding-top:22px;border-top:2px solid var(--line);display:flex;justify-content:space-between;font-size:19px;color:var(--muted);font-family:"SF Mono",Menlo,monospace}
+  .grid{display:grid;gap:22px}.g5{grid-template-columns:repeat(5,1fr)}.g2{grid-template-columns:1fr 1fr}.g4{grid-template-columns:1fr 1fr}
+  .card{background:white;border:2px solid var(--line);border-radius:22px;padding:26px;box-shadow:0 10px 30px rgba(32,63,104,.06)}
+  .card strong{display:block;font-size:29px;margin-bottom:12px}.card p{margin:0;font-size:22px;line-height:1.45;color:#42566f}
+  .arrow{font-size:34px;color:var(--blue);display:flex;align-items:center;justify-content:center}
+  .pill{display:inline-block;border-radius:999px;background:#e8efff;color:var(--blue);padding:8px 16px;font-size:20px;font-weight:700;margin-bottom:12px}
+  .formula{font-family:"SF Mono",Menlo,monospace;font-size:42px;font-weight:700;margin:22px 0;color:var(--ink)}
+  .eq{font-size:32px;font-weight:800;color:var(--orange)}
+  .note{font-size:22px;color:var(--muted);line-height:1.45}
+  .list{display:grid;grid-template-columns:1fr 1fr;gap:18px}.item{display:flex;gap:16px;align-items:flex-start;background:#fff;border-left:7px solid var(--blue);border-radius:14px;padding:20px 22px;font-size:23px;line-height:1.4}.num{color:var(--blue);font-family:"SF Mono",Menlo,monospace;font-weight:800}
+  #cover{padding:50px 70px}#cover h1{font-size:58px;max-width:900px;margin:18px 0 8px}#cover .sub{font-size:25px}#cover .footer{font-size:17px;padding-top:12px}
+  .bar{height:12px;width:160px;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:10px;margin-top:8px}
+  .compare{display:grid;grid-template-columns:1fr 70px 1fr;gap:20px;align-items:stretch}.vs{display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:800;color:var(--muted)}
+  .big{font-family:"SF Mono",Menlo,monospace;font-size:54px;font-weight:800;color:var(--blue);margin:8px 0 16px}.small{font-size:21px;line-height:1.45;color:#52657a}
+</style>
+</head>
+<body>
+<section class="page" id="cover">
+  <div class="kicker">PAPER REVIEW · SURVIVAL ANALYSIS</div>
+  <div class="bar"></div>
+  <h1>肿瘤生存分析的<span class="accent">7个常见误区</span></h1>
+  <div class="sub">这篇综述讲对了什么，还需要再多问一步？</div>
+  <div class="footer"><span>普癌新声 · 文献解读</span><span>KM · COX · HR · RMST</span></div>
+</section>
+
+<section class="page" id="map">
+  <div class="kicker">ANALYSIS MAP</div>
+  <h2>先定义问题，再选择模型</h2>
+  <div class="grid g5">
+    <div class="card"><span class="pill">01</span><strong>时间零点</strong><p>从何时开始计时？各组是否一致？</p></div>
+    <div class="card"><span class="pill">02</span><strong>事件与删失</strong><p>发生了什么？为什么观察终止？</p></div>
+    <div class="card"><span class="pill">03</span><strong>曲线与模型</strong><p>KM、log-rank、Cox 各回答什么？</p></div>
+    <div class="card"><span class="pill">04</span><strong>效应量</strong><p>HR、时点生存率差，还是 RMST？</p></div>
+    <div class="card"><span class="pill">05</span><strong>不确定性</strong><p>置信区间、风险集、敏感性与多重性。</p></div>
+  </div>
+  <div class="footer"><span>定义 → 假设 → 估计 → 解释</span><span>来源：原论文与本文审读</span></div>
+</section>
+
+<section class="page" id="ph">
+  <div class="kicker">PROPORTIONAL HAZARDS</div>
+  <h2>PH 假设不能靠<span class="accent">一个信号</span>裁决</h2>
+  <div class="grid g4">
+    <div class="card"><strong>生存曲线</strong><p>曲线不交叉，不足以证明 HR 随时间恒定。</p></div>
+    <div class="card"><strong>log-log 图</strong><p>大致平行可提供线索，但不是独立证明。</p></div>
+    <div class="card"><strong>Schoenfeld 残差</strong><p>查看残差与时间的系统模式及不确定性。</p></div>
+    <div class="card"><strong>时间结构与机制</strong><p>结合时间交互、效应变化和疾病/治疗机制。</p></div>
+  </div>
+  <div class="formula">PH? = 图形 + 残差 + 时间 + 专业知识</div>
+  <div class="footer"><span>P 值不是唯一门槛</span><span>非 PH 时需重新定义效应与模型</span></div>
+</section>
+
+<section class="page" id="hr">
+  <div class="kicker">RELATIVE ≠ ABSOLUTE</div>
+  <h2>HR 与 RMST 回答<span class="accent">不同问题</span></h2>
+  <div class="compare">
+    <div class="card"><span class="pill">相对量</span><div class="big">HR = 0.8</div><p>比较尚未发生事件者在瞬时层面的 hazard。</p><p class="small">不等于固定时间内累计风险必然下降20%。</p></div>
+    <div class="vs">≠</div>
+    <div class="card"><span class="pill">绝对量</span><div class="big">+0.3 年</div><p>文中假设示例：3年 RMST 为2.2年与2.5年。</p><p class="small">表示3年窗口内平均无进展生存时间差。</p></div>
+  </div>
+  <div class="footer"><span>假设示例，不是真实治疗效果</span><span>原论文：第200-201页</span></div>
+</section>
+
+<section class="page" id="seven">
+  <div class="kicker">SEVEN QUESTIONS</div>
+  <h2>把七条经验改写成<span class="accent">七个问题</span></h2>
+  <div class="list">
+    <div class="item"><span class="num">01</span><span>协变量为什么进入模型？</span></div>
+    <div class="item"><span class="num">02</span><span>PH 假设是否合理？</span></div>
+    <div class="item"><span class="num">03</span><span>删失为何发生、何时发生？</span></div>
+    <div class="item"><span class="num">04</span><span>事件数支持多少参数？</span></div>
+    <div class="item"><span class="num">05</span><span>绝对效应有多大？</span></div>
+    <div class="item"><span class="num">06</span><span>生存时间还是随访时间？</span></div>
+    <div class="item"><span class="num">07</span><span>多重比较如何说明？</span></div>
+    <div class="item" style="border-left-color:var(--orange)"><span class="num orange">!</span><span>规则是起点，不是结论。</span></div>
+  </div>
+  <div class="footer"><span>研究方案与报告自查</span><span>普癌新声</span></div>
+</section>
+<script>
+  const key=new URLSearchParams(location.search).get('card')||'cover';
+  document.getElementById(key)?.classList.add('active');
+</script>
+</body>
+</html>

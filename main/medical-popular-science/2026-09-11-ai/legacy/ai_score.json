@@ -1,0 +1,18 @@
+{
+  "total_score": 24.1,
+  "mode": "news",
+  "dimensions": {
+    "burstiness": 54.5,
+    "phrases": 15.0,
+    "vocab": 0.0,
+    "structural": 0.0,
+    "punctuation": 60.0,
+    "style": 0.0
+  },
+  "hit_phrases": [
+    "在更重要的位置。时代"
+  ],
+  "hit_vocab": [],
+  "threshold": 45.0,
+  "passed": true
+}

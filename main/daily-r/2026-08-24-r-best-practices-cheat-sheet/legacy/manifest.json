@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "article_id": "2026-08-24-r-best-practices-cheat-sheet",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "topic": "R best practices cheat sheet",
+  "created_at": "2026-08-24T22:36:38+08:00",
+  "updated_at": "2026-08-24T23:23:44+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "a51a18fa9a3b198a383af7221f6910d2b8778576cdce9874435f91d16e1eebf1"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "e71a5d2251c5842daeaa6130776b68f94585604485b67bea36be756d169e222a"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "38f51192380ab9e84e5098ed6c61ae0518505bf07b1fb856c3d570ebecc7bd96"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "9e71e7a780e2726f1469c671449c37641c6c233c08ad2eb957f07161aee363f7"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "5c355307a443dc85005dde7b92c430f0f57ba01f03e259ecf13db930203d39fa"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-24T22:54:38+08:00",
+      "error": null,
+      "input_hash": "0b42ba702f6a417c74a4d6c7c4cd8ae229e0aad689dc4035e281a45b1ea10d71"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:26+08:00",
+      "error": null,
+      "input_hash": "3ece265136db0084decf98724f6d9ffe8106301fc0193fea1604953516a42ba2"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-24T23:23:44+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-24T23:23:26+08:00",
+    "hashes": {
+      "ai_score.json": "3aa577498142d4a8e4fe28ee002d1eb9c3e2793cfc198366b5cfde6dbb8a9be1",
+      "article.md": "f106dc99f43d3803a4115b889bcc4e7be3d9a1c957529c3cb59f883c10b3ff7f",
+      "brief.md": "7efb4b1568af58c67ad8026f9596997bac451a210d074a73b8e699412b5a6aab",
+      "cover.jpg": "b05f343761e1292f5c78ee472d2caca76a77379f4cf696a2b5605ff4fc6b5fdf",
+      "images/01-map.png": "d6b10dfa493c31d9c9c02a6a2bc1b849d19a627ba789b63c49e84311440f230e",
+      "images/02-project-boundary.png": "5872b777781d1e828185744d86befe4057e52c38dd5ca9cd335e80efbb3c3047",
+      "images/03-repro-stack.png": "a2af10ef963f1b0d0b1bab216c9ab692c2c910d53b5bdcbf5501783dc8cc4279",
+      "images/04-function-workflow.png": "d53b6e0569db73503650d68623331f3d69a16b5b6cb84c5e69faefc597800b47",
+      "images/05-reprex-style.png": "cb3f0d49e44a8fc6b27ea896a76bd39ae50a47e220fc18372eb8e769f709e7d8",
+      "images/06-db-git-safety.png": "40a6e10d034b52229963e92c8876e015963a4096fbe9bde1a1d0d4ef3de23c34",
+      "persona_report.json": "0509643c1f636251251a4e434fd742c777f76615df95fe7a4f3ca790110263b5"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-SYQbpXumF_jHLBlMhR6d-XVTeSYDvngPL2HTJyEAvva",
+    "created_at": "2026-08-24T23:23:44+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-review",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 19,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# IARC最新研究：全面控烟，东亚和东南亚或可少350万例癌症"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 一项覆盖东亚和东南亚15个国家的建模研究估计：2025—2050年，如果世界卫生组织MPOWER控烟措施得到最高水平实施，与延续当前吸烟趋势相比，约可预防350万例癌症。纳入人类发展指数变化后，估计值降至220万例。两个数字都不是已经发生的效果，而是建立在不同假设上的情景估计。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "国际癌症研究机构（IARC）在2026年9月7日介绍了这项研究。论文发表于《The Lancet Regional Health – Western Pacific》，研究对象不是某一种戒烟方法，也不是个人患癌风险，而是国家层面的控烟政策与未来癌症负担。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 11,
+      "sample": "研究者提出了一个公共卫生问题：如果东亚和东南亚国家把MPOWER控烟措施落实到最高水平，到2050年可能减少多少癌症？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 15,
+      "sample": "这里的“全面实施”是一个政策情景，不表示研究者观察到15个国家已经在同一时间完成全部措施。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 17,
+      "sample": "## 350万例是怎样估计出来的"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "第二步，在“延续当前趋势”和“全面实施MPOWER”两个情景下，估计未来吸烟率，并用Levin公式计算13类烟草相关癌症的人群归因分值（population attributable fraction，PAF）。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "这个计算链条很重要。研究没有等待25年后清点病例，而是把政策、吸烟率、癌症相对危险度、人口和未来发病负担放进模型，比较两个反事实情景。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 31,
+      "sample": "研究预计，2025—2050年，这15个国家将发生约1.59亿例烟草相关癌症；按当前吸烟水平估计，其中4420万例可归因于吸烟，PAF为27.7%（95%置信区间：25.5%—29.9%）。男性对应4160万例，女性为260万例。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 33,
+      "sample": "在全面实施MPOWER的情景下，模型估计可预防约350万例癌症（95%置信区间：290万—400万），PIF为2.2%（95%置信区间：1.8%—2.5%）。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "当模型进一步纳入人类发展指数（HDI）的变化，可预防病例数降至220万例，PIF为1.4%（95%置信区间：1.2%—1.6%）。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 39,
+      "sample": "PAF与PIF回答的不是同一个问题。27.7%的PAF描述当前吸烟对应的归因负担；2.2%的PIF描述全面实施政策与延续当前趋势之间的潜在差异。因此，不能用350万除以4420万，再把结果称作“控烟只能预防多少比例的吸烟相关癌症”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "HDI调整使估计从350万降至220万，说明社会经济发展与政策实施、吸烟率变化和未来癌症负担可能相互交织。更稳妥的表达是：在研究设定的情景下，潜在预防规模约为数百万例，具体数值取决于模型如何处理这些变化。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "IARC新闻稿指出，中国的可预防癌症绝对数最多，其后是日本和印度尼西亚；肺癌贡献最大。在HDI调整后的220万例中，超过110万例为肺癌。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 53,
+      "sample": "它能说明：如果模型设定合理，综合控烟政策可能在未来25年带来可观的癌症预防收益；肺癌是最主要的受益癌种；不同国家的绝对收益差异很大。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "它不能证明：350万例一定会被预防，或者其中某一项MPOWER措施单独产生了多少效果。研究先用国家层面的政策实施与吸烟率数据建立关联，再把关联传递到未来癌症负担。未测量的国家差异、政策评分误差、效应滞后和相对危险度输入，都可能改变结果。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "单一预测值容易让读者误以为未来已经确定。350万与220万并列呈现，反而更接近模型研究真正传达的信息：全面控烟的潜在公共卫生收益很大，但数字取决于政策是否落实，以及人口、社会经济和疾病负担如何变化。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "IARC这项研究估计，全面实施MPOWER可能在2025—2050年为东亚和东南亚预防约350万例癌症；考虑HDI变化后约为220万例。它支持加强综合控烟的方向，也提醒我们把“可预防病例数”理解为有明确比较情景和假设的模型结果。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 75,
+      "sample": "1. Nemati S, Nobels M-P, Rumgay H, et al. Projected preventable cancers through full implementation of tobacco control policies in East and South-East Asian cou"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

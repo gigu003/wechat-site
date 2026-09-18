@@ -1,0 +1,41 @@
+---
+title: "肿瘤防治与健康科普"
+kicker: "Cancer Prevention & Health"
+subtitle: '<span class="category-rss-directory" role="group" aria-label="肿瘤防治与健康科普 RSS 订阅"><span class="category-rss-label">RSS 订阅</span><a class="category-rss-link" href="medical-popular-science.xml">订阅本栏目</a></span>'
+description: "癌症预防、健康风险、医学研究解读与科研生活。"
+image: ../_extensions/wechat/assets/brand/category-health-watercolor.png
+order: 3
+body-classes: category-page category-health
+page-layout: full
+toc: false
+format:
+  wechat-html:
+    include-after-body: ../_extensions/wechat/includes/article-list-new-tab.html
+listing:
+  id: medical-popular-science-articles
+  contents:
+    - ../main/medical-popular-science/**/index.qmd
+  type: custom
+  template: ../_extensions/wechat/listings/article-grid.ejs.md
+  template-params:
+    columns: 2
+  grid-columns: 2
+  sort: "date desc"
+  fields: [image, date, date-modified, title, description, categories]
+  field-display-names:
+    date-modified: "更新于"
+  page-size: 6
+  filter-ui: true
+  sort-ui: false
+  feed:
+    title: "普癌新声 · 肿瘤防治与健康科普"
+    description: "肿瘤防治、健康风险、医学研究解读与科研生活的新文章。"
+    language: zh-CN
+    type: partial
+    items: 100
+---
+
+<div class="category-masthead-meta" role="group" aria-label="肿瘤防治与健康科普栏目导航">
+  <span class="category-masthead-count">共 <span class="series-count"><!--COUNT:medical-popular-science--></span> 篇</span>
+  <a class="category-masthead-back" href="../index.html">← 返回全部栏目</a>
+</div>

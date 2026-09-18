@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-31-oncology-data-specialist/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "了解美国肿瘤登记：ODS是什么？美国肿瘤登记职业认证报考指南",
+    "title_chars": 30,
+    "summary_chars": 0,
+    "body_chars": 4406,
+    "headings": 13,
+    "paragraphs": 29,
+    "images": 3,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "了解美国肿瘤登记：ODS是什么？美国肿瘤登记职业认证报考指南 ODS-C 是美国国家肿瘤登记师协会（NCRA）的肿瘤登记专业认证，中文常称“肿瘤数据专员”认证。它不是肿瘤医生资格，也不是通用数据分析师证书。本文回答 ODS-C 是什么、谁可以报考、三条资格路径分别是什么、2026年考试内容与费用、美国相关岗位的薪资情况"
+  },
+  "keywords": [
+    {
+      "keyword": "什么是 Oncology Data Specialist，如何成为 ODS",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "registry-practice",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "workplace-reflections",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

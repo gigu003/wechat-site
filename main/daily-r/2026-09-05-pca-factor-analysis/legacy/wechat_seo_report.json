@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-05-pca-factor-analysis/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "主成分分析（PCA）和因子分析有什么区别？如何选择与用R实现",
+    "title_chars": 30,
+    "summary_chars": 0,
+    "body_chars": 2639,
+    "headings": 9,
+    "paragraphs": 30,
+    "images": 4,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "主成分分析（PCA）和因子分析有什么区别？如何选择与用R实现 面对一组彼此相关的变量，主成分分析（PCA）和因子分析都能把它们概括成更少的维度，因此常被混在一起。两者真正的区别不在于“能不能降维”，而在于研究目的：PCA用于压缩数据，因子分析用于描述多个指标背后的共同特征。本文从原理、输出、适用场景和R实现四个方面说明"
+  },
+  "keywords": [
+    {
+      "keyword": "主成分分析（PCA）和因子分析有什么区别？如何选择与用R实现",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "statistical-methods",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

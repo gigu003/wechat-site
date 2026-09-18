@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-25-canregtools",
+  "article_id": "2026-08-25-canregtools",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "topic": "canregtools：从肿瘤登记数据到率、质控与报告的完整使用方法",
+  "created_at": "2026-08-25T11:27:06+08:00",
+  "updated_at": "2026-08-25T22:57:30+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "c31cd1c5e77154afcd63ecca032d857fc9e573c908b0bb4c758ab343d43de7bc"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "8f9218ebe467eb4daf2566f2f0b26334869ead5226d30681dd1ba125c91be23d"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "4ee68db50ecfe87238db95f3f267f92b61a3e90f57df58a9913c304654c7fad5"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "d79ef4a50abf5f11bfe4373e72cfb9bc7de963771101d11574c3cd15facc5ed1"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "1a766388f4576f089e13b046082477b95b341d3929e683478faf3bbc67630b1d"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-25T11:56:36+08:00",
+      "error": null,
+      "input_hash": "4ca070170e7be8f9b6904995637fed62d433c5a2b86aedaaaeed8c188ad5dcbc"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:18+08:00",
+      "error": null,
+      "input_hash": "397c0502fd4afeb50ab599382d92e942901edf4f8d9cdc562cc36d140dfa25b4"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-25T22:57:30+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-25T22:57:18+08:00",
+    "hashes": {
+      "ai_score.json": "22a22611ea48f7e5752d5cac431eba5fe358641101318fcdd321330aaabb9188",
+      "article.md": "3f4831cf3e5f5603dbe966130ae63375f75b73bec7de6f2363e28ed59fe36c1a",
+      "brief.md": "6cb107de86b162e839fb3b3ccbed7b92ec060eb5981598f4dffa954e307c1ded",
+      "cover.jpg": "41516824d32557349977574483fb184a8062f65bae2ddbdad531d5dbb3bfa28e",
+      "images/01-workflow.png": "bec46b8806c84c4404b30da14f6eaea7bcab92cbffcdaf5a0dd0828b24d80407",
+      "images/02-install.png": "4b698799be60cb8605c3b1657ba1d4d5adfffad365ccb0a48ec94e67a8185ae8",
+      "images/03-data-contract.png": "5da3d7ad5bb103cfd1feeb69bd2b58ef5f5353f636248bd419776050583a04b8",
+      "images/04-minimal-code.png": "dbb09efe126b0b37567d32190d7e55a24176db51b48a480a91d7799cafb9015f",
+      "images/05-three-outputs.png": "03bf8e05413dee06653342b982073b96b9fd85e2e0ab87ed8f12987ad138ff2b",
+      "images/06-reporting.png": "e29e7906411665172c110fe42b5120bc6ce3991a39bcc21e1e3804f0aa6ae285",
+      "images/cover.png": "531b4d88080e32d9d6237b77ca3d23765028620825cca966984c4d703dc15bc6",
+      "persona_report.json": "48884ccb91ebcf316b4d4924182d6a8990fb38266811f07bb735509e014385c9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-QEBOO627dP6evZHX1z1Rxr2jIDlVut9UdEwy14YxFES",
+    "created_at": "2026-08-25T22:57:30+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

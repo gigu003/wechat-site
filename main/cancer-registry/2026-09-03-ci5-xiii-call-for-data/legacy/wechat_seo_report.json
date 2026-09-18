@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-03-ci5-xiii-call-for-data/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "五大洲癌症发病率第十三卷（CI5-XIII）：倡议全球肿瘤登记处提交2018—2022年登记数据",
+    "title_chars": 48,
+    "summary_chars": 0,
+    "body_chars": 8744,
+    "headings": 21,
+    "paragraphs": 74,
+    "images": 6,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "五大洲癌症发病率第十三卷（CI5-XIII）：倡议全球肿瘤登记处提交2018—2022年登记数据 《五大洲癌症发病率》（Cancer Incidence in Five Continents，CI5）是国际癌症研究机构（IARC）与国际癌症登记协会（IACR）长期合作形成的全球人群癌症登记资料系列。 CI5 的核心任务"
+  },
+  "keywords": [
+    {
+      "keyword": "五大洲癌症发病率第十三卷（CI5-XIII）：倡议全球肿瘤登记处提交2018—2022年登记数据",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "news-information",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "registry-practice",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "data-quality",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "long_title",
+      "level": "low",
+      "message": "标题较长，复核搜索结果中是否易读或被截断；32 字是审计启发式而非平台阈值。"
+    }
+  ],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

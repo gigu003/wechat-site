@@ -1,0 +1,457 @@
+{
+  "schema_version": "1.1.0",
+  "metadata": {
+    "title": "Projected preventable cancers through full implementation of tobacco control policies in East and South-East Asian countries, 2025–2050: a modeling study",
+    "authors": [
+      "Saeed Nemati",
+      "Marie-Pierre Nobels",
+      "Harriet Rumgay",
+      "Mojtaba Vand Rajabpour",
+      "Mattias Johansson",
+      "Mahdi Sheikh",
+      "Xiaoshuang Feng"
+    ],
+    "journal": "The Lancet Regional Health – Western Pacific",
+    "year": 2026,
+    "publication_date": "2026-08-20",
+    "volume": "74",
+    "issue": null,
+    "pages": "101962",
+    "doi": "10.1016/j.lanwpc.2026.101962",
+    "pmid": "42668493",
+    "zotero_key": null,
+    "url": "https://doi.org/10.1016/j.lanwpc.2026.101962",
+    "citation": "Nemati S, Nobels M-P, Rumgay H, et al. Projected preventable cancers through full implementation of tobacco control policies in East and South-East Asian countries, 2025–2050: a modeling study. Lancet Reg Health West Pac. 2026;74:101962. doi:10.1016/j.lanwpc.2026.101962."
+  },
+  "review_context": {
+    "input_type": "doi",
+    "source_used": "abstract",
+    "review_depth": "abstract_only",
+    "reviewed_at": "2026-09-08T22:10:00+08:00",
+    "access_notes": "The structured abstract, bibliographic metadata, and IARC news summary were accessible. The publisher full-text page returned an access error in the current environment, so methods, tables, figures, supplements, calibration, validation, and author-reported limitations could not be fully appraised.",
+    "ocr_used": false,
+    "supplement_reviewed": false
+  },
+  "full_text_available": false,
+  "study_type": "modeling_study",
+  "classification_basis": "The primary results are projections produced by regression models, smoking-prevalence scenarios, population-attributable fractions, and potential impact fractions rather than observed post-policy cancer outcomes.",
+  "research_question": "If 15 East and South-East Asian countries reached the highest implementation level of the WHO MPOWER tobacco-control package, how many tobacco-related cancer cases might be prevented between 2025 and 2050 compared with continuation of current smoking trends?",
+  "background": "Tobacco smoking is a major preventable cause of cancer. The study connects national tobacco-control policy implementation with projected smoking prevalence and future cancer incidence in East and South-East Asia.",
+  "knowledge_gap": "The abstract states that the potential cancer impact of maximizing WHO tobacco-control policy implementation had not previously been evaluated across 15 countries in this region.",
+  "study_design": {
+    "summary": "Country-level modeling study covering 15 East and South-East Asian countries over 2025–2050.",
+    "details": {
+      "scenario_1": "continuation of the current smoking-prevalence trend",
+      "scenario_2": "full implementation of the WHO MPOWER policy package",
+      "time_horizon": "2025–2050",
+      "unit_of_policy_analysis": "country"
+    },
+    "evidence_ids": ["ev-002", "ev-003"]
+  },
+  "population": {
+    "description": "Projected populations of 15 countries in East and South-East Asia, stratified by sex where reported in the abstract.",
+    "setting": "East and South-East Asia",
+    "sample_size": null,
+    "eligibility": "Country inclusion criteria and the exact country list were not visible in the accessible abstract.",
+    "period": "2025–2050",
+    "evidence_ids": ["ev-002", "ev-003"]
+  },
+  "data_source": {
+    "summary": "WHO Global Health Observatory and IARC Global Cancer Observatory.",
+    "details": {
+      "policy_and_smoking_data": "Global Health Observatory",
+      "cancer_data": "Global Cancer Observatory",
+      "full_input_versions": "not visible in the accessible abstract"
+    },
+    "evidence_ids": ["ev-003"]
+  },
+  "exposure_or_intervention": {
+    "summary": "Achieving the highest implementation level of the WHO MPOWER package.",
+    "details": {
+      "M": "Monitor tobacco use",
+      "P": "Protect people from tobacco smoke",
+      "O": "Offer help to quit tobacco",
+      "W": "Warn about the dangers of tobacco",
+      "E": "Enforce bans on tobacco advertising, promotion and sponsorship",
+      "R": "Raise taxes on tobacco"
+    },
+    "evidence_ids": ["ev-002"]
+  },
+  "comparator": {
+    "summary": "Continuation of the current smoking-prevalence trend.",
+    "details": {
+      "counterfactual_type": "modeled scenario",
+      "observed_control_group": false
+    },
+    "evidence_ids": ["ev-003"]
+  },
+  "outcomes": [
+    {
+      "name": "Projected tobacco-attributable cancer cases",
+      "role": "primary",
+      "definition": "Projected tobacco-related cancer incidence multiplied by population-attributable fractions derived with Levin's formula.",
+      "timepoint": "Cumulative, 2025–2050",
+      "evidence_ids": ["ev-003", "ev-004"]
+    },
+    {
+      "name": "Projected preventable cancer cases under full MPOWER implementation",
+      "role": "primary",
+      "definition": "Potential impact fraction estimated from the difference in population-attributable fractions between the two smoking-prevalence scenarios.",
+      "timepoint": "Cumulative, 2025–2050",
+      "evidence_ids": ["ev-003", "ev-005", "ev-006"]
+    }
+  ],
+  "methods": {
+    "summary": "The investigators linked country-level policy implementation to smoking prevalence, projected smoking under two scenarios, calculated population-attributable fractions for 13 tobacco-related cancers, and derived preventable cases from the difference between scenarios.",
+    "details": {
+      "policy_prevalence_model": "fixed-effects linear regression",
+      "attributable_fraction_method": "Levin's formula",
+      "cancer_sites": 13,
+      "impact_measure": "Potential Impact Fraction (PIF)"
+    },
+    "evidence_ids": ["ev-003"]
+  },
+  "statistical_analysis": {
+    "summary": "Fixed-effects linear regression, population-attributable fractions, potential impact fractions, and a model accounting for Human Development Index variation.",
+    "details": {
+      "uncertainty_reported": "95% confidence intervals for headline estimates",
+      "HDI_analysis": "preventable-cancer estimate recalculated after adjustment for HDI variation",
+      "validation_and_sensitivity_analysis": "not assessable from the accessible abstract"
+    },
+    "evidence_ids": ["ev-003", "ev-005", "ev-006"]
+  },
+  "main_findings": [
+    {
+      "finding": "The model projected 159 million cases of 13 tobacco-related cancers in the region during 2025–2050; 44.2 million were attributed to current tobacco smoking.",
+      "outcome": "Projected tobacco-attributable cancer cases",
+      "effect_estimate": "44.2 million; PAF 27.7%",
+      "confidence_interval": "PAF 95% CI 25.5%–29.9%",
+      "p_value": null,
+      "comparison": "Current smoking prevalence applied to projected tobacco-related cancer incidence",
+      "population": "15 East and South-East Asian countries",
+      "timepoint": "2025–2050",
+      "reviewer_interpretation": "This quantifies a modeled population burden. It is not a count of already observed future cases and not an individual's probability of developing cancer.",
+      "evidence_ids": ["ev-004"]
+    },
+    {
+      "finding": "Full implementation of MPOWER was estimated to prevent 3.5 million cancers compared with continuation of the current trend.",
+      "outcome": "Projected preventable cancer cases",
+      "effect_estimate": "3.5 million; PIF 2.2%",
+      "confidence_interval": "2.9–4.0 million; PIF 95% CI 1.8%–2.5%",
+      "p_value": null,
+      "comparison": "Full MPOWER implementation versus continuation of current smoking trends",
+      "population": "15 East and South-East Asian countries",
+      "timepoint": "2025–2050",
+      "reviewer_interpretation": "The 3.5 million figure is the model's policy scenario contrast and depends on the assumed relationship between implementation scores, smoking prevalence, and cancer risk over time.",
+      "evidence_ids": ["ev-005"]
+    },
+    {
+      "finding": "After accounting for variation in Human Development Index, the projected number of preventable cancers fell to 2.2 million.",
+      "outcome": "Projected preventable cancer cases after HDI adjustment",
+      "effect_estimate": "2.2 million; PIF 1.4%",
+      "confidence_interval": "PIF 95% CI 1.2%–1.6%",
+      "p_value": null,
+      "comparison": "HDI-adjusted model versus the primary policy scenario estimate",
+      "population": "15 East and South-East Asian countries",
+      "timepoint": "2025–2050",
+      "reviewer_interpretation": "The reduction from 3.5 million to 2.2 million shows that the headline estimate is sensitive to how socioeconomic development is represented; both values are conditional projections.",
+      "evidence_ids": ["ev-006"]
+    },
+    {
+      "finding": "The accessible IARC summary reports that China had the largest absolute number of preventable cancers, followed by Japan and Indonesia; lung cancer contributed the largest number, including more than 1.1 million of the 2.2 million HDI-adjusted estimate.",
+      "outcome": "Country and cancer-site distribution of projected preventable cases",
+      "effect_estimate": "More than 1.1 million lung cancer cases in the HDI-adjusted scenario",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "Countries and cancer sites",
+      "population": "15 East and South-East Asian countries",
+      "timepoint": "2025–2050",
+      "reviewer_interpretation": "Absolute numbers reflect both policy-related changes and the size and baseline burden of each country's population; they should not be read as rankings of policy quality.",
+      "evidence_ids": ["ev-007"]
+    }
+  ],
+  "authors_conclusion": {
+    "statement": "The authors conclude that comprehensive implementation of MPOWER policies could substantially reduce future cancer burden in East and South-East Asia.",
+    "evidence_ids": ["ev-008"]
+  },
+  "authors_interpretations": [
+    {
+      "statement": "Stronger implementation of WHO FCTC tobacco-control measures in this region could make an important contribution to global cancer prevention.",
+      "evidence_ids": ["ev-008"]
+    }
+  ],
+  "strengths": [
+    {
+      "strength": "The study links an explicit policy package to a defined counterfactual and reports absolute numbers, attributable fractions, potential impact fractions, and confidence intervals.",
+      "why_it_matters": "Readers can distinguish projected burden under current trends from the modeled incremental impact of fuller policy implementation.",
+      "credibility_effect": "This improves interpretability of the headline estimate, although it does not validate the underlying causal pathway.",
+      "evidence_ids": ["ev-003", "ev-004", "ev-005"]
+    },
+    {
+      "strength": "The abstract presents an HDI-adjusted result in addition to the primary estimate.",
+      "why_it_matters": "It demonstrates that socioeconomic development materially changes the modeled policy effect.",
+      "credibility_effect": "This provides one visible sensitivity analysis and discourages treating 3.5 million as a fixed forecast.",
+      "evidence_ids": ["ev-006"]
+    }
+  ],
+  "limitations": {
+    "author_reported": [],
+    "reviewer_assessed": [
+      {
+        "limitation": "The accessible evidence is abstract-level, so a full risk-of-bias and reproducibility assessment was not possible.",
+        "rationale": "The accessible abstract does not expose the complete country list, policy-score coding, lag assumptions, relative-risk sources, model diagnostics, calibration, validation, missing-data handling, tables, figures, or supplements.",
+        "likely_consequence": "The direction of the policy scenario is interpretable, but the precision and robustness of country- and cancer-specific estimates cannot be independently checked here.",
+        "confidence": "high",
+        "evidence_ids": ["ev-003"]
+      },
+      {
+        "limitation": "The policy effect is inferred through a chain of modeled associations rather than observed cancer outcomes after complete MPOWER implementation.",
+        "rationale": "The abstract describes country-level regression from implementation changes to smoking prevalence, followed by attributable-fraction and impact-fraction calculations.",
+        "likely_consequence": "Residual country-level confounding, implementation measurement error, lag choices, and input uncertainty may shift the projected number of preventable cases.",
+        "confidence": "moderate",
+        "evidence_ids": ["ev-003", "ev-005"]
+      },
+      {
+        "limitation": "The wide difference between the primary and HDI-adjusted estimates indicates material scenario dependence.",
+        "rationale": "The estimate changes from 3.5 million to 2.2 million after HDI adjustment.",
+        "likely_consequence": "Policy communication should present the two estimates together and describe them as conditional projections rather than a guaranteed outcome.",
+        "confidence": "high",
+        "evidence_ids": ["ev-005", "ev-006"]
+      }
+    ]
+  },
+  "interpretation": "The study provides a population-level scenario estimate of how a comprehensive tobacco-control package could alter future cancer incidence. Its strongest communication value is not a single headline number but the contrast between current trends and stronger policy implementation, together with the visible sensitivity to HDI adjustment. Because the accessible review is abstract-only, the study supports a bounded introduction to the model and its estimates, not a complete methodological endorsement.",
+  "alternative_explanations": [
+    {
+      "statement": "Part of the modeled decline in smoking prevalence and cancer burden could track broader socioeconomic change rather than MPOWER implementation alone.",
+      "rationale": "The preventable-cancer estimate decreases substantially after HDI adjustment.",
+      "confidence": "moderate",
+      "evidence_ids": ["ev-006"]
+    }
+  ],
+  "generalizability": "The estimates apply to the modeled 15-country regional setting and the 2025–2050 inputs and assumptions. Absolute country totals are strongly influenced by population size and baseline burden. The results should not be transferred to an individual, a single province, or a different time period without corresponding inputs.",
+  "practical_implications": "For cancer-control planning, the study offers a way to translate tobacco-control scenarios into projected cancer incidence. For cancer registries and researchers, it highlights the need to retain sex, cancer-site, calendar-period, policy-implementation, smoking-prevalence, and socioeconomic inputs when evaluating future prevention scenarios.",
+  "application_implications": [
+    {
+      "domain": "cancer-control policy",
+      "implication": "Use the modeled range to communicate the possible scale of comprehensive tobacco control while preserving the conditional nature of the estimate.",
+      "support_basis": "The study compares full MPOWER implementation with continuation of current trends and reports 3.5 million preventable cases, or 2.2 million after HDI adjustment.",
+      "caveat": "The estimates are not observed effects and do not prove the effect of any single MPOWER component.",
+      "confidence": "moderate",
+      "evidence_ids": ["ev-005", "ev-006"]
+    },
+    {
+      "domain": "cancer registration and research",
+      "implication": "Plan future-burden analyses with transparent policy, exposure, demographic, cancer-site, and socioeconomic scenarios rather than reporting a single deterministic forecast.",
+      "support_basis": "The reported estimate changes materially after HDI adjustment and differs across countries and cancer sites.",
+      "caveat": "Full model specification and validation were not available for this abstract-level appraisal.",
+      "confidence": "moderate",
+      "evidence_ids": ["ev-006", "ev-007"]
+    }
+  ],
+  "take_home_messages": [
+    "The model estimates that full MPOWER implementation could prevent about 3.5 million cancers in 15 East and South-East Asian countries during 2025–2050, compared with continuation of current trends.",
+    "After HDI adjustment, the estimate falls to 2.2 million, so both numbers should be presented as conditional projections rather than guaranteed outcomes.",
+    "The projected benefit is largest in absolute terms for China and for lung cancer, but absolute totals are not rankings of policy quality or individual risk.",
+    "This is an abstract-level appraisal; full model assumptions, validation, and detailed limitations remain to be checked from the complete article."
+  ],
+  "study_specific": {
+    "other": {
+      "model_type": "country-level fixed-effects regression plus cancer burden projection",
+      "policy_package": "WHO MPOWER",
+      "countries": 15,
+      "cancer_sites": 13,
+      "time_horizon": "2025–2050",
+      "primary_effect_measure": "Potential Impact Fraction",
+      "scenario_analysis": [
+        "current smoking-prevalence trend",
+        "full MPOWER implementation",
+        "HDI-adjusted full MPOWER estimate"
+      ],
+      "calibration": "not assessable from abstract",
+      "internal_validation": "not assessable from abstract",
+      "external_validation": "not assessable from abstract",
+      "reproducibility": "not assessable from abstract"
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev-001",
+      "claim": "Bibliographic identity and publication details.",
+      "value": {
+        "doi": "10.1016/j.lanwpc.2026.101962",
+        "pmid": "42668493",
+        "journal": "The Lancet Regional Health – Western Pacific",
+        "volume": "74",
+        "article_number": "101962",
+        "online_publication_date": "2026-08-20"
+      },
+      "source": {
+        "page": null,
+        "section": "Bibliographic metadata",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "Crossref DOI record, Europe PMC PMID record, and IARC news citation"
+      },
+      "evidence_type": "metadata",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Metadata were concordant across the accessible records."
+    },
+    {
+      "evidence_id": "ev-002",
+      "claim": "The research question concerns highest-level implementation of the WHO MPOWER package across 15 countries.",
+      "value": {"countries": 15, "policy": "MPOWER"},
+      "source": {
+        "page": null,
+        "section": "Abstract – Background",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract; IARC news paragraph 2"
+      },
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "The exact country list was not visible in the accessible abstract."
+    },
+    {
+      "evidence_id": "ev-003",
+      "claim": "The study used Global Health Observatory and Global Cancer Observatory data, fixed-effects regression, Levin PAFs for 13 cancers, and differences in PAFs to estimate PIF under two scenarios.",
+      "value": {
+        "data_sources": ["Global Health Observatory", "Global Cancer Observatory"],
+        "regression": "fixed effects",
+        "cancer_sites": 13,
+        "measures": ["PAF", "PIF"]
+      },
+      "source": {
+        "page": null,
+        "section": "Abstract – Methods",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Only abstract-level method detail was accessible."
+    },
+    {
+      "evidence_id": "ev-004",
+      "claim": "From 2025 to 2050, 159 million tobacco-related cancer cases were projected, including 44.2 million attributed to current smoking.",
+      "value": {
+        "projected_tobacco_related_cancers": 159000000,
+        "smoking_attributable_cancers": 44200000,
+        "PAF_percent": 27.7,
+        "PAF_95CI_percent": [25.5, 29.9],
+        "men_attributable_cancers": 41600000,
+        "men_PAF_percent": 42.1,
+        "women_attributable_cancers": 2600000,
+        "women_PAF_percent": 4.3
+      },
+      "source": {
+        "page": null,
+        "section": "Abstract – Findings",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "These are modeled cumulative incidence estimates, not observed future cases."
+    },
+    {
+      "evidence_id": "ev-005",
+      "claim": "Full MPOWER implementation was estimated to prevent 3.5 million cancers, PIF 2.2%.",
+      "value": {
+        "preventable_cancers": 3500000,
+        "preventable_cancers_95CI": [2900000, 4000000],
+        "PIF_percent": 2.2,
+        "PIF_95CI_percent": [1.8, 2.5]
+      },
+      "source": {
+        "page": null,
+        "section": "Abstract – Findings",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Scenario estimate compared with continuation of the current trend."
+    },
+    {
+      "evidence_id": "ev-006",
+      "claim": "After adjustment for HDI variation, the estimated preventable cancers decreased to 2.2 million, PIF 1.4%.",
+      "value": {
+        "preventable_cancers": 2200000,
+        "PIF_percent": 1.4,
+        "PIF_95CI_percent": [1.2, 1.6]
+      },
+      "source": {
+        "page": null,
+        "section": "Abstract – Findings",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "The accessible abstract did not show a confidence interval for the count itself."
+    },
+    {
+      "evidence_id": "ev-007",
+      "claim": "China, Japan, and Indonesia had the largest absolute preventable counts in that order; lung cancer contributed the most, including more than 1.1 million cases in the HDI-adjusted scenario.",
+      "value": {
+        "country_order": ["China", "Japan", "Indonesia"],
+        "largest_cancer_site": "lung cancer",
+        "lung_cancer_preventable_cases": ">1100000"
+      },
+      "source": {
+        "page": null,
+        "section": "IARC news summary",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": "5",
+        "locator": "IARC news page published 2026-09-07"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "moderate",
+      "notes": "The full country- and cancer-site tables were not accessible for independent checking."
+    },
+    {
+      "evidence_id": "ev-008",
+      "claim": "The authors interpret comprehensive MPOWER implementation as capable of substantially reducing future regional cancer burden.",
+      "value": null,
+      "source": {
+        "page": null,
+        "section": "Abstract – Interpretation",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "ScienceDirect structured abstract and IARC news summary"
+      },
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "This is the authors' interpretation, not an independently observed policy effect."
+    }
+  ]
+}

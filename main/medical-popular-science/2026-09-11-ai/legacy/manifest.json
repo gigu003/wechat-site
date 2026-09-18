@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-09-11-ai",
+  "article_id": "2026-09-11-ai",
+  "account": "main",
+  "type": "news",
+  "content_type": "registry-practice",
+  "series": "medical-popular-science",
+  "theme": "warm-editorial",
+  "image_style": "infographic-mint",
+  "topic": "AI 从聊天工具到生产力：工作流越完善，越容易被取代吗？",
+  "created_at": "2026-09-11T22:17:12+08:00",
+  "updated_at": "2026-09-11T23:38:53+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:04+08:00",
+      "error": null,
+      "input_hash": "9c0b2e7f27aa67276b26d5c1629fa1499534b27aa0bde3d085835f1227057c5a"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:04+08:00",
+      "error": null,
+      "input_hash": "cc4a778cb25bdddbe20f9e59eda817712c65428c60ccda9152185caf2d307fad"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:04+08:00",
+      "error": null,
+      "input_hash": "dc125afef9b62d110b5e494d257bc2d2ee665de5cb093dbbd26830364537629a"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:04+08:00",
+      "error": null,
+      "input_hash": "e0361217c32250b3628c3ebfdbc75660faee56f35e4f533392835d0e48234d1b"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:04+08:00",
+      "error": null,
+      "input_hash": "814989d278a46e057f4309bd60250754ff44096941f96ea429992f8be1100515"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:37:05+08:00",
+      "error": null,
+      "input_hash": "a2be7b6f95eb8153c7d6e635fc6feb373c79be590741a75856b3bf316c12581c"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:38:02+08:00",
+      "error": null,
+      "input_hash": "43f9db58a77f18970198dfc2acfa0b11e4699c5cf7bd0b38a81e8fbaf24e679f"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-11T23:38:53+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-11T23:38:02+08:00",
+    "hashes": {
+      "ai_score.json": "862642f689cb775f1e5c964d193bc5875c721022217af6adf52654d84ae50573",
+      "article.md": "66c761f742dbc8058cedc1e8da29bd90f3438a1d08ffc4231bc589deb6fb03ec",
+      "brief.md": "ed4d2cae89b45c73b5bfe2c4902f9755d9952f03326446f3e05683fe56bb2b7f",
+      "content_value_report.json": "bb11e13f4bca0de6d8abbf5d5f9831d0f0c05b400d6dcdb342a202332da6788f",
+      "cover.png": "996a35f12b073e610bfe0af8075c1a50f3540b1792477de7b3e4f9fd2a629c9f",
+      "images/01-chat-to-agent.png": "d2ac973f2d23d80c9238313c953a20c1e872ff5de056a813d4d57ae8e757221a",
+      "images/02-productivity-anxiety.png": "347fadce1488b8d7c3a3954ecf1df774a65a2bf34437b2948e8b8e85ad6b2571",
+      "images/03-controlled-medical-data-workflow.png": "f335c99567515840c2cc4f1a57f524ca59c962ebab03fee7851040de66e8fc84",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "38e03e0845fcb53cfb906980a4e352a810fc1fcef3149674d759689723f8af34",
+      "wechat_seo_report.json": "0f3fc6b61efbd48e9b5516f61709e1cf282c927f4f0c035d2bada4823bf574db",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-Sj-tWcApkBNfNH9XNwW7GFB6SadnWaiIDnuesamm4ZG",
+    "created_at": "2026-09-11T23:38:53+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-09-11T22:17:12+08:00"
+  }
+}

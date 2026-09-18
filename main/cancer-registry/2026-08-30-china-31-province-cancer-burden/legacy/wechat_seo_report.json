@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-30-china-31-province-cancer-burden/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "2024年中国癌症负担：515万新发，31省癌谱有何差异？",
+    "title_chars": 29,
+    "summary_chars": 0,
+    "body_chars": 2779,
+    "headings": 13,
+    "paragraphs": 33,
+    "images": 7,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "2024年中国癌症负担：515万新发，31省癌谱有何差异？ 国家癌症中心研究估计，2024年中国恶性肿瘤新发515.06万例、死亡258.22万例。结合2019年登记监测的31省癌谱，本文解析肺癌主导、地区特色癌谱，以及省内顺位为何不能当作省际风险排名。 2024年中国癌症负担：新发515.06万，死亡258.22万 "
+  },
+  "keywords": [
+    {
+      "keyword": "31省癌症负担差异：肺癌主导下的不同癌谱",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "literature-interpretation",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "incidence-mortality-survival",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "registry-practice",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

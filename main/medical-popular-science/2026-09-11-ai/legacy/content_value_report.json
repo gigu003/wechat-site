@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "status": "review_required",
+  "automated_passed": true,
+  "metrics": {
+    "plain_text_characters": 1550,
+    "paragraph_count": 24,
+    "duplicate_long_paragraph_groups": 0,
+    "quote_character_ratio": 0.0,
+    "information_signals": {
+      "numbers": 2,
+      "links": 0,
+      "code_blocks": 0,
+      "tables": 0
+    }
+  },
+  "findings": [],
+  "manual_review": [
+    {
+      "dimension": "cross_article_similarity",
+      "status": "unknown",
+      "question": "是否与账号近期文章高度同质或属于重复发布？"
+    },
+    {
+      "dimension": "external_originality",
+      "status": "unknown",
+      "question": "是否存在搬运、抄袭或洗稿？"
+    },
+    {
+      "dimension": "reader_value",
+      "status": "unknown",
+      "question": "相对目标读者是否提供了新的可靠信息、解释、方法或适当的情绪价值？"
+    },
+    {
+      "dimension": "aigc_editorial_control",
+      "status": "unknown",
+      "question": "AIGC 是否仅作辅助，且最终稿经过事实核查、作者判断与定向编辑？"
+    }
+  ],
+  "limitations": [
+    "单篇离线文本不能可靠判定跨文章同质化、重复发布、抄袭或洗稿。",
+    "字数、数字、链接和代码数量不是内容价值评分，只用于定位需要人工复核的风险。",
+    "本报告不代表平台原创认定、推荐资格或流量预测。"
+  ]
+}

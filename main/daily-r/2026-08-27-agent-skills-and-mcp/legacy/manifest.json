@@ -1,0 +1,89 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-27-agent-skills-and-mcp",
+  "article_id": "2026-08-27-agent-skills-and-mcp",
+  "account": "main",
+  "type": "news",
+  "content_type": "tool-guide",
+  "series": "reproducible-data-analysis",
+  "theme": "sage-premium",
+  "image_style": "data-chart",
+  "topic": "Agent Skills 与 MCP：一个教方法，一个接工具",
+  "created_at": "2026-08-27T23:05:23+08:00",
+  "updated_at": "2026-08-31T18:09:24+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "00e70be095fbfe586641a9207da6db08f8d8cbda6918cccd9e020522fae1314f"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "92d98078679423711e6d097ffa8d08256ce5fe8b311e55b4462ac66dfab19170"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "62988038ecc66bd7e6293361e1e1f5a6c9b8755a1b0ae970a9ebacd5c26070e9"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "4c96ae3ce92c9f47f2fe338ad219915478c51215205b6cd88d2e127598f539fc"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "77a088083d0863d597f177ece077868fc69061b2631fabbd7dd8840ad00502fd"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "ca52c7bbe6b5095127e09d58b9a0180a8d763bbec62dfba8bf67ef8e726342e6"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "4756335e84386e942eff0c8cfbbd51905901c1852647f57807f5d5c5139fef61"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:09:24+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "73ef999d13aa638dce803996a448aad58dcfc8371cae96fe9adf046c6a0dbef4",
+      "article.md": "c78448567d31918f2811cd0f4417754a55c74c57595df0a241024f3ce7df1108",
+      "brief.md": "375b4217936c0aa61fbdb7006dbb80aca3f39d722f99c733746791636dd2e1e1",
+      "cover.png": "ea7b5f41f1009a27993610c89ecbb18af70467584d07fbf3ae27704304aa6ab7",
+      "images/01-two-lists.png": "c0635743d26d3be6ed6644ce6f12a3fbf9de9bb6016bed492b723fe4695dedd8",
+      "images/02-skill-anatomy.png": "e291584816ee883b2f8709f750c07e14e7271e939a7f51d8be8302cc00ab532a",
+      "images/03-mcp-primitives.png": "246cbbcd5b5b16d60f42171f7054ea53dc23a9a8818b69c433dc607f67742218",
+      "images/04-skill-vs-mcp.png": "b0e65d3a063cf418fcf02ce518e77b259c57e0c6844dc5c26fde505ff8cc9ed6",
+      "images/05-combined-workflow.png": "bfde960ed8b99ce028a2fb8a3cf118a64c659b276df1cca67c5c6925b2f2b197",
+      "images/06-security-gates.png": "8400611aff94d4b39daaec9309ade3a55ad3bc00387e1f4797379fe6a8f546ca",
+      "images/cover.png": "ac0d70d1adc87a5ebc408de6dd15858e8c92b655ed3a61c3ec7fe179fdc386d8",
+      "persona_report.json": "da57bc47c20ae0e69d5679ebf2a60a9868037dacd124b0c6a29aea6c34c3c6ba",
+      "wechat_seo_report.json": "a7fa239d4fd784ea8078b790b9daa06cb73cd8904a7bbd927d9742eab014fcb5"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-SPXPHehZZtEbxU2kvQOjbDkB1c8L5FpNKeSwGw6iAge",
+    "created_at": "2026-08-31T18:09:24+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

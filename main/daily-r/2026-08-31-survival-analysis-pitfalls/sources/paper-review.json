@@ -1,0 +1,787 @@
+{
+  "schema_version": "1.1.0",
+  "metadata": {
+    "title": "肿瘤临床研究中生存分析的常用方法与误区解读",
+    "authors": [
+      "吴昊天",
+      "刘莉"
+    ],
+    "journal": "中华肿瘤杂志",
+    "year": 2026,
+    "publication_date": "2026-02-23",
+    "volume": "48",
+    "issue": "2",
+    "pages": "196-202",
+    "doi": "10.3760/cma.j.cn112152-20250219-00067",
+    "pmid": null,
+    "zotero_key": null,
+    "url": "https://doi.org/10.3760/cma.j.cn112152-20250219-00067",
+    "citation": "吴昊天, 刘莉. 肿瘤临床研究中生存分析的常用方法与误区解读[J]. 中华肿瘤杂志, 2026, 48(2): 196-202. doi:10.3760/cma.j.cn112152-20250219-00067."
+  },
+  "review_context": {
+    "input_type": "local_pdf",
+    "source_used": "full_text_pdf",
+    "review_depth": "full_text",
+    "reviewed_at": "2026-08-31T15:30:34+08:00",
+    "access_notes": "审读用户提供的 7 页 PDF。先用 pdf_text_route.py 确认 7/7 页均有充分原生文本，再以 Docling 2.123.0 standard pipeline、--no-ocr 导出 Markdown 与 DoclingDocument JSON。转换得到 203 个文本项、6 个图片项、0 个表格项；全文标题、正文、图题、参考文献与尾部利益冲突声明完整。逐页渲染并核对原 PDF，尤其复核了比例风险诊断图、Schoenfeld 样本量公式及跨页 RMST 示例。Docling 在跨页处拆散了 RMST 数值，本文以原页为准。",
+    "ocr_used": false,
+    "supplement_reviewed": false
+  },
+  "full_text_available": true,
+  "study_type": "narrative_review",
+  "study_type_other": null,
+  "classification_basis": "文章以专题综论形式选择性梳理 Kaplan-Meier 法、对数秩检验、Cox 比例风险模型和 AFT 模型，并讨论 7 类常见误区；未报告可复现的检索策略、纳入排除标准、筛选流程或证据质量评价，因此归为叙述性综述，而非系统综述或方法学验证研究。",
+  "research_question": "肿瘤临床研究应如何组织常规生存分析流程、选择和解释常用方法，并识别协变量选择、比例风险假设、删失、事件数、绝对效应、中位时间和多重比较方面的常见错误？",
+  "background": "生存资料同时包含事件时间与删失信息，常用方法还依赖比例风险、非信息性删失等条件；若只看 P 值或 HR，容易误读治疗效果与预后关联。",
+  "knowledge_gap": "作者希望为肿瘤临床研究和研究报告撰写提供一份中文、流程化的方法与误区说明。文章没有证明这些误区的发生率，也没有系统评价所有可选方法的证据强度。",
+  "study_design": {
+    "summary": "面向肿瘤临床研究的叙述性方法综述。",
+    "details": {
+      "review_label": "专题综论",
+      "systematic_search_reported": false,
+      "eligibility_criteria_reported": false,
+      "risk_of_bias_appraisal_reported": false,
+      "reference_count": 30
+    },
+    "evidence_ids": [
+      "ev-001",
+      "ev-002",
+      "ev-015"
+    ]
+  },
+  "population": {
+    "description": "未纳入一个明确定义的患者样本；讨论对象是肿瘤临床研究中的时间结局分析，并使用假设性治疗比较作说明。",
+    "setting": "肿瘤临床研究方法与报告。",
+    "sample_size": null,
+    "eligibility": "未报告文献检索或纳入排除标准。",
+    "period": "未报告检索时段；参考文献年份覆盖 1972-2024。",
+    "evidence_ids": [
+      "ev-002",
+      "ev-015"
+    ]
+  },
+  "data_source": {
+    "summary": "作者选择的 30 条方法学及肿瘤学参考文献，加上文中构造的示例与示意图。",
+    "details": {
+      "databases": "not reported",
+      "search_date": "not reported",
+      "selection_process": "not reported"
+    },
+    "evidence_ids": [
+      "ev-015"
+    ]
+  },
+  "exposure_or_intervention": {
+    "summary": "不适用；文章比较的是生存分析方法、假设和报告口径。",
+    "details": {
+      "methods_discussed": [
+        "Kaplan-Meier",
+        "log-rank test",
+        "Cox proportional hazards model",
+        "accelerated failure time model",
+        "restricted mean survival time"
+      ]
+    },
+    "evidence_ids": [
+      "ev-002",
+      "ev-005",
+      "ev-007",
+      "ev-008",
+      "ev-011"
+    ]
+  },
+  "comparator": {
+    "summary": "不适用；文中以不同治疗组的假设性生存曲线、HR 和 RMST 作说明。",
+    "details": {
+      "hypothetical_comparisons": [
+        "方案 A 与方案 B",
+        "免疫治疗与化疗",
+        "新化疗方案与传统化疗方案"
+      ]
+    },
+    "evidence_ids": [
+      "ev-007",
+      "ev-011"
+    ]
+  },
+  "outcomes": [
+    {
+      "name": "生存分析方法选择与结果解释",
+      "role": "unspecified",
+      "definition": "围绕事件时间、删失、生存概率、风险函数、HR、中位生存时间、中位随访时间和 RMST 的方法学说明。",
+      "timepoint": null,
+      "evidence_ids": [
+        "ev-003",
+        "ev-005",
+        "ev-011",
+        "ev-012"
+      ]
+    }
+  ],
+  "methods": {
+    "summary": "文章先说明生存时间、事件、删失、生存函数和风险函数，再按数据核查、预处理、描述、单因素和多因素分析推进，随后逐项讨论 7 类常见问题及对策。",
+    "details": {
+      "analysis_sequence": [
+        "明确时间起点与结局",
+        "数据核查与预处理",
+        "描述基线",
+        "绘制 Kaplan-Meier 曲线",
+        "log-rank 或单因素 Cox",
+        "多因素模型",
+        "假设诊断与替代分析",
+        "结果报告"
+      ],
+      "pitfalls_count": 7
+    },
+    "evidence_ids": [
+      "ev-002",
+      "ev-003",
+      "ev-004"
+    ]
+  },
+  "statistical_analysis": {
+    "summary": "综述讨论 Kaplan-Meier、log-rank、Cox、Schoenfeld 残差与时间交互项、分层/时变 Cox、AFT、RMST、反向 Kaplan-Meier 及多重比较校正；未执行新的数据分析或证据合成。",
+    "details": {
+      "new_empirical_analysis": false,
+      "quantitative_synthesis": false,
+      "assumptions_emphasized": [
+        "比例风险",
+        "非信息性删失",
+        "参数分布假设"
+      ],
+      "multiplicity_methods": [
+        "Bonferroni",
+        "Benjamini-Hochberg",
+        "Holm"
+      ]
+    },
+    "evidence_ids": [
+      "ev-005",
+      "ev-007",
+      "ev-008",
+      "ev-009",
+      "ev-013"
+    ]
+  },
+  "main_findings": [
+    {
+      "finding": "生存分析应从时间起点、结局事件和删失定义开始；Kaplan-Meier 描述未调整生存概率，log-rank 检验组间曲线差异，Cox 模型用于估计协变量调整后的相对危险。",
+      "outcome": "分析流程",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": null,
+      "population": "肿瘤临床研究",
+      "timepoint": null,
+      "reviewer_interpretation": "这是文章最适合作为入门清单的部分，但各工具回答的问题不同，不能把 log-rank、HR 和某时点生存率互相替代。",
+      "evidence_ids": [
+        "ev-003",
+        "ev-004",
+        "ev-005"
+      ]
+    },
+    {
+      "finding": "使用 Cox 模型前应评估比例风险假设；若不满足，可考虑时间交互项、分时段、分层 Cox 或参数 AFT 模型，并比较模型拟合与科学合理性。",
+      "outcome": "模型假设与替代方法",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "比例风险成立与不成立的分析路径",
+      "population": "肿瘤临床研究",
+      "timepoint": null,
+      "reviewer_interpretation": "方向正确，但“不交叉即满足比例风险”和“P>0.05 即无影响”都过于绝对；图形、残差、时间交互、效应随时间的模式及研究机制需要合并判断。",
+      "evidence_ids": [
+        "ev-007",
+        "ev-008"
+      ]
+    },
+    {
+      "finding": "删失原因若与结局过程相关，常规独立删失假设可能不成立；作者介绍了多重插补和逆概率加权等处理思路。",
+      "outcome": "删失与缺失数据",
+      "effect_estimate": null,
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "非信息性删失与信息性删失",
+      "population": "肿瘤临床研究",
+      "timepoint": null,
+      "reviewer_interpretation": "关键不只是删失比例，而是删失发生在何时、为何发生、是否与未观测结局相关，以及处理模型依赖哪些可检验或不可检验假设。",
+      "evidence_ids": [
+        "ev-009"
+      ]
+    },
+    {
+      "finding": "研究效能主要受结局事件数影响；作者用 Schoenfeld 公式给出示例：在设定 α=0.05、效能 90%、两组等分、HR=1.5 时需 257 个事件，结合 60% 事件率和 15% 删失率后估计总样本量为 504。",
+      "outcome": "事件数与样本量",
+      "effect_estimate": "257 个事件；总样本量 504",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "假设性两组比较",
+      "population": "假设性生存研究",
+      "timepoint": null,
+      "reviewer_interpretation": "示例有助于说明事件数比总样本量更直接，但真实设计仍取决于入组、随访、失访、非比例风险、协变量结构和目标效应，不能直接套用 257 或 504。",
+      "evidence_ids": [
+        "ev-010"
+      ]
+    },
+    {
+      "finding": "作者建议在 HR 外报告某时点生存率差或 RMST，并区分中位生存时间与反向 Kaplan-Meier 得到的中位随访时间，同时处理多重比较。",
+      "outcome": "效应呈现与报告",
+      "effect_estimate": "示例中 3 年 RMST 为 2.2 年与 2.5 年，差 0.3 年",
+      "confidence_interval": null,
+      "p_value": null,
+      "comparison": "新化疗方案与传统化疗方案的假设性比较",
+      "population": "假设性非小细胞肺癌研究",
+      "timepoint": "3 年",
+      "reviewer_interpretation": "把相对量、绝对量与随访充分性同时报告，是文章最有实践价值的建议之一；但文中把 HR=0.8 直接表述为“疾病进展风险降低 20%”容易把瞬时风险比误读为累计风险比。",
+      "evidence_ids": [
+        "ev-011",
+        "ev-012",
+        "ev-013"
+      ]
+    }
+  ],
+  "authors_conclusion": {
+    "statement": "作者认为肿瘤生存分析应立足临床问题，重视方法假设、数据质量、绝对效应和多学科协作，并展望机器学习、高维数据与竞争风险建模。",
+    "evidence_ids": [
+      "ev-014"
+    ]
+  },
+  "authors_interpretations": [
+    {
+      "statement": "作者将比例风险假设、非信息性删失、足够事件数、绝对效应和多重比较视为提高肿瘤生存研究质量的关键环节。",
+      "evidence_ids": [
+        "ev-002",
+        "ev-007",
+        "ev-009",
+        "ev-010",
+        "ev-011",
+        "ev-013"
+      ]
+    },
+    {
+      "statement": "作者认为传统统计方法与机器学习可以互补，并提出高维组学和竞争风险是后续方法发展的方向。",
+      "evidence_ids": [
+        "ev-014"
+      ]
+    }
+  ],
+  "strengths": [
+    {
+      "strength": "按实际分析流程组织内容，并把假设检查放在结果解释之前。",
+      "why_it_matters": "读者可以从数据定义、描述分析一路检查到多因素模型和报告口径。",
+      "credibility_effect": "增强了文章作为教学清单和稿件自查框架的可用性。",
+      "evidence_ids": [
+        "ev-003",
+        "ev-004",
+        "ev-007"
+      ]
+    },
+    {
+      "strength": "用 Kaplan-Meier、log-log 和 Schoenfeld 残差图说明比例风险诊断。",
+      "why_it_matters": "把抽象模型假设转成可视化与检验组合，便于发现效应随时间变化。",
+      "credibility_effect": "使“不应默认 Cox 一定适用”的核心提醒更具体。",
+      "evidence_ids": [
+        "ev-007"
+      ]
+    },
+    {
+      "strength": "提醒在 HR 之外报告 RMST 或某时点生存率差，并区分中位生存与中位随访。",
+      "why_it_matters": "这些量回答不同问题，能减少把相对效应等同于患者获得多少生存时间的误解。",
+      "credibility_effect": "提高了结果解释的临床可读性。",
+      "evidence_ids": [
+        "ev-011",
+        "ev-012"
+      ]
+    }
+  ],
+  "limitations": {
+    "author_reported": [],
+    "reviewer_assessed": [
+      {
+        "limitation": "未报告系统检索、文献筛选和证据质量评价方法。",
+        "rationale": "全文直接进入概念与建议，末尾列 30 条参考文献，但没有数据库、检索日期、纳入标准、双人筛选或偏倚评价。",
+        "likely_consequence": "无法判断参考文献是否完整、选择是否平衡，也不能把本文视为对各方法优劣的系统证据综合。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-002",
+          "ev-015"
+        ]
+      },
+      {
+        "limitation": "协变量选择建议仍混用了临床知识、单因素 P 值和组间基线差异。",
+        "rationale": "文中一方面反对只按单因素 P 值筛选，另一方面又建议调整“统计学检验显著”的混杂因素、优先纳入组间分布有统计学差异的变量，并把逐步回归作为探索预后因素的路径。混杂因素应依据因果问题、时间顺序和领域知识识别；显著性与基线不平衡检验不能定义混杂。",
+        "likely_consequence": "照搬可能造成漏调真正混杂因素、调整中介或碰撞变量、模型不稳定和选择后偏倚。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-006"
+        ]
+      },
+      {
+        "limitation": "若干判断被写成了过强的二分规则。",
+        "rationale": "文中将 Kaplan-Meier 曲线不交叉作为符合比例风险假设的表征，并写道 AFT 中 P>0.05 可认为协变量对生存时间无影响。曲线不交叉不足以证明 HR 恒定；未拒绝零假设也不等于证明无效应。",
+        "likely_consequence": "读者可能把诊断工具当成单一判定门槛，或把不精确估计误报为“没有影响”。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-007",
+          "ev-008"
+        ]
+      },
+      {
+        "limitation": "“每个协变量至少 10 个事件”和“删失比例>70%需谨慎”被呈现为通用经验阈值。",
+        "rationale": "模型稳定性和偏倚还取决于效应大小、变量分布、参数数量、非线性、事件稀疏性、惩罚方法和验证策略；删失影响还取决于原因、时点和尾部风险集，而非一个比例即可决定。",
+        "likely_consequence": "机械套用阈值可能产生虚假的安全感，也可能拒绝本可通过合理设计与分析处理的数据。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-006",
+          "ev-009"
+        ]
+      },
+      {
+        "limitation": "HR 的示例解释把 hazard ratio 写成了累计风险降低。",
+        "rationale": "文中以 HR=0.8 表述“疾病进展的风险降低20%”。HR 比较的是给定尚未发生事件条件下的瞬时风险率；它不是某时点累计风险比，在非比例风险时单一 HR 的解释更受限制。",
+        "likely_consequence": "可能夸大或误述患者在固定时间窗内的绝对获益。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-007",
+          "ev-011"
+        ]
+      },
+      {
+        "limitation": "探索性亚组分析“可以不考虑多重性校正”的表述不够稳妥。",
+        "rationale": "即使不做形式化校正，数据驱动的多次亚组检验仍有较高假阳性与夸大效应风险，应预先区分验证性与探索性分析，并报告交互检验、分析数量和不确定性。",
+        "likely_consequence": "读者可能把未经校正的事后亚组 P 值当成确认性证据。",
+        "confidence": "high",
+        "evidence_ids": [
+          "ev-013"
+        ]
+      }
+    ]
+  },
+  "interpretation": "这篇文章适合用作肿瘤生存分析的入门地图和报告前检查单：它把时间起点、删失、Kaplan-Meier、log-rank、Cox、比例风险诊断、AFT、RMST、中位随访与多重比较放进同一条流程。它不是一份系统综述，也不是可直接照抄的统计分析计划。尤其应对协变量筛选、经验阈值、P>0.05、HR 解释和探索性亚组等表述再加一层方法学约束。最稳妥的使用方式是把文章的七类问题改写为提问清单，而不是七条固定规则。",
+  "alternative_explanations": [
+    {
+      "statement": "Cox 模型结果不稳定或置信区间变宽，不一定只由样本量不足造成。",
+      "rationale": "还可能来自事件稀少、共线性、变量编码不当、非线性、非比例风险、缺失数据或过拟合。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-006",
+        "ev-010"
+      ]
+    },
+    {
+      "statement": "高删失比例不必然意味着结果不可用，低删失比例也不保证无偏。",
+      "rationale": "关键是删失机制、删失时点、尾部仍处于风险集的人数及敏感性分析；少量但强信息性删失也可造成偏倚。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-009"
+      ]
+    },
+    {
+      "statement": "生存曲线不交叉仍可能存在非比例风险。",
+      "rationale": "两组曲线可以始终分离但距离随时间变化；比例风险要求相对 hazard 的时间稳定性，而不是仅要求曲线不交叉。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-007"
+      ]
+    }
+  ],
+  "generalizability": "作为中文方法综述，内容适用于需要理解和报告常见时间结局的肿瘤临床研究者。它不能替代针对具体研究设计的统计分析计划，也没有覆盖多状态模型、复发事件、治愈模型、动态预测、外部验证等全部场景。文中假设性肿瘤治疗示例用于说明概念，不构成任何治疗效果证据或个体诊疗建议。",
+  "practical_implications": "将文章转成研究方案与报告自查时，可依次追问：时间零点和事件是什么；删失为何发生；风险集是否足够；曲线和绝对量如何；Cox 假设是否合理；协变量为何进入模型；事件数是否支持模型复杂度；是否报告不确定性、多重性和敏感性分析。对每个答案写出方法、假设和不能推出的结论。",
+  "application_implications": [
+    {
+      "domain": "研究方案",
+      "implication": "在分析前明确 estimand、时间起点、事件、竞争事件、删失规则、目标效应量和随访窗口。",
+      "support_basis": "文章对生存时间、事件、删失、PH 假设和样本量的流程化说明。",
+      "caveat": "具体方案需根据研究问题和数据生成机制预先制定，不能只依据本文经验阈值。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-003",
+        "ev-007",
+        "ev-009",
+        "ev-010"
+      ]
+    },
+    {
+      "domain": "统计建模",
+      "implication": "同时查看曲线、模型诊断和效应随时间的形式；PH 不合理时改写 estimand 或选用适当替代模型。",
+      "support_basis": "文章列举 log-log 图、Schoenfeld 残差、时间交互、分层 Cox 与 AFT。",
+      "caveat": "替代方法各有额外假设，不能因为 Cox 不适用就自动得到可靠答案。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-007",
+        "ev-008"
+      ]
+    },
+    {
+      "domain": "结果报告",
+      "implication": "HR 与置信区间之外，按研究问题补充某时点生存率差、RMST 差、风险集人数和中位随访时间。",
+      "support_basis": "文章对绝对效应、RMST 和反向 Kaplan-Meier 的讨论。",
+      "caveat": "时间窗应预先指定并说明临床含义；HR 不应改写成累计风险比。",
+      "confidence": "high",
+      "evidence_ids": [
+        "ev-011",
+        "ev-012"
+      ]
+    }
+  ],
+  "take_home_messages": [
+    "先定义时间零点、事件、竞争事件和删失，再选择模型。",
+    "Kaplan-Meier、log-rank、HR、某时点生存率和 RMST 回答不同问题。",
+    "比例风险假设需要图形、残差、时间结构和专业知识共同判断；曲线不交叉不是充分条件。",
+    "协变量不应只按单因素 P 值或基线不平衡筛选，事件数与删失也不宜机械套用单一阈值。",
+    "P>0.05 不是“无影响”，HR=0.8 也不等于固定时间内累计风险必然下降20%。",
+    "这篇综述适合作为检查问题的起点，不是可直接复制的统计分析方案。"
+  ],
+  "study_specific": {
+    "other": {
+      "review_type": "叙述性方法综述",
+      "methods_covered": [
+        "Kaplan-Meier",
+        "log-rank",
+        "Cox PH",
+        "Schoenfeld residuals",
+        "time-varying effects",
+        "AFT",
+        "RMST",
+        "reverse Kaplan-Meier",
+        "multiplicity correction"
+      ],
+      "pitfalls_discussed": [
+        "协变量选择",
+        "比例风险假设",
+        "删失处理",
+        "样本量与事件数",
+        "绝对效应",
+        "中位生存与中位随访",
+        "多重比较"
+      ],
+      "search_strategy": "not reported",
+      "formal_evidence_appraisal": "not reported",
+      "evidence_ids": [
+        "ev-002",
+        "ev-015"
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev-001",
+      "claim": "文献身份、卷期、页码、DOI、作者与机构信息。",
+      "value": {
+        "journal": "中华肿瘤杂志",
+        "year": 2026,
+        "volume": "48",
+        "issue": "2",
+        "pages": "196-202",
+        "doi": "10.3760/cma.j.cn112152-20250219-00067",
+        "authors": [
+          "吴昊天",
+          "刘莉"
+        ]
+      },
+      "source": {
+        "page": 196,
+        "section": "首页题名与引用信息",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 1"
+      },
+      "evidence_type": "metadata",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "刊载日期在首页脚注标为 2026-02-23。"
+    },
+    {
+      "evidence_id": "ev-002",
+      "claim": "作者系统梳理 4 类常用方法，并列出 7 类常见问题。",
+      "value": {
+        "methods": [
+          "Kaplan-Meier",
+          "log-rank",
+          "Cox PH",
+          "AFT"
+        ],
+        "pitfalls_count": 7
+      },
+      "source": {
+        "page": 196,
+        "section": "摘要",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 1"
+      },
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-003",
+      "claim": "文章定义研究起点、结局事件、删失、生存函数和风险函数，并把主变量与协变量区分开。",
+      "value": null,
+      "source": {
+        "page": 197,
+        "section": "一、肿瘤患者生存分析的思路与步骤",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 2 左栏"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-004",
+      "claim": "作者提出数据核查、预处理、变量描述、单因素和多因素分析的流程。",
+      "value": null,
+      "source": {
+        "page": "197-198",
+        "section": "一、肿瘤患者生存分析的思路与步骤",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 2-3"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-005",
+      "claim": "Kaplan-Meier 用于估计未调整生存概率，log-rank 检验曲线差异但不给出具体组间估计，Cox 可在 PH 假设下给出 HR 并调整协变量。",
+      "value": null,
+      "source": {
+        "page": 198,
+        "section": "一、肿瘤患者生存分析的思路与步骤；3.单因素分析；4.多因素分析",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 3 左栏"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-006",
+      "claim": "文章反对只按单因素 P 值筛变量，但又建议调整显著的混杂因素、优先纳入组间分布显著不同的特征，并提出 Cox 模型每个协变量至少约 10 个事件。",
+      "value": {
+        "events_per_covariate_rule": 10
+      },
+      "source": {
+        "page": 198,
+        "section": "二、常见问题与解决策略；1.协变量的选择缺乏科学性",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 3 右栏"
+      },
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "该证据同时支持审阅者对变量选择规则与经验阈值的批评。"
+    },
+    {
+      "evidence_id": "ev-007",
+      "claim": "文章讨论非比例风险、图形和 Schoenfeld 残差诊断、时间交互、分时段和分层 Cox；并以 HR=0.7 的假设例子说明单一 HR 在非比例风险下受限。",
+      "value": {
+        "illustrative_hr": 0.7
+      },
+      "source": {
+        "page": "198-199",
+        "section": "二、常见问题与解决策略；2.进行Cox比例风险模型分析时易忽略比例风险假设的检验",
+        "table": null,
+        "figure": "图2-图4",
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 3-4"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "原文还称两组 KM 曲线不相交则符合 PH；该表述不足以构成充分判据。"
+    },
+    {
+      "evidence_id": "ev-008",
+      "claim": "文章介绍 AFT 模型、加速因子和分布选择，但将 P>0.05 解释为协变量对生存时间无影响。",
+      "value": null,
+      "source": {
+        "page": "199-200",
+        "section": "二、常见问题与解决策略；2.比例风险假设",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 4-5"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "P>0.05 仅表示当前数据未拒绝零假设，不能证明无影响。"
+    },
+    {
+      "evidence_id": "ev-009",
+      "claim": "文章区分非信息性与信息性删失，介绍多重插补和逆概率加权，并提出删失比例超过 70% 时应谨慎。",
+      "value": {
+        "censoring_threshold_percent": 70
+      },
+      "source": {
+        "page": 200,
+        "section": "二、常见问题与解决策略；3.删失数据处理不当",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 5 左栏"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "70% 是文章给出的经验提醒，不是由本文验证的普适阈值。"
+    },
+    {
+      "evidence_id": "ev-010",
+      "claim": "文章以 Schoenfeld 公式说明事件数与样本量设计；示例需 257 个事件，结合 60% 事件率和 15% 删失率后总样本量为 504。",
+      "value": {
+        "alpha": 0.05,
+        "power": 0.9,
+        "allocation": "1:1",
+        "hazard_ratio": 1.5,
+        "events": 257,
+        "event_probability": 0.6,
+        "censoring_probability": 0.15,
+        "total_sample_size": 504
+      },
+      "source": {
+        "page": 200,
+        "section": "二、常见问题与解决策略；4.样本量或结局事件数量不足导致研究效能较低",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 5 右栏"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "公式符号和示例数字已对原页核验。"
+    },
+    {
+      "evidence_id": "ev-011",
+      "claim": "文章建议 HR 外报告生存率差或 RMST；假设例子中 HR=0.8，3 年 RMST 为 2.2 年与 2.5 年，差 0.3 年。",
+      "value": {
+        "hazard_ratio": 0.8,
+        "restriction_time_years": 3,
+        "rmst_control_years": 2.2,
+        "rmst_new_years": 2.5,
+        "rmst_difference_years": 0.3
+      },
+      "source": {
+        "page": "200-201",
+        "section": "二、常见问题与解决策略；5.对绝对风险效应关注不足",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 5 右栏至文件页 6 左栏"
+      },
+      "evidence_type": "numeric_result",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "Docling 在跨页处拆散数值；已根据原 PDF 连续阅读复核。原文把 HR=0.8 表述为疾病进展风险降低20%，审读中保留并指出该解释限制。"
+    },
+    {
+      "evidence_id": "ev-012",
+      "claim": "文章区分中位生存时间与中位随访时间，并建议用反向 Kaplan-Meier 估计中位随访。",
+      "value": null,
+      "source": {
+        "page": 201,
+        "section": "二、常见问题与解决策略；6.混淆中位生存时间与中位随访时间",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 6 左栏"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": null
+    },
+    {
+      "evidence_id": "ev-013",
+      "claim": "文章介绍 Bonferroni、Benjamini-Hochberg 和 Holm 校正，并称探索性亚组分析可以不考虑多重性校正。",
+      "value": {
+        "methods": [
+          "Bonferroni",
+          "Benjamini-Hochberg",
+          "Holm"
+        ]
+      },
+      "source": {
+        "page": 201,
+        "section": "二、常见问题与解决策略；7.忽略生存分析中的多重比较校正",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 6"
+      },
+      "evidence_type": "method",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "审读中将该句视为需进一步限定的建议。"
+    },
+    {
+      "evidence_id": "ev-014",
+      "claim": "作者展望机器学习、高维组学和竞争风险方法，并主张传统统计与机器学习互补。",
+      "value": null,
+      "source": {
+        "page": 201,
+        "section": "三、总结与展望",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 6 右栏"
+      },
+      "evidence_type": "paraphrase",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "该段为作者展望，不是本文验证结果。"
+    },
+    {
+      "evidence_id": "ev-015",
+      "claim": "全文列 30 条参考文献，声明所有作者无利益冲突；正文未报告系统综述方法。",
+      "value": {
+        "reference_count": 30,
+        "conflict_of_interest": "所有作者声明无利益冲突"
+      },
+      "source": {
+        "page": "201-202",
+        "section": "利益冲突；参考文献",
+        "table": null,
+        "figure": null,
+        "supplement": null,
+        "paragraph": null,
+        "locator": "PDF 文件页 6-7"
+      },
+      "evidence_type": "metadata",
+      "excerpt": null,
+      "confidence": "high",
+      "notes": "不存在单独的方法部分说明检索与筛选。"
+    }
+  ]
+}

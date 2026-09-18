@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T19:55:38+08:00",
+  "source": "local_analytics",
+  "account": "main",
+  "topic": "插值法是什么？线性、多项式、样条和径向基函数如何选择",
+  "status": "no_database",
+  "candidates": []
+}

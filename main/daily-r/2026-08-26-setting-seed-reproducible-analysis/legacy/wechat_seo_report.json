@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-26-setting-seed-reproducible-analysis/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "设置种子，保证数据分析的可重复性",
+    "title_chars": 16,
+    "summary_chars": 0,
+    "body_chars": 3098,
+    "headings": 17,
+    "paragraphs": 48,
+    "images": 7,
+    "images_missing_alt": 0,
+    "links": 5,
+    "opening_160_chars": "设置种子，保证数据分析的可重复性 同一段抽样代码，运行两次却得到两组结果。这不一定是程序出错，很可能只是少了一行 set.seed() 。 先看一段可复现的输出 以本文验证的 R 4.5.2 环境运行，预期输出如代码注释所示： 这段代码在 R 4.5.2 的干净会话中已实际运行。两次抽样结果完全相同，原因并不神秘：每次"
+  },
+  "keywords": [
+    {
+      "keyword": "设置种子，保证数据分析的可重复性",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "research-tools",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    },
+    {
+      "keyword": "statistical-methods",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

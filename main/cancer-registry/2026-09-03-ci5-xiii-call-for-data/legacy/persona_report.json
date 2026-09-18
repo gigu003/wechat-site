@@ -1,0 +1,583 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "release-note",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 81,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 五大洲癌症发病率第十三卷（CI5-XIII）：倡议全球肿瘤登记处提交2018—2022年登记数据"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 《五大洲癌症发病率》（Cancer Incidence in Five Continents，CI5）是国际癌症研究机构（IARC）与国际癌症登记协会（IACR）长期合作形成的全球人群癌症登记资料系列。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "CI5 的核心任务，是汇集来自世界各地人群肿瘤登记处的高质量发病资料，并在尽可能一致的标准下呈现不同地区和登记时期的癌症发病情况。它既是肿瘤登记资料的国际交流平台，也是癌症流行病学研究和全球癌症监测的重要数据来源。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "CI5-XIII 是第十三卷，正式评估的目标时期为 2018—2022 年，计划以在线版本和精简 PDF 形式发布。相关资料也将用于 IACR 网站的 CI5 2.0 等可视化工具。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 9,
+      "sample": "IARC 与 IACR 于 2026 年 9 月 1 日发布 CI5-XIII 数据上报倡议书（call for data），倡议全球符合条件的人群肿瘤登记处提交 2018—2022 年肿瘤登记数据。倡议书对上报内容及具体上报流程进行了详细说明和指导。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 11,
+      "sample": "## CI5-XIII 数据将用于什么"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 17,
+      "sample": "| CI5 2.0 | 基于 CI5 各卷登记发病资料，比较不同登记处、卷次和时期的发病率。CI5-XIII 将补充 2018—2022 年数据。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 18,
+      "sample": "| CI5+ | 面向拥有至少15年连续资料的登记处，展示更细的年度资料、主要组织学组及180多个诊断单元；登记处可以选择不提供。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "| GCO：Cancer Over Time | 展示国家或全国代表性的癌症发病趋势，并可与生命统计死亡趋势对应；通常要求至少15年连续资料。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 20,
+      "sample": "| GCO：Cancer Today | 提供国家层面的癌症负担估计。CI5-XIII 资料可能间接用于未来双年度 GLOBOCAN 国家估计。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 22,
+      "sample": "提交 CI5-XIII 数据有三层意义："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 24,
+      "sample": "1. **接受正式评估。** 所有提交给 CI5-XIII 的数据集，都将由指定的内部编辑委员会认真评估其可比性、完整性和准确性。委员会成员包括 Freddie Bray、Aude Bardot、Murielle Colombet、Les Mery、Adalberto M. Filho、Isabelle Soerjom"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 32,
+      "sample": "## 计划向 CI5-XIII 提交数据，请重点关注以下信息"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 36,
+      "sample": "| 数据提交截止 | 2026年11月30日 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "| 正式评估目标时期 | 2018—2022年 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 38,
+      "sample": "| 可被考虑的最低数据量 | 目标时期内连续3年 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "连续 3 年只是最低考虑条件，不代表提交后一定收录。资料还要经过 CI5-XIII 编辑委员会评估，重点看可比性、完整性和准确性。官方建议尽早提交，以便留出沟通和补充时间。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "1. **截止日期。** 本次数据提交的截止日期为 2026 年 11 月 30 日。官方鼓励尽早提交，不要把账号、资料核对和补充说明留到截止日前集中处理。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 50,
+      "sample": "3. **2020—2021 年的病例发现变化。** COVID-19 期间如出现明确的病例短缺，CI5-XIII 审查时会用星号标记。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 53,
+      "sample": "6. **咨询方式。** 关于提交材料或其他信息的问题，请联系 CI5 编辑部：`ci5@iarc.who.int`。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "☐ **Coding file**：本地编码规则、登记覆盖范围或人口估计方法与 CI5-XIII 数据上报要求不同，或存在特殊代码时提供；"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "### 1. 发病数据：按病例逐条列出"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 73,
+      "sample": "发病数据应以个案记录的形式提交，每行一个病例。2018—2022 年间、所有年龄组的原发肿瘤都应纳入；如果登记处收集，还包括："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 79,
+      "sample": "CI5-XIII 数据上报要求中变量名前带 `*` 的为必填变量。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 83,
+      "sample": "### 1.1 发病数据集变量"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 87,
+      "sample": "| Ethnic group（民族/族群） | 否 | 登记处自定义 | 99 | 如登记资料允许按民族/族群分析，应在病例数据和人口数据中使用相同的亚群编码；有死亡数据时也应尽可能保持一致。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 89,
+      "sample": "| Tumour sequence #（肿瘤序号） | 否 | 单个肿瘤=00；多个肿瘤从01开始编号 | 99 | 区分同一患者登记的不同肿瘤及其发生顺序。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 90,
+      "sample": "| *Date of Birth（出生日期） | 是 | YYYYMMDD | 99999999 | 日期年份必须使用四位数；如只能得到出生年月，可使用类似 YYYYMM99 的形式。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "| *Sex（性别） | 是 | 1=男性，2=女性 | 9 | 按 CI5-XIII 数据上报要求编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "| *Age in Years（年龄，岁） | 是 | 周岁 | 999 | 使用最后一个已完成的年龄；不足1岁记为0，超过99岁记为100。未知年龄不能与99岁以上混用。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 94,
+      "sample": "| *ICD-O-3 Topography（ICD-O-3解剖部位） | 是 | ICD-O-3定义，带字母C，如C531 | 不允许 | 原发肿瘤的解剖部位编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 95,
+      "sample": "| *ICD-O-3 Morphology（ICD-O-3形态学） | 是 | ICD-O-3定义，如8170 | 不允许 | 肿瘤组织学/形态学编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 96,
+      "sample": "| *ICD-O-3 Behaviour（ICD-O-3行为） | 是 | ICD-O-3定义，如3 | 不允许 | 肿瘤行为编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 97,
+      "sample": "| ICD-O-3 version（ICD-O-3版本） | 否 | 0、1或2 | 依 CI5-XIII 数据上报要求 | 说明使用的 ICD-O-3 版本。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 98,
+      "sample": "| *Basis of Diagnosis（诊断依据） | 是 | 见下表 | 9=未知 | 表示建立癌症诊断时所依据的证据程度。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 99,
+      "sample": "| Vital Status（生存状态） | 可选 | 1=存活，2=死亡，3=失访 | 9=未知 | 截至最新联系日期或研究截止日的状态。邀请信明确将其列为发病数据提交中的可选字段。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 100,
+      "sample": "| Date of Last Contact（末次联系日期） | 可选 | YYYYMMDD | 99999999 | 死者填写死亡日期；存活者填写最近一次已知生存状态对应的日期，不是无法确认状态时的尝试联系日期。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 101,
+      "sample": "| IARC Flag（IARC标记） | 否 | 1=OK，2=已检查，0=失败 | 9 | 标记该条记录是否已经使用 IARCcrgTools 等工具检查。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 102,
+      "sample": "| TNM Stage（TNM分期） | 可选 | 1=Ⅰ期，2=Ⅱ期，3=Ⅲ期，4=Ⅳ期 | 9 | 根据 TNM 各组成部分确定；在资料不完整时可结合临床和病理资料，M分量可能优先使用临床资料。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 103,
+      "sample": "| TNM edition（TNM版本） | 可选 | 7=UICC第7版，8=UICC第8版，E=E TNM | 99 | 说明使用的 TNM 分期版本。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 109,
+      "sample": "| 0 | 仅有死亡证明 | 诊断信息来自死亡证明。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 110,
+      "sample": "| 1 | 临床诊断 | 在患者死亡前作出诊断，但不符合代码 2—7。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 111,
+      "sample": "| 2 | 临床检查 | 通过 X 线、内镜、影像、超声、探查手术或尸检等诊断技术获得信息，但没有组织学诊断。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 112,
+      "sample": "| 4 | 特异性肿瘤标志物 | 包括对某一肿瘤部位具有特异性的生化或免疫学标志物。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 113,
+      "sample": "| 5 | 细胞学 | 检查原发部位或继发部位的细胞，包括内镜或穿刺抽取的液体，也包括外周血和骨髓抽吸物的显微镜检查。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 114,
+      "sample": "| 6 | 转移灶组织学 | 对转移灶组织进行组织学检查，包括尸检标本。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 115,
+      "sample": "| 7 | 原发肿瘤组织学 | 对原发肿瘤组织进行组织学检查，包括各种切取技术、骨髓活检和原发肿瘤尸检标本。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 116,
+      "sample": "| 9 | 未知 | 无法确定诊断依据。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 118,
+      "sample": "**Notes：**CI5-XIII 数据上报要求将 0、1、2、4 归入非显微镜证据，将 5、6、7 归入显微镜证据；代码 9 表示诊断依据未知。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 122,
+      "sample": "### 2. 人口数据集变量"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 124,
+      "sample": "人口数据应优先来自官方人口普查，或来自人口登记和生命统计体系支持的年间/年后估计。普查资料应提供参考日期；官方估计最好按每个日历年提供，并尽可能使用 7 月 1 日的年中人口数。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 130,
+      "sample": "| *Age / Age group（年龄/年龄组） | 是 | 尽可能使用单岁年龄；也可使用标准18个五岁年龄组 | 不允许 | 居民人数对应的年龄或年龄组。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 132,
+      "sample": "| Ethnic group（民族/族群） | 否 | 与发病数据集相同 | 99 | 如提供，应使用与病例数据一致的亚群编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 134,
+      "sample": "人口数据按“年份—性别—年龄/年龄组”逐行提供居民人数。年龄组少于标准18组或包含未知年龄时，应在 coding file 中说明。人口数据的民族、登记区域、时期、性别和年龄范围应与病例数据匹配，数据来源列入在线调查问卷。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 136,
+      "sample": "### 3. 死亡数据集变量"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 144,
+      "sample": "| *Age / Age group（年龄/年龄组） | 是 | 尽可能单岁；也可使用标准18个年龄组 | 不允许 | 死亡人数对应的年龄或年龄组。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 145,
+      "sample": "| *Cause of death（死因） | 是 | ICD-10，适用时优先使用三位编码，如C61 | 不允许 | 按 ICD-10 编码的癌症死因。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 147,
+      "sample": "| Ethnic group（民族/族群） | 否 | 与发病数据集相同 | 99 | 如提供，应使用与病例数据一致的亚群编码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 151,
+      "sample": "### 4. 人口寿命表（population life table）数据集变量"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 158,
+      "sample": "| *Sex（性别） | 是 | 1=男性，2=女性 | 不允许 | 按 CI5-XIII 数据上报要求使用性别代码。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 160,
+      "sample": "| *Mortality probability（死亡概率） | 是 | 数值，保留6位小数 | 不允许 | 相应年份、性别和年龄的全因死亡概率。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 162,
+      "sample": "提交时应提供寿命表资料来源；CI5-XIII 数据上报要求建议使用生命统计部门或同等官方机构、基于死亡证明/死亡记录形成的资料。如果有按社会经济组或民族/族群划分的附加寿命表，也可以按照病例数据中的相同编码提交。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 166,
+      "sample": "### 5. Coding file：本地编码差异必须写清楚"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 168,
+      "sample": "Coding file 用于解释登记处本地编码规则和特殊代码。凡本地做法与 CI5-XIII 数据上报要求不同，或登记期间发生影响解释的变化，都应在其中说明。数据上报要求列出的内容包括："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 174,
+      "sample": "• 诊断依据的编码规则与 CI5-XIII 数据上报要求代码不同之处；"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 180,
+      "sample": "• 年龄组少于标准18组时的调整方法，未知年龄、未知性别或其他特殊代码的含义；"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 184,
+      "sample": "例如，本地把未知年龄编码为 `9999`，或将病理确诊日期作为发病日期，都应在 coding file 中写明。这样编辑者才能判断本地代码与 CI5-XIII 规范的对应关系。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 188,
+      "sample": "### 6. 在线调查问卷"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 200,
+      "sample": "### 再检查 2020—2021 年的完整性"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 202,
+      "sample": "不少人群肿瘤登记处在 COVID-19 大流行期间受到运行中断影响。如果 2020 年或 2021 年存在明确的病例短缺证据，CI5-XIII 审查时会用星号标记。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 208,
+      "sample": "CI5-XIII 数据上报要求表格中带星号的变量是必填变量；不同字段对未知或缺失码的允许方式不同，应按 CI5-XIII 数据上报要求逐项检查。邀请信还说明，以下字段在发病数据提交中属于可选项："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 224,
+      "sample": "根据以往上报经验，CI5 数据审核重点关注可比性、完整性和有效性。下面这些异常可能触发核查，或影响最终收录。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 232,
+      "sample": "| MV% 异常或波动过大 | 全部癌症或某一癌种的病理诊断比例明显过高、过低；肝癌 MV% 特别高或年度间变化很大 | 逐条核对诊断依据、ICD-O-3 形态学编码和病理资料获取流程，排除编码或分类错误。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 233,
+      "sample": "| M:I 不合理或年度间不稳定 | 某癌种 M:I 明显大于1，或同一登记处不同年份差异很大 | 将发病数据与同期官方死亡数据匹配，核实发病漏报、死亡漏报、死亡日期错分及重复登记。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 234,
+      "sample": "| DCO% 过低甚至为0 | 多数年份没有 DCO，或与同区域其他登记处差异明显 | 核查死亡医学证明书追溯流程，以及排除 DCO 病例的标准；不能仅因没有 DCO 就直接视为质量好。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 235,
+      "sample": "| 年龄别曲线不符合预期 | 80/85岁及以上发病率明显下降，儿童病例过少，或儿童发病率超出参考范围 | 检查高龄和儿童病例是否漏报、年龄编码是否正确，同时核对人口年龄结构。 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 249,
+      "sample": "## 2018 年以前和 2022 年以后数据怎么处理"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 251,
+      "sample": "CI5-XIII 正式出版评估只针对 2018—2022 年。官方仍鼓励登记处提交可用的更早年份数据：这些资料可用于更新此前提供的数据集和评估质量问题。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 253,
+      "sample": "如果登记处已经提交过 CI5-XII 数据，且目前对 2018 年以前的历史数据进行了较大更新，建议本次一并提交修订后的历史数据，便于更新既有资料并保持前后数据的一致性。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 255,
+      "sample": "如果 2022 年以后的资料已经完整，也可以一并提供。它们不会进入 CI5-XIII 的正式数据评估，但可能用于 IARC/IACR 网站上的数据可视化工具，帮助展示较新的登记资料。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 259,
+      "sample": "预祝所有提交 CI5-XIII 数据的人群肿瘤登记处顺利通过审核，成功收录。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

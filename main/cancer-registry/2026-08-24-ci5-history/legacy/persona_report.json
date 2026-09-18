@@ -1,0 +1,310 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 42,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 从32个登记处到460个：CI5如何记录全球癌症发病"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 1966年，《五大洲癌症发病率》第I卷收录32个登记处。半个多世纪后，第XII卷官方主页列出65个国家的460个人群肿瘤登记处。数量之外，更值得追问的是：这些发病率是怎样变得可比的？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "## 1966：先把“谁”和“多久”说清楚"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "CI5，即 *Cancer Incidence in Five Continents*，中文通常译作《五大洲癌症发病率》。第I卷由 Richard Doll、Peter Payne 和 John Waterhouse 编辑，1966年出版，纳入29个国家、32个登记处、35个登记人群。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "CI5大约每5年出版一卷。若只选几个节点，这条时间线是这样的："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 21,
+      "sample": "- 1966年，第I卷：32个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 22,
+      "sample": "- 1987年，第V卷：105个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "- 2002年，第VIII卷：186个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 24,
+      "sample": "- 第X卷：2003–2007年诊断数据，68个国家、290个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 25,
+      "sample": "- 第XI卷：2008–2012年诊断数据，65个国家、343个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 26,
+      "sample": "- 第XII卷：2013–2017年诊断数据，当前官方主页报告65个国家、460个登记处。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 30,
+      "sample": "“五大洲”留在书名里，是一个延续至今的专有名称。当代CI5展示数据时，会把美洲分成北美和中南美，再与非洲、亚洲、欧洲和大洋洲并列。所以，不必用今天的统计分区数量去纠结这个历史书名。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 32,
+      "sample": "但另一个数字必须纠结。Bray等对第X卷的分析显示，当时被纳入登记处覆盖约占全球人口14%。按洲看，北美约95%、大洋洲约78%、欧洲约42%；中南美约8%、亚洲约6%、非洲约2%。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 36,
+      "sample": "## 中国的变化：从上海一处到157个大陆登记处"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 38,
+      "sample": "按CI5官方I–XII卷登记处清单逐行统计，并把中国大陆、香港、澳门和台湾分开，可以看到一条并不平滑、但扩张非常明显的轨迹。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 40,
+      "sample": "| CI5卷 | 大致诊断期 | 中国大陆 | 香港 | 澳门 | 台湾 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 42,
+      "sample": "| IV | 1973–1977 | 1 | 1 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "| V | 1978–1982 | 2 | 1 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 44,
+      "sample": "| VI–VII | 1983–1992 | 每卷3 | 每卷1 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "| VIII | 1993–1997 | 8 | 1 | 0 | 1 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 46,
+      "sample": "| IX | 1998–2002 | 5 | 1 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 47,
+      "sample": "| X | 2003–2007 | 12 | 1 | 1 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 48,
+      "sample": "| XI | 2008–2012 | 35 | 1 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 49,
+      "sample": "| XII | 2013–2017 | 157 | 0 | 0 | 0 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 53,
+      "sample": "现行统一清单中，第I–III卷没有中国条目；第IV卷首次出现中国大陆数据，来自上海市1975年，同时收录香港1974–1977年数据。上海此后连续出现在第IV–XII卷，是观察长期变化时非常珍贵的连续序列。天津、启东等登记处则曾在部分卷次缺席，提醒我们：@@比较历卷时，登记处集合本身也在变化@@。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "中国大陆的扩张在最近三卷明显加速：第X卷12个、第XI卷35个，到第XII卷达到157个。按同一官方清单计算，这157个约占第XII卷全球460个登记处的34%。它说明中国数据在CI5中的分量明显增加，==却不等于覆盖了全国34%的人口，更不等于形成了全国代表性样本==。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 57,
+      "sample": "还有一组数字容易混淆：CI5第XII卷方法章节显示，中国提交的数据集由第X卷的30个增至第XI卷的103个、第XII卷的261个；这些是++提交数++，不是最终收录登记处数。提交后仍要经过可比性、完整性和有效性审查。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 59,
+      "sample": "表中某一卷显示香港、澳门或台湾为0，只表示现行官方清单中该卷没有对应收录条目，不能据此判断当地是否存在肿瘤登记系统，更不能评价其质量。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 61,
+      "sample": "## 从521个候选人群到424个纳入人群"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 63,
+      "sample": "覆盖范围扩大，并不意味着“收到什么就放进去什么”。CI5的可比性，很大程度来自纳入前的检查和取舍。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 65,
+      "sample": "第X卷是一个很好的例子。2011年9月，数据征集通知发给591个IACR成员。到2012年初，编辑组收到80个国家、372个登记处、521个登记人群的数据。最终出现在第X卷的，是68个国家、290个登记处和424个人群。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 73,
+      "sample": "## CI5画出的是差异，不会自动给出原因"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 75,
+      "sample": "CI5让不同登记人群的发病率，可以按尽量一致的年龄、性别、癌种和编码口径比较。地理图谱因此变得非常鲜明。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 79,
+      "sample": "Bray等（2015）对第X卷2003–2007年数据的分析显示，女性乳腺癌在西欧、北美和澳大利亚/新西兰的部分登记人群中较高；宫颈癌在纳入的部分撒哈拉以南非洲人群中很高；胃癌和肝癌在亚洲不同登记人群之间也存在大幅差异。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 87,
+      "sample": "## 从纸质卷册到CI5plus，“看趋势”变了"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 89,
+      "sample": "纸质时代的CI5，主要是隔几年将登记处数据汇成一卷。网络化之后，CI5 I–XII将历卷数据放进统一查询界面；CI5plus则为经选登记处提供年度发病时间序列。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 95,
+      "sample": "`CI5` 与 `GLOBOCAN` 也不能混用。CI5主要展示被纳入登记处的观测数据；GLOBOCAN为了得到国家层面的广泛覆盖，会按数据可用性使用趋势外推、地方登记处代表、死亡—发病比模型或邻国数据等方法生成国家估计。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 99,
+      "sample": "## 打开一张CI5表格时，先看这六项"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 105,
+      "sample": "3. 指标是粗率、年龄别率、世界年龄标化率，还是0–74岁累积率？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 110,
+      "sample": "IARC研究者Soerjomataram与Bray在2021年发表于 *Nature Reviews Clinical Oncology* 的模型前瞻预测，若主要癌种近期趋势延续，2070年全球新发癌症约为3400万例，约为2020年水平的两倍。这是建立在趋势和人口假设上的前瞻，不是CI5已经观测到2070年，更不是无"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 112,
+      "sample": "CI5提供的是群体层面的流行病学证据，不能用来预测某个人是否会患癌，也不能替代面向个体的筛查、诊断或治疗建议。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 114,
+      "sample": "CI5的这段历史，与其说是一部发病率排名史，不如说是一部全球登记数据基础设施的建设史。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

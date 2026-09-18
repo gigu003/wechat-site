@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-09-05-interpolation-methods/article.md",
+  "format": "markdown_or_text",
+  "metrics": {
+    "title": "插值法是什么？线性、多项式、样条和径向基函数如何选择",
+    "title_chars": 26,
+    "summary_chars": 0,
+    "body_chars": 3993,
+    "headings": 13,
+    "paragraphs": 43,
+    "images": 5,
+    "images_missing_alt": 0,
+    "links": 0,
+    "opening_160_chars": "插值法是什么？线性、多项式、样条和径向基函数如何选择 当某个时间点、年龄或空间位置没有观测值时，插值可以根据周围的已知点，估计已知范围内的新数值。但估计值不是新观测，曲线更平滑也不代表更接近真实情况。线性、多项式、样条和径向基函数依赖不同的假设，选择时需要同时考虑数据维度、局部形态、噪声和使用目的。 插值解决的是什么问"
+  },
+  "keywords": [
+    {
+      "keyword": "插值法是什么？线性、多项式、样条和径向基函数如何选择",
+      "in_title": true,
+      "in_summary": false,
+      "in_opening_160_chars": true,
+      "body_occurrences": 1
+    },
+    {
+      "keyword": "statistical-methods",
+      "in_title": false,
+      "in_summary": false,
+      "in_opening_160_chars": false,
+      "body_occurrences": 0
+    }
+  ],
+  "review_flags": [],
+  "limitations": [
+    "本结果不预测微信收录、排名、点击或推荐量。",
+    "脚本不能判断事实准确性、原创权利、作者资质、真实阅读体验或账号历史。",
+    "字数和结构提示是审计启发式，不是微信官方排名阈值。"
+  ],
+  "status": "ready",
+  "skill_root": "/Users/qc0824/Documents/2_Areas/Skills/wechat-seo",
+  "rule_hash": "4fc8fedd9b202e111e0b60dd4686947014219e0ceafb85f08de4f0b15b1a930f",
+  "keywords_source": "brief/manifest candidates; not search-volume evidence"
+}

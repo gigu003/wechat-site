@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 3,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "大量饮酒时，CYP2E1等代谢旁路参与增加，并伴随更多氧化应激。肝脏承担了大部分代谢工作，但口腔、胃肠道、胰腺和脑等组织也可能接触乙醇、乙醛或其他代谢产物。因此，酒精造成的伤害远不止肝脏。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "有些人饮酒后很快脸红、心跳加快或恶心，常见原因是ADH1B或ALDH2等基因存在变异，乙醛生成较快或清除较慢。脸红是乙醛积聚的信号，不是“代谢快”，更不是多练几次就能提高的酒量。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 48,
+      "sample": "国际癌症研究机构（IARC）把酒精饮料列为1类致癌物，表示已有充分证据证明它能导致人类癌症。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

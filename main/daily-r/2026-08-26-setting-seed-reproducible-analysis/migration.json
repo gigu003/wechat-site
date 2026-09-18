@@ -1,0 +1,11 @@
+{
+  "article": "2026-08-26-setting-seed-reproducible-analysis",
+  "series": "daily-r",
+  "original_series": "reproducible-data-analysis",
+  "content_type": "tool-guide",
+  "title": "设置种子，保证数据分析的可重复性",
+  "source": "/Users/qc0824/Documents/2_Areas/维护微信公众号/mp-articles/main/2026-08-26-setting-seed-reproducible-analysis",
+  "target": "/Users/qc0824/Documents/2_Areas/微信公众号/main/daily-r/2026-08-26-setting-seed-reproducible-analysis",
+  "published_media_id_preserved": true,
+  "legacy_article_sha256": "fd8fea25678b134bd7000fca065a0346a8603be109e75561617393c2712cfd8b"
+}

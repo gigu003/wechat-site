@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 8,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 15,
+      "sample": "1999年，Amy Edmondson对51个工作团队的研究发现，团队心理安全与学习行为相关。这项研究来自制造业，不能直接等同于科研团队的因果证据；但“能否公开讨论错误”对需要持续试错的研究工作尤其值得观察。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "### 1. 清晰教练型：方向清楚，也愿意给反馈"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 25,
+      "sample": "### 2. 指令控制型：决策快，自主空间小"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 31,
+      "sample": "### 3. 灵感跳跃型：想法多，优先级容易变"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "### 4. 放手缺席型：给自由，但关键时刻找不到人"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "与这类领导合作，要把默认规则写出来：“若周三前没有收到修改意见，我将按v2方案继续；方法或署名变更仍需明确确认。”同时建立多导师或同行支持：方法问题找统计或专业导师，职业选择找另一位可信任的前辈，不要让一个人承担所有指导功能。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "### 5. 破坏边界型：问题已超出风格匹配"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 57,
+      "sample": "3. **贡献表：** 用CRediT的14类角色记录概念化、数据整理、方法、分析、软件、初稿和修订等工作，在项目转向和论文提交前更新。CRediT用于描述贡献，不自动决定作者资格和顺序。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

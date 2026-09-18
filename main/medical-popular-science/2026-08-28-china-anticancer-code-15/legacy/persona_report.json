@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 17,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 中国防癌守则15条：怎么落实到日常生活？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 2026年4月，国家卫生健康委发布《中国防癌健康生活方式守则（2026年版）》。从不吸烟到母乳喂养，15条建议涉及生活习惯、感染、职业和环境暴露等多类风险。它们能帮助人群降低患癌风险，但不能保证谁一定不会患癌。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "## 这15条，管的是患癌之前的风险"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "这份文件的正式名称是**《中国防癌健康生活方式守则（2026年版）》**，“中国抗癌守则15条”是常见的通俗叫法。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 17,
+      "sample": "## 15条守则，逐条看"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "以下文字按2026年版正式文本呈现。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "不必死记编号。按风险来源来看，这15条大致可以分成下面五组。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "前4条涉及几种常见的生活方式因素。烟草排在第一位。吸烟与多种癌症有关，戒烟和远离二手烟带来的获益也不只限于肺癌。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 49,
+      "sample": "第4条写的是“少饮酒，不酗酒”。IARC 已确认酒精会增加多种癌症风险。因此，“少饮酒”不能理解成少量饮酒有防癌作用；原本不饮酒的人也无需为了健康开始喝酒。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "第5至9条谈的都是日常饮食："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 72,
+      "sample": "第10条讲日常卫生，第14条讲疫苗，两条都与感染防控有关。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 84,
+      "sample": "第11至13条涉及职业致癌物、日光暴晒和空气污染。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 96,
+      "sample": "第15条是“提倡母乳喂养”。WCRF 也把母乳喂养列入癌症预防建议，前提是母亲和婴儿的情况允许。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 114,
+      "sample": "## 怎样理解“超过40%”和“37%”"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 116,
+      "sample": "国家卫生健康委在2026年新闻发布会上引用的口径是：超过40%的癌症可以通过健康生活方式、减少致癌物暴露等措施进行有效预防。IARC 同年的全球归因分析估计，2022年约37%的新发癌症病例与可预防原因相关。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 118,
+      "sample": "这两个比例的统计范围和方法不同，不能直接比较，也不能解释成“个人照做后风险下降40%”。它们说明的是人群中有相当一部分癌症与可改变的因素有关。这里引用的是群体证据，不能直接当成个体建议。一个人具体面临多大风险，还要结合年龄、家族史、既往疾病、生活方式和职业暴露评估。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 120,
+      "sample": "读完15条，可以先检查自己最明确的暴露，再挑一件能长期坚持的事去做。比起背熟守则，这样更有用。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

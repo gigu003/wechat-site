@@ -1,0 +1,352 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 48,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 2026年9月至11月肿瘤相关会议精选：国内外40场，癌症登记、临床肿瘤、生物统计、公共卫生与癌症预防一览"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "2026 年 9 月至 11 月，国内外将举办多场肿瘤、癌症预防、生物统计和公共卫生相关学术会议。本文根据会议主办方或学会官网截至 2026 年 9 月 2 日公开的信息，按举办月份整理会议名称、地点和主要方向，方便读者提前查看安排。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "这是一份按公开信息整理的会议日历，不是所有学术活动的完整目录。本文补充纳入了一场会期跨越 9 月、但起始日期在 8 月的正式会议。部分会议目前只公布了省份或城市，具体会场、议程、注册和投稿安排，请以主办方后续通知为准。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 9,
+      "sample": "## 9月会议"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 13,
+      "sample": "中国抗癌协会（Chinese Anti-Cancer Association，简称 CACA）会议平台目前列出以下 9 月会议："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 17,
+      "sample": "| 9月4—6日 | 2026 CACA北部整合肿瘤学大会 | 河北省 | 整合肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 18,
+      "sample": "| 9月4—6日 | 2026 CACA口腔颌面肿瘤整合医学大会 | 黑龙江省 | 口腔颌面肿瘤、整合医学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "| 9月4—6日 | 2026 CACA整合肝癌大会 | 河北省 | 肝癌、整合肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 20,
+      "sample": "| 9月11—13日 | 中国抗癌协会胃癌专业委员会第20届胃癌学术会议 | 北京市 | 胃癌 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 21,
+      "sample": "| 9月11—13日 | 2026中国抗癌协会肿瘤基因诊断学术大会 | 北京市 | 肿瘤基因诊断、分子检测 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 22,
+      "sample": "| 9月13日 | CACA淋巴瘤指南巡讲—天津站 | 天津市 | 淋巴瘤诊疗指南、学术巡讲 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "| 9月17—19日 | 第29届中国临床肿瘤学会（Chinese Society of Clinical Oncology，简称 CSCO）学术年会 | 济南市 | 临床肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 24,
+      "sample": "| 8月6日—9月13日 | 第十四届中国抗癌协会肿瘤营养学大会 | 广西壮族自治区 | 肿瘤营养、支持治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 30,
+      "sample": "国际癌症登记协会（International Association of Cancer Registries，简称 IACR）与非洲癌症登记网络（African Cancer Registry Network，简称 AFCRN）、撒哈拉以南非洲肿瘤研究网络（Network of Oncology Research i"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 34,
+      "sample": "| 9月6—9日 | 第18届世界公共卫生大会（World Congress on Public Health，简称 WCPH） | 南非开普敦 | 公共卫生、公平、包容与可持续性 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "| 9月12—15日 | 世界肺癌大会（World Conference on Lung Cancer，简称 WCLC） | 韩国首尔 | 肺癌和胸部肿瘤 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 36,
+      "sample": "| 9月21—25日 | 美国国家癌症研究所（National Cancer Institute，简称 NCI）队列联盟2026年年会（NCI Cohort Consortium Annual Meeting） | 现场及线上 | 癌症流行病学、队列研究、人群科学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "| 9月22—25日 | 美国癌症研究协会（American Association for Cancer Research，简称 AACR）儿童癌症专题会议 | 美国费城 | 儿童肿瘤 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 38,
+      "sample": "| 9月25—28日 | AACR胰腺癌专题会议 | 美国圣迭戈 | 胰腺癌 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 39,
+      "sample": "| 9月26—30日 | 美国放射肿瘤学会（American Society for Radiation Oncology，简称 ASTRO）第68届年会 | 美国波士顿 | 放射肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 40,
+      "sample": "| 9月27日—10月1日 | 国际临床生物统计学会（International Society for Clinical Biostatistics，简称 ISCB）第47届年会 | 德国弗赖堡 | 临床生物统计、医学数据研究 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "| 9月28—30日 | 第4届癌症预防药物转化研究线上会议（Translational Advances in Cancer Prevention Agent Development，简称 TACPAD） | 线上 | 癌症预防、癌症截获、预防性药物研发 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "## 10月会议"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 51,
+      "sample": "| 10月15—18日 | 第十四届全国生物治疗大会暨第三届国际 CIK 大会（Cytokine-Induced Killer，细胞因子诱导的杀伤细胞） | 天津市 | 生物治疗、细胞免疫治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 52,
+      "sample": "| 10月22—25日 | 中国抗癌协会肿瘤转移专业委员会2026年学术年会 | 广东省 | 肿瘤转移、转化研究 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 58,
+      "sample": "| 10月1—3日 | 国际妇科肿瘤学会（International Gynecologic Cancer Society，简称 IGCS）2026年全球年会 | 加拿大蒙特利尔 | 妇科肿瘤 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 59,
+      "sample": "| 10月2—4日 | 第18届血液肿瘤会议 | 南非开普敦 | 血液肿瘤、血液病 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 60,
+      "sample": "| 10月6—8日 | 癌症早期检测大会（The Early Detection of Cancer Conference） | 英国爱丁堡 | 癌症早期检测、筛查与流行病学研究 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 61,
+      "sample": "| 10月9—11日 | 日本血液学会（Japanese Society of Hematology，简称 JSH）第88届年会 | 日本京都 | 血液学、恶性血液病 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 62,
+      "sample": "| 10月13—16日 | 国际生物制药统计学第8届研讨会（International Symposium on Biopharmaceutical Statistics，简称 ISBS） | 西班牙马德里 | 生物制药统计、监管科学、真实世界数据与证据 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 63,
+      "sample": "| 10月13—16日 | IACR-AFCRN-NORA联合科学会议 | 坦桑尼亚阿鲁沙 | 癌症监测、癌症登记、描述性流行病学、分期与预后 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 64,
+      "sample": "| 10月18—21日 | AACR第19届癌症健康差异科学会议 | 美国亚特兰大 | 癌症健康差异、人口科学与预防研究 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 65,
+      "sample": "| 10月19—21日 | 第5届国际癌症预防大会（International Conference on Cancer Prevention，简称 ICCP） | 德国海德堡；提供线上直播 | 癌症预防、早期检测、风险分层和预防实施 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 66,
+      "sample": "| 10月23—24日 | Cancer Biomarkers Conference VIII | 美国休斯敦 | 癌症病理、分子诊断、生物标志物与精准肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "| 10月23—27日 | 欧洲肿瘤内科学会（European Society for Medical Oncology，简称 ESMO）2026年会 | 西班牙马德里 | 综合肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 68,
+      "sample": "| 10月26—27日 | Mayo Clinic Cancer Care 2026线上护理会议 | 线上 | 肿瘤护理、姑息与支持治疗、营养和生存者照护 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 69,
+      "sample": "| 10月29—31日 | 欧洲肿瘤影像学会（European Society of Oncologic Imaging，简称 ESOI）Touchdown 2026 | 德国海德堡 | 肿瘤影像、诊断与治疗影像 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "## 11月会议"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 77,
+      "sample": "| 11月12—15日 | 2026中国整合肿瘤学大会 | 湖南省 | 整合肿瘤学 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 85,
+      "sample": "| 11月1—4日 | 美国公共卫生协会（American Public Health Association，简称 APHA）年会暨博览会 | 美国圣安东尼奥 | 公共卫生、健康政策与人群健康 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 86,
+      "sample": "| 11月2—4日 | 第33届生物制药应用统计研讨会（Biopharmaceutical Applied Statistics Symposium，简称 BASS） | 美国佐治亚州萨凡纳 | 生物制药研发与应用统计 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 87,
+      "sample": "| 11月4—8日 | 肿瘤免疫治疗学会（Society for Immunotherapy of Cancer，简称 SITC）2026年会 | 美国凤凰城；提供线上参与 | 肿瘤免疫治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 88,
+      "sample": "| 11月5—7日 | 国际老年肿瘤学会（International Society of Geriatric Oncology，简称 SIOG）2026年会 | 西班牙瓦伦西亚 | 老年肿瘤、肿瘤与衰老、支持治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 89,
+      "sample": "| 11月10—13日 | 2026年欧洲公共卫生大会（European Public Health Conference） | 西班牙毕尔巴鄂 | 公共卫生研究、卫生政策与疾病预防 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 90,
+      "sample": "| 11月12—13日 | AACR-KCA癌症精准医学联合会议 | 韩国庆州 | 癌症精准医学、基因组与生物标志物 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "| 11月13日 | EORTC诊断与治疗影像组秋季会议 | 比利时布鲁塞尔 | 肿瘤影像、诊断与治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 92,
+      "sample": "| 11月18—20日 | EORTC-NCI-AACR肿瘤分子靶点与治疗国际会议 | 西班牙巴塞罗那 | 分子靶点和癌症治疗 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "| 11月19—20日 | PathologyHub 2026全球病理、诊断与检验医学会议暨博览会 | 美国旧金山 | 病理、实验室医学、分子诊断与数字病理 |"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

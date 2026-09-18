@@ -1,0 +1,156 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "statistical-method",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 20,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "同一癌种、性别和时期内，一个登记处的年龄标化发病率（ASR）明显偏高，另一个登记处的形态学验证比例（MV%）接近100%，还有一个登记处的死亡发病比（M:I）高于周边地区。这三种现象都可能提示资料问题，也都可能有合理原因。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "> **第1步：** 明确同一癌种、性别和时期的可比层。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 29,
+      "sample": "> **第2步：** 用参照登记处估计共同水平。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 31,
+      "sample": "> **第3步：** 估计参照登记处之间的额外离散 `phi_hat`。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 33,
+      "sample": "> **第4步：** 计算目标登记处的 `Z²`，与自由度1的卡方分布比较。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "在显著性水平0.05下，常用临界值约为3.84。`Z² ≥ 3.84`表示“值得复核”，而不是“已经证实有错”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "设两个时期的ASR分别为 `R1`、`R2`，标准误分别为 `S1`、`S2`："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "> `x = (R1 - R2) / sqrt(S1² + S2²)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 45,
+      "sample": "如果关注比值 `RR = R1 / R2`，可用Miettinen近似构造置信区间："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 47,
+      "sample": "> 下限：`RR^(1 - z/x)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 49,
+      "sample": "> 上限：`RR^(1 + z/x)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 51,
+      "sample": "95%置信区间取 `z = 1.96`。区间不包含1，说明两个时期的ASR差异具有统计学证据。但这项近似有一个重要前提：各年龄组的率比应大致稳定。如果变化主要集中在某几个年龄组，只比较两个ASR可能掩盖真实结构，应进一步检查年龄别发病率。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 61,
+      "sample": "> `phi_hat = sum[((y_i - y_bar) / s_i)²] / (n - 1)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 63,
+      "sample": "若 `phi_hat < 1`，通常令其等于1，避免把参照组看得比单纯抽样波动还要一致。目标登记处 j 的统计量为："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "这里既考虑目标ASR本身的标准误，也允许参照登记处之间存在额外差异。IARC资料还提出一种先粗筛、再检验的实务思路：若目标ASR高于参照值3倍或低于其0.3倍，可直接列为明显异常；较小偏离再进入统计检验。这个倍数规则是筛查工具，不是普遍适用的质量标准。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 77,
+      "sample": "> `phi_hat = sum[(y_i - p_hat × d_i)² / {d_i × p_hat × (1-p_hat)}] / (n-1)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 81,
+      "sample": "> `Z² = (y_j - p_hat × d_j)² / {phi_hat × p_hat × (1-p_hat) × d_j}`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 93,
+      "sample": "> `phi_hat = sum[(m_i - theta_hat × d_i)² / (n_i × theta_hat)] / (n-1)`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 115,
+      "sample": "ASR异常时，先看年度病例数和人口分母是否突变，再看年龄别发病曲线。还要核对辖区调整、癌种定义、筛查活动、病例去重及跨区就医。儿童肿瘤还可按0—4岁、5—9岁和10—14岁分别比较历史分布，因为总体ASR可能掩盖小年龄组的缺报。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 121,
+      "sample": "如果一次比较很多癌种、年份、性别和登记处，偶然出现若干 `P < 0.05`并不意外。质量控制可以把结果当作筛查清单，优先处理跨年份重复、多个相关指标同时出现或偏离幅度很大的信号；若用于正式推断，则应预先规定比较范围，并考虑多重检验校正。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

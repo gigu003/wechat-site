@@ -1,0 +1,9 @@
+_site/
+.quarto/
+.sass-cache/
+.DS_Store
+.wechat-drafts/
+.category-masthead-render-check/
+migration-report.json
+_area.yaml
+tests/

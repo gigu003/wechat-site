@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>31省癌谱排版卡</title>
+  <style>
+    :root{--ink:#17324d;--blue:#2f6fed;--pale:#eef5ff;--line:#cbdcf3;--muted:#66788a;--red:#e95b62;--gold:#d59b2d}
+    *{box-sizing:border-box}html,body{margin:0;overflow:hidden;background:#f7fbff;color:var(--ink);font-family:"PingFang SC","Hiragino Sans GB",sans-serif}
+    body.cover{width:1200px;height:510px}body.card{width:1440px;height:810px}
+    .canvas{width:100%;height:100%;position:relative;padding:62px 76px;background:linear-gradient(135deg,#f9fcff 0%,#eaf3ff 100%)}
+    .canvas:before{content:"";position:absolute;inset:24px;border:1px solid var(--line);border-radius:28px;pointer-events:none}
+    .kicker{font:600 22px/1.2 "SF Mono",Menlo,monospace;letter-spacing:2px;color:var(--blue);text-transform:uppercase}
+    h1{margin:18px 0 0;font-size:72px;line-height:1.12;letter-spacing:-2px;max-width:1020px}
+    .cover h1{font-size:68px;max-width:920px}.accent{color:var(--blue)}
+    .subtitle{margin-top:22px;font-size:29px;line-height:1.55;color:#40566b}
+    .footer{position:absolute;left:76px;right:76px;bottom:48px;display:flex;justify-content:space-between;font:500 18px/1.4 "SF Mono",Menlo,monospace;color:var(--muted)}
+    .dots{position:absolute;right:78px;top:72px;width:210px;height:150px;background-image:radial-gradient(#9dbbe7 2px,transparent 2px);background-size:18px 18px;opacity:.55}
+    .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:34px}
+    .stat{background:#fff;border:1px solid var(--line);border-radius:24px;padding:30px 34px;box-shadow:0 14px 30px rgba(36,83,135,.07)}
+    .num{font-size:86px;font-weight:760;line-height:1;color:var(--blue)}.num small{font-size:34px}.label{font-size:27px;margin-top:13px}.note{font-size:20px;color:var(--muted);margin-top:10px}
+    .exceptions{margin-top:28px;display:flex;gap:18px;align-items:stretch}.pill{flex:1;background:#fff;border-left:8px solid var(--red);border-radius:16px;padding:20px 24px;font-size:23px;line-height:1.55}.pill b{color:var(--red)}
+    .pattern-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:30px}.pattern{background:#fff;border:1px solid var(--line);border-radius:20px;padding:23px 28px;min-height:180px}.pattern h2{font-size:31px;margin:0 0 12px;color:var(--blue)}.pattern p{font-size:23px;line-height:1.55;margin:0;color:#40566b}.pattern .place{font-weight:700;color:var(--ink)}
+    .burden-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}.burden{background:#fff;border:1px solid var(--line);border-radius:22px;padding:24px 30px}.burden .num{font-size:62px}.burden .label{font-size:24px;margin-top:8px}.urban-rural{margin-top:22px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:22px 30px}.rate-row{display:grid;grid-template-columns:190px 1fr 1fr;gap:18px;align-items:center;font-size:23px;line-height:1.45}.rate-row+.rate-row{margin-top:14px;padding-top:14px;border-top:1px solid var(--line)}.rate-row b{font-size:25px}.rate-row span{color:#40566b}.rate-row strong{color:var(--blue);font-size:27px}
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    const q=new URLSearchParams(location.search); const card=q.get('card')||'cover';
+    const app=document.getElementById('app'); document.body.className=card==='cover'?'cover':'card';
+    const footCover='<div class="footer"><span>普癌新声 · 肿瘤登记文献解读</span><span>国家癌症中心研究，2026年发布</span></div>';
+    const footNational='<div class="footer"><span>普癌新声 · 肿瘤登记文献解读</span><span>来源：2024年全国估计</span></div>';
+    const footProvince='<div class="footer"><span>普癌新声 · 肿瘤登记文献解读</span><span>来源：2019年肿瘤登记监测顺位</span></div>';
+    if(card==='cover') app.innerHTML=`<main class="canvas cover"><div class="dots"></div><div class="kicker">NATIONAL CANCER CENTER · 2024</div><h1>国家癌症中心发布<br><span class="accent">2024癌症负担</span></h1><div class="subtitle">全国与城乡情况，以及31省癌谱差异</div>${footCover}</main>`;
+    if(card==='lung') app.innerHTML=`<main class="canvas"><div class="kicker">PROVINCIAL RANKINGS · REGIONAL DIFFERENCES</div><h1>肺癌多数居首，<span class="accent">5地顺位不同</span></h1><div class="stat-grid"><section class="stat"><div class="num">27<small>/31</small></div><div class="label">省级地区：肺癌发病例数居首</div><div class="note">广西、甘肃、青海第2；西藏第3</div></section><section class="stat"><div class="num">26<small>/31</small></div><div class="label">省级地区：肺癌死亡例数居首</div><div class="note">广西、海南、甘肃、青海第2；西藏第6</div></section></div><div class="exceptions"><div class="pill"><b>发病例外</b><br>广西 · 甘肃 · 青海 · 西藏</div><div class="pill"><b>死亡例外</b><br>广西 · 海南 · 甘肃 · 青海 · 西藏</div></div>${footProvince}</main>`;
+    if(card==='patterns') app.innerHTML=`<main class="canvas"><div class="kicker">REGIONAL CANCER PROFILE</div><h1>31省癌谱中的<span class="accent">四组地区线索</span></h1><div class="pattern-grid"><section class="pattern"><h2>南方 · 鼻咽癌</h2><p><span class="place">广西、广东、海南、江西</span><br>发病顺位相对较高</p></section><section class="pattern"><h2>浙闽新 · 甲状腺癌</h2><p><span class="place">浙江、福建、新疆</span><br>发病例数排第2位</p></section><section class="pattern"><h2>北方及西藏 · 肾癌</h2><p>发病或死亡顺位<br>相对靠前</p></section><section class="pattern"><h2>较发达地区 · 前列腺癌</h2><p>发病顺位相对靠前；<br>描述性差异不等于因果</p></section></div>${footProvince}</main>`;
+    if(card==='read') app.innerHTML=`<main class="canvas"><div class="kicker">NATIONAL CANCER BURDEN · 2024</div><h1>2024年全国癌症负担</h1><div class="burden-grid"><section class="burden"><div class="num">515.06<small>万</small></div><div class="label">恶性肿瘤新发病例</div></section><section class="burden"><div class="num">258.22<small>万</small></div><div class="label">恶性肿瘤死亡病例</div></section></div><section class="urban-rural"><div class="rate-row"><b>世界标化发病率</b><span>城市 <strong>215.71</strong>/10万</span><span>农村 <strong>193.74</strong>/10万</span></div><div class="rate-row"><b>世界标化死亡率</b><span>城市 <strong>87.34</strong>/10万</span><span>农村 <strong>96.27</strong>/10万</span></div></section>${footNational}</main>`;
+  </script>
+</body>
+</html>

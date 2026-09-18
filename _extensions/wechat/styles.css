@@ -1,0 +1,1143 @@
+:root {
+  /* Semantic aliases; canonical brand colours live in brand.yml. */
+  --puai-ink: var(--bs-body-color, #173b32);
+  --puai-pine: #123d35;
+  --puai-green: var(--bs-primary, #155b4b);
+  --puai-fern: #287a61;
+  --puai-mint: #e6f3ec;
+  --puai-mist: #f3f7f4;
+  --puai-paper: var(--bs-body-bg, #fcfdfb);
+  --puai-sand: #f7f1e8;
+  --puai-warm: #c26b3a;
+  --puai-slate: #56706a;
+  --puai-line: rgba(21, 91, 75, 0.16);
+  --puai-shadow-sm: 0 8px 24px rgba(23, 59, 50, 0.08);
+  --puai-shadow-lg: 0 18px 42px rgba(23, 59, 50, 0.14);
+  --puai-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
+  --puai-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* Quarto supplies the mode switch and `.quarto-dark` body class. These
+   semantic aliases let the bespoke site shell follow that switch as one
+   visual system instead of leaving the cards and mastheads in daylight mode. */
+body.quarto-dark {
+  --puai-ink: #e3eee8;
+  --puai-pine: #e8f2ec;
+  --puai-green: #9bcfb5;
+  --puai-fern: #75b99b;
+  --puai-mint: #19382f;
+  --puai-mist: #1d302a;
+  --puai-paper: #101c19;
+  --puai-sand: #2d2923;
+  --puai-warm: #d79670;
+  --puai-slate: #b5c9c0;
+  --puai-line: rgba(187, 220, 203, 0.2);
+  --puai-shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.26);
+  --puai-shadow-lg: 0 18px 42px rgba(0, 0, 0, 0.42);
+  color: var(--puai-ink);
+  background: var(--puai-paper);
+}
+
+body.quarto-dark ::selection { background: rgba(117, 185, 155, 0.3); color: #f0faf4; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  color: var(--puai-ink);
+  background: var(--puai-paper);
+  font-family: var(--puai-sans);
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: rgba(40, 122, 97, 0.22); color: var(--puai-pine); }
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, .quarto-title {
+  font-family: var(--puai-serif);
+  letter-spacing: 0.018em;
+}
+
+a { text-underline-offset: 0.2em; text-decoration-thickness: 0.08em; }
+
+:focus-visible { outline: 3px solid rgba(194, 107, 58, 0.68); outline-offset: 3px; }
+
+/* ---- Site chrome: a restrained editorial masthead ---- */
+.navbar {
+  min-height: 4.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(18, 61, 53, 0.97) !important;
+  box-shadow: 0 5px 20px rgba(18, 61, 53, 0.16);
+}
+
+.navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+
+.navbar-brand-container { display: flex; align-items: center; gap: 0.42rem; }
+.navbar-brand-container .navbar-brand-logo { margin: 0; }
+.navbar-brand-container .navbar-logo { flex: 0 0 auto; width: 1.45rem; height: 1.45rem; max-height: none; }
+
+.navbar-channel-label {
+  align-self: center;
+  color: rgba(230, 243, 236, 0.78);
+  font-family: var(--puai-sans);
+  font-size: 0.66em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.navbar .nav-link {
+  position: relative;
+  padding-inline: 0.75rem !important;
+  color: rgba(255, 255, 255, 0.84) !important;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.navbar .nav-link::after {
+  position: absolute;
+  right: 0.75rem;
+  bottom: 0.35rem;
+  left: 0.75rem;
+  height: 1px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #e9c7a4;
+  content: "";
+  transition: transform 180ms ease;
+}
+
+.navbar .nav-link:hover, .navbar .nav-link.active { color: #fff !important; }
+.navbar .nav-link:hover::after, .navbar .nav-link.active::after { transform: scaleX(1); }
+.quarto-search-button, .navbar-toggler { border-radius: 0.5rem; }
+
+/* ---- Quarto title blocks and shared reading frame ---- */
+main.content > header#title-block-header {
+  position: relative;
+  margin: clamp(1.5rem, 4vw, 3.5rem) 0 clamp(2rem, 4vw, 3.25rem);
+  padding: clamp(1.5rem, 4vw, 3rem) 0 clamp(1.5rem, 3vw, 2.35rem);
+  border-top: 1px solid var(--puai-line);
+  border-bottom: 1px solid var(--puai-line);
+}
+
+/* Homepage only: a quiet evidence landscape. The illustration lives away from
+   the copy so the site masthead keeps the calm, readable editorial hierarchy. */
+body.home-page main.content > header#title-block-header {
+  /* A measured middle ground: enough room for the evidence illustration,
+     without reviving the former large block of empty space. */
+  min-height: clamp(15.25rem, 18vw, 17rem);
+  padding-right: clamp(1.25rem, 12vw, 13rem);
+  padding-bottom: clamp(1.35rem, 2.25vw, 1.8rem);
+  background:
+    linear-gradient(90deg, var(--puai-paper) 0%, rgba(252, 253, 251, 0.98) 39%, rgba(252, 253, 251, 0.68) 60%, rgba(252, 253, 251, 0.12) 100%),
+    url("assets/brand/puai-home-hero-watercolor.png") right center / cover no-repeat;
+}
+
+/* Category mastheads share the homepage's paper-and-watercolor language, but
+   each carries one quiet subject cue. The left-side wash protects the title,
+   scope statement, and RSS control at every wide viewport. */
+body.category-page { --category-banner: none; }
+body.category-cancer-registry { --category-banner: url("assets/brand/category-cancer-registry-watercolor.png"); }
+body.category-data-science { --category-banner: url("assets/brand/category-data-science-watercolor.png"); }
+body.category-health { --category-banner: url("assets/brand/category-health-watercolor.png"); }
+
+body.category-page main.content > header#title-block-header {
+  min-height: clamp(17.5rem, 23vw, 22rem);
+  padding-right: clamp(1.25rem, 12vw, 13rem);
+  padding-bottom: clamp(1.35rem, 2.25vw, 1.8rem);
+  background:
+    linear-gradient(90deg, var(--puai-paper) 0%, rgba(252, 253, 251, 0.98) 40%, rgba(252, 253, 251, 0.68) 62%, rgba(252, 253, 251, 0.08) 100%),
+    var(--category-banner) right center / cover no-repeat;
+}
+
+main.content > header#title-block-header::before {
+  display: block;
+  margin-bottom: 0.85rem;
+  color: var(--puai-warm);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  content: "PUAI NEW VOICE · EVIDENCE LED";
+}
+
+#title-block-header .quarto-title .title {
+  max-width: 20ch;
+  margin-bottom: 0.65rem;
+  color: var(--puai-pine);
+  font-size: clamp(2.05rem, 4.5vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+/* Homepage channel lockup: a single superscript mark distinguishes this
+   public account site while the H1 remains the accessible name “普癌新声”. */
+body.home-page #title-block-header .quarto-title .title {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: clamp(0.22rem, 0.55vw, 0.42rem);
+  max-width: none;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.home-channel-mark {
+  flex: 0 0 auto;
+  width: clamp(1.1rem, 1.7vw, 1.35rem);
+  height: clamp(1.1rem, 1.7vw, 1.35rem);
+  background: url("assets/brand/puai-channel-mark.svg") center / contain no-repeat;
+  transform: translateY(-0.48em);
+}
+
+.home-title-text { white-space: nowrap; }
+
+#title-block-header .description {
+  max-width: 48rem;
+  margin-top: 0.8rem;
+  color: var(--puai-slate);
+  font-size: clamp(1rem, 1.5vw, 1.14rem);
+  line-height: 1.85;
+}
+
+/* RSS belongs in the homepage masthead: readers choose the scope they want
+   before entering the editorial index, without changing the three-card grid. */
+/* The identity, subscription action, and editorial promise are three distinct
+   beats. A grid makes their spacing independent of Quarto's paragraph margins. */
+body.home-page #title-block-header .quarto-title {
+  display: grid;
+  gap: clamp(0.42rem, 0.85vw, 0.62rem);
+}
+
+body.home-page #title-block-header .subtitle {
+  max-width: 46rem;
+  margin: 0;
+  color: inherit;
+  font-family: var(--puai-sans);
+  font-size: inherit;
+  line-height: 1.4;
+}
+
+body.home-page #title-block-header .quarto-title + div { margin-top: clamp(0.9rem, 1.65vw, 1.2rem); }
+body.home-page #title-block-header .description { margin-top: 0; }
+
+.home-rss-directory { display: flex; flex-wrap: wrap; align-items: center; gap: 0.42rem; }
+.home-rss-label {
+  margin-right: 0.18rem;
+  color: var(--puai-warm);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  white-space: nowrap;
+}
+.home-rss-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.23rem 0.52rem;
+  border: 1px solid rgba(21, 91, 75, 0.19);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--puai-green);
+  font-size: 0.75rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+.home-rss-link:hover, .home-rss-link:focus-visible {
+  border-color: var(--puai-warm);
+  background: #fff3ea;
+  color: #7f3c1a;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+/* Category feeds sit inside the same masthead shown in the supplied reference:
+   between the title and its one-sentence scope, never in the listing controls. */
+#title-block-header .subtitle:has(.category-rss-directory) {
+  margin: 0.2rem 0 0.7rem;
+  color: inherit;
+  font-family: var(--puai-sans);
+  font-size: inherit;
+  line-height: 1.4;
+}
+.category-rss-directory { display: flex; flex-wrap: wrap; align-items: center; gap: 0.45rem; }
+.category-rss-label {
+  color: var(--puai-warm);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  white-space: nowrap;
+}
+.category-rss-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.25rem 0.58rem;
+  border: 1px solid rgba(21, 91, 75, 0.19);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--puai-green);
+  font-size: 0.76rem;
+  font-weight: 650;
+  line-height: 1.35;
+  text-decoration: none;
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+.category-rss-link:hover, .category-rss-link:focus-visible {
+  border-color: var(--puai-warm);
+  background: #fff3ea;
+  color: #7f3c1a;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+main.content { line-height: 1.85; }
+main.content > p, main.content > ul, main.content > ol { max-width: 76ch; }
+code, pre, kbd, samp { font-family: "SFMono-Regular", "Cascadia Code", "Liberation Mono", monospace; }
+main.content img { border-radius: 0.7rem; }
+
+/* ---- Homepage category architecture ---- */
+.level2.home-section-title {
+  margin: clamp(2.5rem, 5vw, 4.25rem) 0 0;
+}
+
+h2.home-section-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin: 0 0 1.25rem;
+  color: var(--puai-pine);
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+}
+
+h2.home-section-title::after {
+  flex: 1;
+  min-width: 2rem;
+  height: 1px;
+  background: linear-gradient(90deg, var(--puai-line), transparent);
+  content: "";
+}
+
+/* The category directory remains a Quarto listing, with a custom item template
+   so title, linked RSS subtitle and description can share one image safely. */
+.home-series-listing,
+.home-series-listing .quarto-listing { margin: 0; }
+
+.home-series-listing .list.grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.category-overlay-card {
+  position: relative;
+  display: flex;
+  min-height: clamp(17rem, 25vw, 21rem);
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid rgba(21, 91, 75, 0.14);
+  border-radius: 0.8rem 1.55rem 0.8rem 1.55rem;
+  background: var(--puai-mist);
+  box-shadow: var(--puai-shadow-sm);
+  font-family: var(--puai-sans);
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.category-overlay-card::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(180deg, rgba(250, 252, 249, 0.12) 8%, rgba(250, 252, 249, 0.78) 58%, rgba(250, 252, 249, 0.97) 100%),
+    linear-gradient(90deg, rgba(250, 252, 249, 0.42), transparent 72%);
+  content: "";
+}
+
+.category-overlay-image,
+.category-overlay-image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.category-overlay-image { z-index: -2; }
+.category-overlay-image img { object-fit: cover; }
+
+.category-overlay-kicker {
+  position: absolute;
+  top: clamp(0.8rem, 1.6vw, 1.1rem);
+  left: clamp(0.8rem, 1.6vw, 1.1rem);
+  z-index: 2;
+  max-width: calc(100% - 7.75rem);
+  color: #607a72;
+  font-family: var(--puai-sans);
+  font-size: 0.74rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.78);
+}
+
+.category-overlay-count {
+  position: absolute;
+  top: clamp(0.8rem, 1.6vw, 1.1rem);
+  right: clamp(0.8rem, 1.6vw, 1.1rem);
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.52rem;
+  border: 1px solid rgba(21, 91, 75, 0.16);
+  border-radius: 999px;
+  background: rgba(252, 253, 251, 0.82);
+  box-shadow: 0 0.4rem 1rem rgba(18, 62, 53, 0.08);
+  color: #49685f;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  backdrop-filter: blur(0.35rem);
+}
+
+.category-overlay-count .series-count {
+  margin: 0 0.28rem;
+  padding: 0.05rem 0.42rem;
+  font-size: 0.78rem;
+}
+
+.category-overlay-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: clamp(1.15rem, 2.2vw, 1.6rem);
+}
+
+.category-overlay-card .listing-title {
+  max-width: 14rem;
+  margin: 0;
+  font-family: var(--puai-serif);
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  font-weight: 700;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.category-overlay-title-link {
+  color: var(--puai-pine);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.category-overlay-title-link::after {
+  position: absolute;
+  inset: 0;
+  content: "";
+}
+
+.category-overlay-subtitle {
+  position: relative;
+  z-index: 1;
+  margin-top: 0.55rem;
+  font-family: var(--puai-sans);
+}
+
+.category-overlay-subtitle .category-rss-label {
+  font-size: 0.74rem;
+  letter-spacing: 0.12em;
+}
+
+.category-overlay-description,
+.category-overlay-description p {
+  -webkit-line-clamp: 4;
+  margin: 0.65rem 0 0;
+  color: #4c6860;
+  font-family: var(--puai-sans);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.category-overlay-card:hover,
+.category-overlay-card:focus-within {
+  border-color: rgba(194, 107, 58, 0.38);
+  box-shadow: 0 1.2rem 2.4rem rgba(18, 62, 53, 0.14);
+  transform: translateY(-0.18rem);
+}
+
+.series-count {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid rgba(21, 91, 75, 0.08);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--puai-green);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.5;
+  vertical-align: 0.06em;
+}
+
+/* ---- Category masthead navigation and native Quarto listings ---- */
+/* This is source-adjacent to the title block, but visually anchored inside its
+   lower-right illustration field. The panel belongs to the category identity:
+   it must not drift below the banner when the viewport changes. */
+body.category-page .category-masthead-meta {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-self: start;
+  height: fit-content;
+  min-height: 0;
+  width: fit-content;
+  min-width: 10.75rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin: calc(-7rem - clamp(2rem, 4vw, 3.25rem)) clamp(1.15rem, 3.4vw, 3.25rem) clamp(2.2rem, 4vw, 3.25rem) auto;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(21, 91, 75, 0.18);
+  border-radius: 0.6rem 1.15rem 0.6rem 1.15rem;
+  background: rgba(252, 253, 251, 0.82);
+  box-shadow: 0 0.65rem 1.45rem rgba(18, 62, 53, 0.09);
+  backdrop-filter: blur(0.4rem);
+}
+
+body.category-page .category-masthead-meta > p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.55rem;
+  margin: 0;
+}
+
+.category-masthead-count {
+  color: var(--puai-slate);
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.category-masthead-count .series-count {
+  margin: 0 0.12rem;
+  background: rgba(255, 255, 255, 0.88);
+  font-size: 1em;
+}
+
+.category-masthead-back {
+  color: var(--puai-green);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration-color: rgba(21, 91, 75, 0.36);
+  text-underline-offset: 0.22em;
+}
+
+.category-masthead-back:hover, .category-masthead-back:focus-visible {
+  color: #7f3c1a;
+  text-decoration-color: currentColor;
+}
+.quarto-listing { margin-top: 1.5rem; }
+.quarto-listing .listing-actions-group { display: flex; justify-content: flex-end; margin: 0 0 1.5rem; }
+
+.quarto-listing .quarto-listing-filter .form-control,
+.quarto-listing .quarto-listing-filter .input-group-text {
+  border-color: var(--puai-line);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: none;
+}
+
+.quarto-listing .quarto-listing-filter .form-control:focus {
+  border-color: rgba(21, 91, 75, 0.56);
+  box-shadow: 0 0 0 0.2rem rgba(21, 91, 75, 0.12);
+}
+
+.quarto-listing .list.grid { gap: clamp(1.2rem, 2.4vw, 2rem); }
+.quarto-grid-link { display: block; height: 100%; color: inherit; font-weight: 400; text-decoration: none; }
+.quarto-grid-link:hover, .quarto-grid-link:focus-visible { color: inherit; text-decoration: none; }
+
+.quarto-grid-item {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid var(--puai-line);
+  border-radius: 0.85rem 1.35rem 0.85rem 1.35rem;
+  background: linear-gradient(155deg, rgba(255, 255, 255, 0.98) 0%, rgba(246, 250, 247, 0.94) 100%);
+  box-shadow: var(--puai-shadow-sm);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.quarto-grid-item::before {
+  position: absolute;
+  z-index: 1;
+  top: -1px;
+  left: 1.35rem;
+  width: 3.4rem;
+  height: 3px;
+  border-radius: 0 0 999px 999px;
+  background: var(--puai-warm);
+  content: "";
+  transition: width 180ms ease;
+}
+
+.quarto-grid-link:hover .quarto-grid-item, .quarto-grid-link:focus-visible .quarto-grid-item {
+  transform: translateY(-4px);
+  border-color: rgba(21, 91, 75, 0.34);
+  box-shadow: var(--puai-shadow-lg);
+}
+
+.quarto-grid-link:hover .quarto-grid-item::before,
+.quarto-grid-link:focus-visible .quarto-grid-item::before { width: 5.2rem; }
+
+.quarto-grid-item .card-img-top { margin: 0; overflow: hidden; background: var(--puai-mist); }
+
+.quarto-grid-item .thumbnail-image,
+.quarto-grid-item .listing-image {
+  display: block;
+  width: 100%;
+  height: auto !important;
+  aspect-ratio: 1200 / 510;
+  object-fit: cover;
+  border-radius: 0;
+  transition: transform 320ms ease;
+}
+
+.quarto-grid-link:hover .thumbnail-image, .quarto-grid-link:focus-visible .thumbnail-image { transform: scale(1.035); }
+
+.quarto-grid-item .card-body { display: flex; min-height: 13rem; flex-direction: column; padding: 1.35rem 1.35rem 0; }
+
+.quarto-grid-item .listing-title {
+  margin-bottom: 0.7rem;
+  color: var(--puai-pine);
+  font-family: var(--puai-serif);
+  font-size: clamp(1.15rem, 1.2vw, 1.35rem);
+  font-weight: 700;
+  line-height: 1.48;
+  letter-spacing: 0.01em;
+}
+
+.quarto-grid-item .listing-categories { display: flex; flex-wrap: wrap; gap: 0.38rem; order: -1; margin-bottom: 0.75rem; }
+
+.quarto-grid-item .listing-category {
+  padding: 0.2rem 0.52rem;
+  border: 1px solid rgba(21, 91, 75, 0.15);
+  border-radius: 999px;
+  background: var(--puai-mist);
+  color: var(--puai-green);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.quarto-grid-item .listing-description,
+.quarto-grid-item .listing-description p {
+  display: -webkit-box;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  color: var(--puai-slate);
+  font-size: 0.92rem;
+  font-weight: 400;
+  line-height: 1.74;
+}
+
+/* Dates are deliberately quiet metadata: the publication date anchors the
+   left, while the update date remains discoverable without competing with the
+   title or summary. Keeping the strip inside the card body aligns cards with
+   different-length summaries. */
+.quarto-grid-item .card-attribution {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  flex: 0 0 auto;
+  width: auto;
+  margin-top: auto;
+  margin-inline: -1.35rem;
+  padding: 0.62rem 1.35rem 0.72rem;
+  border-top: 1px solid rgba(21, 91, 75, 0.09);
+  background: rgba(248, 250, 248, 0.48);
+}
+
+.quarto-grid-item .card-attribution.end { justify-content: stretch; }
+
+.quarto-grid-item .listing-date-separator {
+  display: grid;
+  place-items: center;
+  width: 1.25rem;
+  height: 1.35rem;
+  margin: 0 0.3rem;
+  color: #82908b;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.quarto-grid-item .listing-date {
+  display: grid;
+  min-width: 0;
+  gap: 0.18rem;
+  color: var(--puai-slate);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.quarto-grid-item .listing-date-published { justify-items: start; }
+.quarto-grid-item .listing-date-modified { justify-items: end; text-align: right; }
+
+.quarto-grid-item .listing-date-label {
+  color: #7b8b85;
+  font-size: 0.57rem;
+  font-weight: 650;
+  letter-spacing: 0.08em;
+  line-height: 1.2;
+}
+
+.quarto-grid-item .listing-date-value {
+  color: #647a72;
+  font-size: 0.74rem;
+  font-weight: 500;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.quarto-grid-item .listing-date-modified .listing-date-label,
+.quarto-grid-item .listing-date-modified .listing-date-value { color: #896b5b; }
+
+.quarto-grid-item .listing-date-modified .listing-date-value { font-weight: 600; }
+
+/* On a category page the card grid can become quite narrow before Bootstrap
+   collapses it. Let the date values breathe without changing their hierarchy. */
+@media (min-width: 576px) and (max-width: 1199px) {
+  .quarto-grid-item .listing-date-value { font-size: 0.7rem; }
+  .quarto-grid-item .listing-date-separator { width: 1rem; margin-inline: 0.18rem; }
+}
+.quarto-grid-item .card-other-values {
+  margin-top: 0.35rem;
+  border: 0;
+  font-size: 0.74rem;
+  color: #71867f;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.015em;
+  line-height: 1.35;
+}
+
+.quarto-grid-item .card-other-values td {
+  border: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.quarto-grid-item .card-other-values td:first-child {
+  padding-right: 0.4rem;
+}
+.pagination .page-link { border-color: var(--puai-line); color: var(--puai-green); }
+.pagination .page-item.active .page-link { border-color: var(--puai-green); background: var(--puai-green); color: #fff; }
+
+/* ---- Global body footer / WeChat follow card ---- */
+.wechat-follow-card {
+  position: relative;
+  display: grid;
+  /* The footer is read at the end of a phone-length article first.  Keep its
+     action in the natural reading order; wider screens enhance it below. */
+  grid-template-columns: 1fr;
+  align-items: center;
+  gap: 0.7rem;
+  width: 100%;
+  margin: 1.75rem 0 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  border: 1px solid var(--puai-line);
+  border-radius: 0.8rem 1.25rem 0.8rem 1.25rem;
+  background: radial-gradient(circle at 8% 12%, rgba(194, 107, 58, 0.1), transparent 22%), linear-gradient(135deg, var(--puai-mist) 0%, var(--puai-sand) 100%);
+  box-shadow: var(--puai-shadow-sm);
+}
+
+/* Quarto's full-width homepage uses a multi-column CSS grid. Without an
+   explicit span, a direct footer child is placed in its right margin column. */
+@media (min-width: 768px) {
+  main.content.page-columns > .wechat-follow-card {
+    grid-column: page-start / page-end !important;
+    justify-self: stretch;
+    width: auto;
+  }
+}
+
+.wechat-follow-card::after {
+  position: absolute;
+  right: -2.5rem;
+  bottom: -3.75rem;
+  width: 9.5rem;
+  height: 9.5rem;
+  border: 1px solid rgba(21, 91, 75, 0.1);
+  border-radius: 50%;
+  content: "";
+}
+
+.wechat-follow-copy, .wechat-follow-scan { position: relative; z-index: 1; }
+.wechat-follow-copy { text-align: center; }
+.wechat-follow-kicker { display: inline-flex; margin-bottom: 0.35rem; color: var(--puai-warm); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; }
+.wechat-follow-copy h2 { margin: 0 0 0.35rem; color: var(--puai-pine); font-size: 1.2rem; line-height: 1.3; }
+.wechat-follow-copy p { max-width: 38rem; margin: 0 auto; color: #49685f; font-size: 0.84rem; line-height: 1.65; }
+.wechat-follow-topics { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35rem; margin-top: 0.65rem; }
+
+.wechat-follow-topics span {
+  padding: 0.2rem 0.5rem;
+  border: 1px solid rgba(21, 91, 75, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--puai-green);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+
+.wechat-follow-scan {
+  display: flex;
+  width: 100%;
+  /* On a single reading column this is an explicit scan action, not a small
+     metadata row: centre it and leave enough space to recognise the code. */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid rgba(21, 91, 75, 0.14);
+  color: var(--puai-slate);
+  font-size: 0.65rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.wechat-follow-scan > span { max-width: 24ch; }
+
+.wechat-follow-qr {
+  flex: 0 0 auto;
+  width: 5.25rem;
+  max-width: 100%;
+  aspect-ratio: 1;
+  border: 0.3rem solid #fff;
+  border-radius: 0.55rem;
+  background: #fff url("assets/brand/puai-wechat-qr.jpg") center / contain no-repeat;
+  box-shadow: 0 5px 14px rgba(23, 59, 50, 0.12);
+}
+
+/* The two-column card is a desktop enhancement.  It never has to be undone
+   on a narrow reading column, where the scan prompt stays below the copy. */
+@media (min-width: 992px) {
+  .wechat-follow-card {
+    grid-template-columns: minmax(0, 1fr) 8rem;
+    gap: clamp(1rem, 3vw, 2rem);
+    margin: clamp(2rem, 4vw, 3.25rem) 0 1rem;
+    padding: clamp(1rem, 2.4vw, 1.5rem) clamp(1rem, 3vw, 1.75rem);
+  }
+  .wechat-follow-copy h2 { font-size: clamp(1.25rem, 2.2vw, 1.55rem); }
+  .wechat-follow-copy { text-align: left; }
+  .wechat-follow-copy p { margin: 0; font-size: 0.9rem; }
+  .wechat-follow-topics { justify-content: flex-start; }
+  .wechat-follow-scan {
+    width: 8rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    padding-top: 0;
+    border-top: 0;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+  .wechat-follow-qr { width: 7.5rem; border-width: 0.35rem; }
+}
+
+/* ---- Article framing; article-theme.lua retains all .article-body styling. ---- */
+.article-author-block { display: flex; align-items: center; gap: 1.1rem; margin: 1.5rem 0 0.9rem; padding-bottom: 1.2rem; border-bottom: 1px solid var(--puai-line); }
+
+.article-author-avatar {
+  flex: 0 0 auto;
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+  background: var(--puai-green) url("assets/brand/author-avatar.png") center / cover no-repeat;
+  box-shadow: 0 0 0 3px #fff, 0 4px 14px rgba(23, 59, 50, 0.16);
+}
+
+.article-author-meta { display: flex; flex-direction: column; gap: 0.15rem; }
+.article-author-name { color: var(--puai-ink); font-size: 1.02rem; font-weight: 700; line-height: 1.3; }
+.article-author-focus { color: var(--puai-green); font-size: 0.86rem; font-weight: 600; letter-spacing: 0.02em; }
+.article-author-date { color: var(--puai-slate); font-size: 0.85rem; }
+.article-author-reading { color: #71867f; font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+
+.article-description {
+  max-width: 76ch;
+  margin: 0 0 1.75rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--puai-warm);
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: var(--puai-mint);
+  color: #49685f;
+  font-size: 0.98rem;
+  line-height: 1.8;
+}
+
+.article-description p { max-width: none; margin: 0; color: inherit; font-size: inherit; line-height: inherit; text-align: inherit; text-indent: 0; }
+/* Quarto's link-level border is the reading-progress indicator. Keep that
+   single signal and give its labels breathing room instead of adding a second
+   full-height rail to the TOC container. */
+#TOC { border-left: 0 !important; }
+#TOC > ul { margin: 0.45rem 0 0; padding-left: 0; }
+#TOC .nav-link {
+  display: block;
+  padding: 0.18rem 0.1rem 0.18rem 0.85rem;
+  border-left-width: 2px;
+  color: var(--puai-slate);
+  font-size: 0.84rem;
+  line-height: 1.45;
+}
+#TOC .nav-link.active, #TOC .nav-link:hover { color: var(--puai-green); font-weight: 650; }
+
+.page-footer {
+  margin-top: 3rem;
+  border-top-color: var(--puai-line) !important;
+  color: var(--puai-slate);
+  font-size: 0.82rem;
+}
+
+@media (max-width: 991px) {
+  .navbar .nav-link::after { display: none; }
+  .home-series-listing .list.grid { grid-template-columns: 1fr; }
+  .category-overlay-card { min-height: clamp(16rem, 52vw, 21rem); }
+  /* Once the directory becomes a single column, its much wider cards need a
+     dedicated type scale rather than the three-column viewport calculation. */
+  .category-overlay-card .listing-title,
+  .category-overlay-card .category-overlay-title-link {
+    max-width: none;
+    font-family: var(--puai-serif);
+    font-size: clamp(1.7rem, 4.6vw, 2rem);
+    font-weight: 700;
+    line-height: 1.35;
+  }
+  .category-overlay-card .category-overlay-subtitle,
+  .category-overlay-card .category-overlay-description,
+  .category-overlay-card .category-overlay-description p {
+    font-family: var(--puai-sans);
+  }
+  .category-overlay-card .category-overlay-subtitle .category-rss-label { font-size: 0.74rem; }
+  .category-overlay-card .category-overlay-subtitle .category-rss-link { font-size: 0.8rem; }
+  .category-overlay-card .category-overlay-description,
+  .category-overlay-card .category-overlay-description p {
+    font-size: clamp(1rem, 2.3vw, 1.08rem);
+    line-height: 1.75;
+  }
+  /* The same breakpoint makes the homepage sections a single column. Centre
+     the masthead's existing content inside its illustration field as well. */
+  body.home-page main.content > header#title-block-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .quarto-listing .list.grid { gap: 1.15rem; }
+
+}
+
+@media (max-width: 767px) {
+  .navbar-brand { gap: 0.32rem; font-size: 1rem; letter-spacing: 0.035em; }
+  .navbar-brand-container { gap: 0.32rem; }
+  .navbar-brand-container .navbar-logo { width: 1.25rem; height: 1.25rem; }
+  .navbar-channel-label { font-size: 0.62em; letter-spacing: 0.06em; }
+  main.content > header#title-block-header { margin-top: 1rem; }
+  body.home-page main.content > header#title-block-header {
+    min-height: 15.25rem;
+    padding-right: 1rem;
+    padding-bottom: 1.35rem;
+    background:
+      linear-gradient(90deg, rgba(252, 253, 251, 0.97) 0%, rgba(252, 253, 251, 0.9) 56%, rgba(252, 253, 251, 0.5) 100%),
+      url("assets/brand/puai-home-hero-watercolor.png") 76% center / auto 100% no-repeat;
+  }
+  body.category-page main.content > header#title-block-header {
+    /* Reserve a deliberate lower band for the metadata panel.  The source
+       block follows this header, so its negative margin can now remain fully
+       within the illustrated masthead rather than spilling into the listing. */
+    min-height: 20rem;
+    padding-right: 1rem;
+    padding-bottom: 5.9rem;
+    background:
+      linear-gradient(90deg, rgba(252, 253, 251, 0.97) 0%, rgba(252, 253, 251, 0.9) 56%, rgba(252, 253, 251, 0.5) 100%),
+      var(--category-banner) 76% center / auto 100% no-repeat;
+  }
+  body.category-page .category-masthead-meta {
+    box-sizing: border-box;
+    /* Preserve the desktop cue on a phone: this is a compact navigation
+       signature at the right edge, not a second full-width content card. */
+    width: fit-content;
+    max-width: calc(100% - 1.5rem);
+    min-width: 0;
+    align-self: start;
+    height: fit-content;
+    min-height: 0;
+    margin: -8.75rem 0.75rem 1.75rem auto;
+    padding: 0.42rem 0.72rem;
+    border: 1px solid rgba(21, 91, 75, 0.18);
+    border-radius: 0.6rem 1.15rem 0.6rem 1.15rem;
+    background: rgba(252, 253, 251, 0.84);
+    box-shadow: 0 0.65rem 1.45rem rgba(18, 62, 53, 0.09);
+    backdrop-filter: blur(0.4rem);
+  }
+  body.category-page .category-masthead-meta > p {
+    gap: 0.28rem;
+  }
+  #title-block-header .quarto-title .title { font-size: 2rem; }
+  .home-channel-mark { width: 1.05rem; height: 1.05rem; }
+  .level2.home-section-title { margin-top: 2.5rem; }
+  .quarto-listing .listing-actions-group { justify-content: stretch; }
+  .quarto-listing .quarto-listing-filter { width: 100%; }
+  .quarto-grid-item .card-body { min-height: auto; }
+  .article-author-avatar { width: 3rem; height: 3rem; }
+}
+
+/* ---- Dark mode: night editorial surfaces ---- */
+body.quarto-dark .navbar {
+  border-bottom-color: rgba(187, 220, 203, 0.14);
+  background: #0b1714 !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+body.quarto-dark main.content > header#title-block-header {
+  border-color: var(--puai-line);
+}
+
+body.quarto-dark body.home-page main.content > header#title-block-header,
+body.quarto-dark main.content > header#title-block-header {
+  background:
+    linear-gradient(90deg, rgba(16, 28, 25, 0.98) 0%, rgba(16, 28, 25, 0.94) 44%, rgba(16, 28, 25, 0.7) 68%, rgba(16, 28, 25, 0.18) 100%),
+    var(--category-banner, url("assets/brand/puai-home-hero-watercolor.png")) right center / cover no-repeat;
+}
+
+body.quarto-dark .home-rss-link,
+body.quarto-dark .category-rss-link {
+  border-color: rgba(155, 207, 181, 0.28);
+  background: rgba(25, 56, 47, 0.84);
+  color: #b8dfc8;
+}
+
+body.quarto-dark .quarto-listing .quarto-listing-filter .form-control,
+body.quarto-dark .quarto-listing .quarto-listing-filter .input-group-text {
+  border-color: rgba(187, 220, 203, 0.24);
+  background: #172823;
+  color: var(--puai-ink);
+}
+
+body.quarto-dark .quarto-grid-item {
+  border-color: rgba(187, 220, 203, 0.2);
+  background: linear-gradient(155deg, rgba(28, 53, 44, 0.98) 0%, rgba(18, 34, 29, 0.98) 100%);
+  box-shadow: var(--puai-shadow-sm);
+}
+
+body.quarto-dark .quarto-grid-item::before { background: #b87957; }
+body.quarto-dark .quarto-grid-link:hover .quarto-grid-item,
+body.quarto-dark .quarto-grid-link:focus-visible .quarto-grid-item {
+  border-color: rgba(155, 207, 181, 0.45);
+  box-shadow: var(--puai-shadow-lg);
+}
+
+body.quarto-dark .quarto-grid-item .listing-category {
+  border-color: rgba(155, 207, 181, 0.24);
+  background: rgba(29, 64, 52, 0.78);
+  color: #a9d8bd;
+}
+
+body.quarto-dark .quarto-grid-item .card-attribution {
+  border-top-color: rgba(187, 220, 203, 0.13);
+  background: rgba(13, 31, 25, 0.5);
+}
+
+body.quarto-dark .quarto-grid-item .listing-date-label { color: #9eb5aa; }
+body.quarto-dark .quarto-grid-item .listing-date-value { color: #c2d8cc; }
+body.quarto-dark .quarto-grid-item .listing-date-modified .listing-date-label,
+body.quarto-dark .quarto-grid-item .listing-date-modified .listing-date-value { color: #d0a185; }
+body.quarto-dark .quarto-grid-item .listing-date-separator { color: #94aa9f; }
+
+body.quarto-dark .category-overlay-card::after {
+  background:
+    linear-gradient(180deg, rgba(16, 28, 25, 0.18) 8%, rgba(16, 28, 25, 0.76) 58%, rgba(16, 28, 25, 0.98) 100%),
+    linear-gradient(90deg, rgba(16, 28, 25, 0.52), transparent 72%);
+}
+
+body.quarto-dark .category-overlay-count,
+body.quarto-dark .category-masthead-meta {
+  border-color: rgba(187, 220, 203, 0.24);
+  background: rgba(23, 40, 35, 0.86);
+  box-shadow: 0 0.65rem 1.45rem rgba(0, 0, 0, 0.24);
+}
+
+body.quarto-dark .category-overlay-count { color: #b8d9c7; }
+body.quarto-dark .category-overlay-kicker { color: #a6c5b6; text-shadow: none; }
+body.quarto-dark .category-overlay-description,
+body.quarto-dark .category-overlay-description p { color: #b9cec4; }
+
+body.quarto-dark .pagination .page-link {
+  border-color: rgba(187, 220, 203, 0.22);
+  background: #172823;
+  color: #a9d8bd;
+}
+
+body.quarto-dark .wechat-follow-topics span {
+  border-color: rgba(187, 220, 203, 0.22);
+  background: rgba(23, 40, 35, 0.72);
+  color: #b8d9c7;
+}
+
+/* Theme JSON files are intentionally expressive in light mode. These shell
+   overrides keep article text, rules, tables, and code legible at night while
+   preserving each article's accent color and layout. */
+body.quarto-dark main.content .article-body[data-article-theme] {
+  background: transparent !important;
+  color: #dbe9e2 !important;
+}
+
+body.quarto-dark main.content .article-body[data-article-theme] p,
+body.quarto-dark main.content .article-body[data-article-theme] li,
+body.quarto-dark main.content .article-body[data-article-theme] td,
+body.quarto-dark main.content .article-body[data-article-theme] th {
+  color: #dbe9e2 !important;
+}
+
+body.quarto-dark main.content .article-body[data-article-theme] h1,
+body.quarto-dark main.content .article-body[data-article-theme] h2,
+body.quarto-dark main.content .article-body[data-article-theme] h3,
+body.quarto-dark main.content .article-body[data-article-theme] h4,
+body.quarto-dark main.content .article-body[data-article-theme] h5,
+body.quarto-dark main.content .article-body[data-article-theme] h6 {
+  color: #e8f2ec !important;
+  background: transparent !important;
+  border-color: var(--puai-line) !important;
+}
+
+body.quarto-dark main.content .article-body[data-article-theme] a {
+  color: #a9d8bd !important;
+}
+
+body.quarto-dark main.content .article-body[data-article-theme] pre,
+body.quarto-dark main.content .article-body[data-article-theme] code {
+  border-color: rgba(187, 220, 203, 0.18) !important;
+  background: #172823 !important;
+  color: #d9eee1 !important;
+}
+
+body.quarto-dark main.content .article-body[data-article-theme] table,
+body.quarto-dark main.content .article-body[data-article-theme] th,
+body.quarto-dark main.content .article-body[data-article-theme] td {
+  border-color: rgba(187, 220, 203, 0.2) !important;
+  background-color: #172823 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

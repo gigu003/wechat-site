@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 19,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 2024年中国癌症负担：515万新发，31省癌谱有何差异？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 国家癌症中心研究估计，2024年中国恶性肿瘤新发515.06万例、死亡258.22万例。结合2019年登记监测的31省癌谱，本文解析肺癌主导、地区特色癌谱，以及省内顺位为何不能当作省际风险排名。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "## 2024年中国癌症负担：新发515.06万，死亡258.22万"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "国家癌症中心的研究估计，2024年中国恶性肿瘤新发病例为515.06万，死亡258.22万。肺癌居发病和死亡首位，新发117.59万例、死亡74.33万例，分别占全部新发和死亡的22.8%与28.8%。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 9,
+      "sample": "这一部分是2024年全国估计。研究以919个登记处的2019年数据为基础，使用其中106个登记处2010—2019年的连续监测数据拟合年龄-时期-队列趋势，再结合2024年人口数据进行推算。因此，515.06万和258.22万是模型估计值，并非2024年全国病例的逐例汇总。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 15,
+      "sample": "在2024年全国估计中，城市世界人口标化发病率为215.71/10万，高于农村的193.74/10万；农村世界人口标化死亡率为96.27/10万，高于城市的87.34/10万。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "城乡分类提供了观察癌谱差异的一条线索，但一个省内部往往同时包含不同人口结构、医疗可及性和暴露模式的地区，不能把31个省级地区简单分成“城市型癌谱”和“农村型癌谱”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 25,
+      "sample": "## 中国31省癌症负担图谱：依据2019年登记监测顺位"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "以下省级分析使用919个登记处报告的2019年实际监测数据。图中的数字表示各癌种在省内的发病或死亡例数顺位，适合观察一个省内部哪些癌种负担靠前。如果将它简称为“31省癌症排名”，更准确的理解应是各省主要癌种的例数顺位；它不是各省2024年年龄标化率，也不是省际癌症风险排行榜。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 29,
+      "sample": "下面依次为论文图1和图2原图。图表信息较密，可点击图片查看细节。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "这些登记处覆盖2019年人口6.28亿，占全国人口44.89%。覆盖面很广，但各省登记处的数量和分布并不均衡。论文特别指出，西藏、新疆等西部地区纳入的登记处相对较少，解读省级结果时需要考虑代表性。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 39,
+      "sample": "## 多数省份肺癌居首，5个地区顺位不同"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 41,
+      "sample": "31个省级地区中，肺癌在27个地区居发病例数首位，在26个地区居死亡例数首位。换句话说，多数地区的首要癌症负担高度一致。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "发病例数顺位中，肺癌在广西、甘肃、青海排第2，在西藏排第3；死亡例数顺位中，肺癌在广西、海南、甘肃、青海排第2，在西藏排第6。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 57,
+      "sample": "### 浙江、福建、新疆：甲状腺癌排到发病第2位"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 85,
+      "sample": "这篇论文报告的总体病理诊断比例（MV%）为70.61%，仅有死亡医学证明书比例（DCO%）为1.34%，死亡发病比（M/I）为0.57。这些指标分别反映不同的数据质量问题，不能压缩成一个简单的“合格分数”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 87,
+      "sample": "## 中国31省癌症负担图能说明什么"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 91,
+      "sample": "它不能告诉我们哪个省居民的癌症风险最高，也不能证明某种经济、医疗或生活方式因素造成了地区差异。全国2024年模型估计没有报告预测区间，106个连续登记处与全国人口的代表性差异也缺少系统比较；省级顺位则会受到登记覆盖、诊断和人口规模等因素影响。使用这些数字时，结论应停留在数据能够支持的范围内。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 95,
+      "sample": "1. 孙可欣，李荔，王少明，等. 2024年中国分地区恶性肿瘤流行情况分析. 中华肿瘤杂志，2026，48(3): 400-412. DOI: 10.3760/cma.j.cn112152-20260205-00079."
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

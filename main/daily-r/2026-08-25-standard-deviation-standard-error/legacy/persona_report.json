@@ -1,0 +1,268 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "statistical-method",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 36,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 同一组数据，标准差是12，标准误却只有1.2。哪个数字更能代表数据“稳定”？先别比较大小，它们回答的不是同一个问题。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "## 12和1.2，都对"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "看一份模拟的肿瘤登记资料：100名病例，诊断年龄均值62岁，样本标准差12岁。均值的标准误为："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 9,
+      "sample": "`SE = 12 / √100 = 1.2岁`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 11,
+      "sample": "12岁和1.2岁相差10倍。较小的1.2岁并不表示病例年龄很集中。它说的是另一件事：如果从同一总体反复抽取100人，%%每次得到的样本均值会怎样波动%%。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 21,
+      "sample": "换成调查研究也一样。抽取1000人的收入资料时，SD描述这1000人的收入彼此相差多大；SE描述的是，如果按同一设计重新抽取1000人，得到的平均收入会在不同样本之间波动多大。前者看@@样本内的个体差异@@，后者看@@样本之间的估计差异@@。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 29,
+      "sample": "`s = √[Σ(xᵢ-x̄)²/(n-1)]`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 35,
+      "sample": "在这个模拟案例里，12岁描述的是100名病例年龄的离散程度。即使从同类总体再抽到400人，标准差也不会因此机械变成6岁。更多样本通常让总体SD的估计更稳定，!!不会让人群中的个体差异凭空减半!!。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 37,
+      "sample": "还有一个常见误解：SD并非“只有正态分布才能计算”。只要方差存在，就可以算SD。真正需要正态近似的是另一句话——用“均值±约2SD”去粗略覆盖约95%的个体值。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 51,
+      "sample": "这条公式展示了样本量的作用。若总体SD相近，样本量增至原来的4倍，均值SE约减半："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 55,
+      "sample": "| 25 | 12 | 2.4 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 56,
+      "sample": "| 100 | 12 | 1.2 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 57,
+      "sample": "| 400 | 12 | 0.6 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 65,
+      "sample": "## 从SE到95%置信区间"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "SE像一把不确定性标尺，单独一个SE却没有直接说明覆盖水平。对总体均值的简单情形，总体方差未知时，95%置信区间写作："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 69,
+      "sample": "`x̄ ± t(0.975,n−1) × SE`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 71,
+      "sample": "回到模拟数据：n=100，自由度99的t临界值约为1.984，因此区间为："
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 73,
+      "sample": "`62 ± 1.984×1.2 = 59.6～64.4岁`"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 77,
+      "sample": "怎样解释这个95%？如果不断重复抽样，并且每次都按相同规则计算区间，长期约95%的区间会覆盖真实总体均值。置信水平属于@@构造区间的方法@@。它不是说，眼前这个已经算出的区间有95%概率包含一个固定不变的真实均值。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 79,
+      "sample": "SAMPL生物医学统计报告指南建议，主要结果应给出估计值和通常为95%的置信区间，而不要只靠P值或SE。原因很实际：CI同时告诉读者估计落在哪里、精度如何，也比“均值±SEM”更不容易被误读成数据范围。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 81,
+      "sample": "&&描述样本时用SD；表达主要估计的不确定性时，优先报告95%CI。&&"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 99,
+      "sample": "一根误差线可能代表SD、SE、95%CI、IQR或全距。这些图形外表相似，统计含义完全不同。图注至少应写清误差线定义、样本量，以及什么才是独立实验单位。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 105,
+      "sample": "CI5的登记处表格会同时给出年龄标化发病率及其标准误。这里的SE描述@@率的抽样变异@@，不是患者年龄、肿瘤大小或住院天数的离散程度。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 109,
+      "sample": "年龄标化率是各年龄别率按标准人口权重得到的加权和。CI5的方法在年龄别病例数采用Poisson分布假设时，用每个年龄组的病例数、人口人年和标准权重共同计算方差。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 113,
+      "sample": "病例很少、率接近零时，对称的“估计值±1.96×SE”还可能算出负下限。此时应考虑适用于计数率的精确区间或gamma区间，并同时报告病例数、人口人年、率的类型和标准人口。==公式不是越统一越好，匹配数据生成过程才重要。=="
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 120,
+      "sample": "| 均值估计有多精确 | 均值及95%CI | 只写mean±SEM |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 121,
+      "sample": "| 主要效应有多大 | 效应值、95%CI、样本量 | 只给P值 |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 123,
+      "sample": "| 展示率或模型参数 | 方法匹配的SE或95%CI | 一律套用SD/√n |"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 133,
+      "sample": "**1. NIST：Measures of Scale**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 136,
+      "sample": "**2. NIST：Confidence Limits for the Mean**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 139,
+      "sample": "**3. Altman DG, Bland JM. Standard deviations and standard errors**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 142,
+      "sample": "**4. EQUATOR Network：SAMPL Guidelines**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 145,
+      "sample": "**5. Cochrane Handbook, Chapter 6**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 148,
+      "sample": "**6. Cumming G, et al. Error bars in experimental biology**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 151,
+      "sample": "**7. CDC/NCHS：NHANES Variance Estimation**"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 154,
+      "sample": "**8. IARC/IACR：CI5 XII About**"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

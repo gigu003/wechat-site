@@ -1,0 +1,102 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-31-oncology-data-specialist",
+  "article_id": "2026-08-31-oncology-data-specialist",
+  "account": "main",
+  "type": "news",
+  "content_type": "registry-practice",
+  "series": "cancer-registry",
+  "theme": "refined-blue",
+  "image_style": "hand-drawn-blue",
+  "topic": "什么是 Oncology Data Specialist，如何成为 ODS",
+  "created_at": "2026-08-31T00:40:24+08:00",
+  "updated_at": "2026-09-05T14:09:35+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "03f13cbeecb70ac7a3565be022456d6942b8954d1a9a02cc9c0bf1a9921b1a58"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "4aa532cf62b38379573acb2efca7fe98ac129b9ad53d9fe90562194cffc2cc92"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "8b902c4932ff4d9af0056db99e07ea194b7e142a5c4f2f597a1aea135056b0ca"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "fc89e7f1592f22e12129a25340eaab2548bdca8356c015591c44a88e9a67c463"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "f67f0b2fb0e28e3a15e8b6c99fe2f805d2655305c022f272120c60015671a331"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:03:14+08:00",
+      "error": null,
+      "input_hash": "08e497b6bd546a53814840c525eb3e43c96f9e034783c01183abe8d8247e6dec"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:07:38+08:00",
+      "error": null,
+      "input_hash": "fd2a288865b41dac4f69a064c781e03f0297b31334399f74f7e3b0e690806fad"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-05T14:09:35+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-05T14:07:38+08:00",
+    "hashes": {
+      "ai_score.json": "f5558cb90da128fe5c61f9ea8c5aa2e936b9dc18f46047a43ebe6ee0bd63cce5",
+      "article.md": "c762f1bc293ed2b4ea7f24c85c99875c54fcf55bca4da65ad932b4e2b43374ca",
+      "brief.md": "468a910a6d43bb5552d38d8745d34c83fe9011d044030fa028b9bce9527ed846",
+      "cover.png": "a71e50167e5fc3401e0c492876cd1cc37154ddd1ce1a90ca6b7d4e09175c84a9",
+      "images/01-name-change.png": "cf8d35c32eed73165422d329a1145ba24a51289a9a4945b179ef5e8791118b01",
+      "images/02-three-routes.png": "ed082352b0d4b300fcb4f62544b4a60528570c74dcc21d3958aeab17eaaa8582",
+      "images/03-exam-domains.png": "e7da1009e8c48658c56241fcf22b928af521f37a42a0bcfd550275522e6da1a2",
+      "images/04-lessons-for-china.png": "80e9694962ef54bfef193ef2ca16c28e108a677aa19ca2df1d88bb95ed106243",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "9b6379f3c75a10252f4eeb355a30d84e6084b9b2803f4a25376c59a017dcf690",
+      "wechat_seo_report.json": "4e1ff88fc4a41f45b1d583fdfc392593ffea1201e9ab5d420cb33e4b917276aa",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-fDi6qluoVr_ix7fyqHFIHZpA92-Tecy3iUtOsHHwkfA",
+    "created_at": "2026-09-05T14:09:35+08:00",
+    "account": "main",
+    "forced_new_draft": true
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-08-31T00:40:24+08:00"
+  },
+  "publication_history": [
+    {
+      "media_id": "JSIo01kBSF5DsIhhtM79-TCtvX95nJOZUPFy6sDSwjvQYdHFnhwXFdXPKQ_WFj8y",
+      "created_at": "2026-08-31T18:09:56+08:00",
+      "account": "main",
+      "forced_new_draft": false
+    }
+  ]
+}

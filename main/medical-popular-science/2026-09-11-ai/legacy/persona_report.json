@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "registry-practice",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [
+    "用户于 2026-09-11 提供的原始稿件：关于使用 ChatGPT、Cline、Agent，以及开发 canregtools 和 ltRISK 的个人经历与判断"
+  ],
+  "error_count": 0,
+  "warning_count": 2,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "从 2022 年底 ChatGPT 发布以来，我面对 AI 的态度一直在变化。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 27,
+      "sample": "我有一段时间觉得，自己所做的 90% 的工作 AI 都可以完成，甚至可能比我完成得更好。它表现得越好，这种焦虑反而越明显：如果大部分具体操作都能被自动化，离失业是不是就不远了？"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

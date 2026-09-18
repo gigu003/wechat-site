@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-08-28-joinpoint",
+  "article_id": "2026-08-28-joinpoint",
+  "account": "main",
+  "type": "news",
+  "content_type": "statistical-method",
+  "series": "cancer-registry",
+  "theme": "refined-blue",
+  "image_style": "hand-drawn-blue",
+  "topic": "Joinpoint回归如何寻找癌症趋势拐点：从置换检验到误差结构",
+  "created_at": "2026-08-28T16:39:28+08:00",
+  "updated_at": "2026-08-31T18:09:39+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "d942ce1c8aa1358e14210f4a791eadec57eeaf6e05f697059abb9f7b60b75d8e"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "9b985312617472d0f6fb831c81448c45132d3d9d60d654283f5f5fa2b3d81bf4"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "97cc9ace31d319993fda21998c8497dc222cfca6768e5dd5a63f1e86c83273e2"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "85cc2d632ea5d57b5bb5814e07ebc2dcb3abb5a7f3d30b2a3d0aaed8cae80dfc"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:12+08:00",
+      "error": null,
+      "input_hash": "7cf92d9663202febaa1354ffc1ad708d1c3ef3a495f73f3d992638c7606bc0e1"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:13+08:00",
+      "error": null,
+      "input_hash": "28621f7cb80349a24b27a44574bd4b984de452e36001107c57509cf3c31d9a25"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:05:35+08:00",
+      "error": null,
+      "input_hash": "955e22bed226886684e85cf0dde066f4882291b6dcecc7211bca9a2cfe701e1b"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-08-31T18:09:39+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-08-31T18:05:35+08:00",
+    "hashes": {
+      "ai_score.json": "db78262fb84706be85340c3bcf153509c8406ecabb0ef8b33ecf1b0fc02f5dd4",
+      "article.md": "7250e446131421f76da4c731abf4d055995237852a493b539c39c81218387333",
+      "brief.md": "10c92f8eddba648543a621e87609b8b576e40b4d6f956ced43e1535455206e40",
+      "cover.png": "4d225eb7f040145b2e063f1e005b0e15094ac2801de02de701303d5be7248a5b",
+      "images/01-model.png": "e3f27e77dae5360bf742b1c8e99283bb32048bcac349d4359e02ee551d8a4a8d",
+      "images/02-algorithm.png": "67d83a6082de31f3cd168fcd2026016165f8b31169407cd70719d535f588e9c9",
+      "images/03-autocorrelation.png": "e367253a23e1b25a9b3ec83323536a90f1f42ab256de4257232946402399a80b",
+      "persona_report.json": "0f8ef5bcb6ca3cf47fe9147001d88f0c81e20fc7823caf5e7749b5c4fd76b485",
+      "wechat_seo_report.json": "85f883c2637ba574aba9e23e4f3f551bd5fc1eda5f6578dab08db28813c55bdc"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-XrmwBIGgbilGZERqELQeveudsdXfRiMlwnTMddzLpjd",
+    "created_at": "2026-08-31T18:09:39+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null
+}

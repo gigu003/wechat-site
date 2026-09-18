@@ -1,0 +1,70 @@
+meta:
+  name:
+    short: "普癌新声"
+    full: "普癌新声·肿瘤登记与健康科普"
+
+color:
+  palette:
+    pine: "#123D35"
+    jade: "#155B4B"
+    fern: "#287A61"
+    mint: "#E6F3EC"
+    mist: "#F3F7F4"
+    sand: "#F7F1E8"
+    amber: "#C26B3A"
+    slate: "#56706A"
+    ink: "#173B32"
+    paper: "#FCFDFB"
+    red: "#A94B45"
+    blue: "#376E7A"
+    green: jade
+    teal: fern
+    orange: amber
+    white: "#FFFFFF"
+    black: "#102C26"
+  foreground: ink
+  background: paper
+  primary: jade
+  secondary: slate
+  tertiary: fern
+  success: fern
+  info: blue
+  warning: amber
+  danger: red
+  light: mist
+  dark: pine
+
+typography:
+  fonts:
+    - family: Noto Sans SC
+      source: google
+      weight: [400, 500, 600, 700]
+    - family: Noto Serif SC
+      source: google
+      weight: [600, 700]
+    - family: SFMono-Regular
+      source: system
+  base:
+    family: Noto Sans SC
+    size: 17px
+    weight: 400
+    line-height: 1.8
+  headings:
+    family: Noto Serif SC
+    weight: 700
+    line-height: 1.3
+    color: pine
+  monospace:
+    family: SFMono-Regular
+    size: 0.9em
+  monospace-inline:
+    color: pine
+    background-color: mist
+  monospace-block:
+    color: ink
+    background-color: mist
+    line-height: 1.55
+  link:
+    color: primary
+    weight: 600
+    decoration: underline

@@ -1,0 +1,114 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-review",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 14,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 1,
+      "sample": "# 肿瘤生存分析的7个常见误区：这篇综述讲对了什么，还缺什么"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> `HR=0.8`，能不能直接写成“疾病进展风险降低20%”？两条 Kaplan-Meier 曲线没有交叉，是否就说明比例风险假设成立？`P＞0.05`，是否等于“没有影响”？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 50,
+      "sample": "PH 假设也不应只靠一个检验的 `P=0.049` 或 `P=0.051` 来裁决。样本很大时，轻微偏离也可能显著；样本较小时，实质性偏离又可能检不出来。更稳妥的做法是把图形、Schoenfeld 残差、时间交互、效应随时间的变化形式，以及疾病与治疗机制放在一起判断。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 56,
+      "sample": "## 误区三：`P＞0.05` 就是“没有影响”"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 58,
+      "sample": "原文在 AFT 模型一段写到：若 `P＞0.05`，则认为协变量对生存时间无影响。这种表述容易把“没有足够证据拒绝零假设”改写成“已经证明没有效应”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 60,
+      "sample": "两者并不相同。`P＞0.05` 可能对应效应很小，也可能来自事件数不足、估计不精确、模型设定不合适或测量误差。结果解读至少还要看效应值、置信区间、研究效能与模型诊断。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 66,
+      "sample": "原文用一个假设例子说明：新化疗方案相对传统方案的 `HR=0.8`，并表述为疾病进展风险降低20%。这是一种常见简写，也是一处常见误读。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 70,
+      "sample": "文章紧接着给出 RMST 示例，反而把问题说得更清楚：限制时间为3年，传统方案组 RMST 为2.2年，新方案组为2.5年，差0.3年。这里的解释是：在这3年观察窗口内，新方案组平均无进展生存时间多0.3年。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 74,
+      "sample": "`HR=0.8` 和“3年 RMST 多0.3年”可以同时为真，但不是同一句话。前者是相对 hazard，后者是指定时间窗内生存曲线下面积的绝对差。报告时把两者并列，读者更容易判断效应的大小和实际含义。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 76,
+      "sample": "## 误区五：达到10 events per variable，模型就安全"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 78,
+      "sample": "文章引用经典研究，建议 Cox 多变量模型中结局事件数至少约为协变量数量的10倍。这个经验规则可以提醒研究者：模型的信息量更依赖事件数，而不是只看总样本量。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 82,
+      "sample": "文中还给出 Schoenfeld 样本量示例：设双侧 `α=0.05`、效能90%、两组等分、目标 `HR=1.5`，需要257个事件；再结合60%的预期事件率和15%的删失率，估计总样本量为504。这个例子说明计算路径，不能把257或504搬到另一项研究中。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 92,
+      "sample": "因此，文中“删失比例超过70%需谨慎”适合作为提醒，不宜反过来理解成“低于70%就可靠”。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 108,
+      "sample": "中位生存时间来自生存曲线：当估计生存概率降到0.5时，对应的时间是中位生存时间。如果研究结束时事件比例不足以让曲线降到0.5，就不能硬算一个中位生存时间，可改报预先指定时间点的生存率。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

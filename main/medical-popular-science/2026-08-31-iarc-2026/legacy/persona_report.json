@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "literature-or-popular-science",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 7,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 3,
+      "sample": "> 2026 年甲状腺癌宣传月，国际癌症研究机构（IARC）特别提醒：避免对没有甲状腺癌症状的人群进行不必要的筛查。这不是要人们忽视颈部肿块或已发现的甲状腺结节，而是希望筛查的获益与伤害都被看见。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 5,
+      "sample": "2026 年 8 月 31 日，IARC 在甲状腺癌宣传月信息中公布了两组容易引起注意的数字：2024 年全球约有 100 万人被诊断为甲状腺癌，约 5 万人死于该病；新发病例中约四分之三是女性。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 7,
+      "sample": "IARC 同时指出，部分国家的甲状腺癌过度诊断占比可高达 90%。这个数字并不表示“90% 的甲状腺癌都是误诊”，也不能直接用来判断某一位患者。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 19,
+      "sample": "## “部分国家高达 90%”是怎样得出的"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 21,
+      "sample": "IARC 本次提醒的重要依据之一，是 2024 年发表在 *The Lancet Diabetes & Endocrinology* 的一项多国人群研究。研究者整合了 IARC 《五大洲癌症发病率》数据库中的人群癌症登记资料、WHO 死亡数据和联合国人口估计。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 23,
+      "sample": "对 2013—2017 年 63 个国家的资料进行估计后，研究者认为，2297057 例甲状腺癌中约有 1736133 例可归因于过度诊断，占 75.6%。各国差异非常明显：女性中，塞浦路斯、中国、韩国和土耳其的估计占比超过 85%；有的国家则未观察到过度诊断。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 43,
+      "sample": "2023 年国内《甲状腺结节和分化型甲状腺癌诊治指南（第二版）》不建议对非高危的普通人群进行甲状腺结节超声筛查。该条推荐的证据等级为低，推荐强度为弱，这一不确定性也需如实保留。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

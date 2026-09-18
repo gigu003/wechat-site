@@ -1,0 +1,16 @@
+{
+  "total_score": 9.4,
+  "mode": "news",
+  "dimensions": {
+    "burstiness": 11.1,
+    "phrases": 0.0,
+    "vocab": 0.0,
+    "structural": 0.0,
+    "punctuation": 30.0,
+    "style": 36.3
+  },
+  "hit_phrases": [],
+  "hit_vocab": [],
+  "threshold": 45.0,
+  "passed": true
+}

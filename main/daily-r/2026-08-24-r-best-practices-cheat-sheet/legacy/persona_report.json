@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "account_positioning": "肿瘤登记与医学科研知识账号",
+  "content_type": "tool-guide",
+  "audience": [
+    "肿瘤登记从业者",
+    "医学科研人员"
+  ],
+  "evidence_level": "可追溯来源",
+  "real_experience_sources": [],
+  "error_count": 0,
+  "warning_count": 4,
+  "issues": [
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 46,
+      "sample": "一段从头跑到尾的长脚本，当时往往很顺手；过两个月再看，就会冒出一堆问题：这两列长度不一样怎么办？人口数能不能为 0？返回的单位是什么？"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 67,
+      "sample": "这段代码已在 `R 4.5.2` 中执行。输入是两组病例数和人口数，预期输出与实际运行结果一致：每 10 万人率为 `20` 和 `25`。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 77,
+      "sample": "`lower_snake_case`、运算符两侧留空格、2 空格缩进、长调用换行，都不会改变计算结果。它们解决的是阅读成本。"
+    },
+    {
+      "code": "unsourced_number",
+      "severity": "warning",
+      "message": "该行含数字但没有可见来源标记,请确认数字可在 research.md 或正文引用中追溯。",
+      "line": 79,
+      "sample": "这类约定没有必要手工挑错。`styler` 可以自动格式化，`lintr` 可以把风格问题放进检查流程。至于“每行不超过 80 个字符”，它是一个可读性约定，不是代码正确性标准。团队统一，比争论唯一正确的风格更有价值。"
+    }
+  ],
+  "limitations": "启发式人格检查不验证医学事实本身;warning 与来源仍需人工复核。"
+}

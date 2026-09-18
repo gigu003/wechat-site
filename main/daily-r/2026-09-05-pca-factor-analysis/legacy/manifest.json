@@ -1,0 +1,96 @@
+{
+  "schema_version": 2,
+  "workflow_id": "2026-09-05-pca-factor-analysis",
+  "article_id": "2026-09-05-pca-factor-analysis",
+  "account": "main",
+  "type": "news",
+  "content_type": "statistical-method",
+  "series": "daily-r",
+  "theme": "minimal-mono",
+  "image_style": "flat-editorial",
+  "topic": "主成分分析（PCA）和因子分析有什么区别？如何选择与用R实现",
+  "created_at": "2026-09-05T14:21:55+08:00",
+  "updated_at": "2026-09-06T07:44:29+08:00",
+  "stages": {
+    "brief": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "879872e85434f1a77e5b2f3aa0b27ebc40104fbb6ea931481c613e392c7a103b"
+    },
+    "research": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "ca390a6b6e2875e880c26a3d69aa6e4de932d320ded36a81b6a70e3ecfd14e7c"
+    },
+    "article": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "49f4b6a24cebf385404d001ae5cf096a7d49cdae738ae516b620c29b13129768"
+    },
+    "images": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "1c88931181a19be9b1aac0a9fe0183a4e904e863c7e6d309b7aa3feeda8605c1"
+    },
+    "check": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "b58f852977d3b92dec4e59f9c328a8be75d1320c80f339eac029f21fcce479a8"
+    },
+    "preview": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:01+08:00",
+      "error": null,
+      "input_hash": "e0564f4bd7ae83ed0616bae0bb60aca098e94a842d1f2214071ee945fd3b3550"
+    },
+    "approval": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:42:07+08:00",
+      "error": null,
+      "input_hash": "6c2d6a19196959bd0f48c1513dbb6688d1027cb6ee47ce7901f0a13672662521"
+    },
+    "publish": {
+      "status": "passed",
+      "updated_at": "2026-09-06T07:44:29+08:00",
+      "error": null
+    }
+  },
+  "approval": {
+    "approved_at": "2026-09-06T07:42:07+08:00",
+    "hashes": {
+      "ai_score.json": "8c70fe27962c0d7ba862f2795a7def22e7e4b7caa7ee2c09153fded703d95ce1",
+      "article.md": "6897eebf8872117f7d46cf6dd386d647e481c9448c6610b23c59ae1aef8c896f",
+      "brief.md": "d61edc6f30af7387254ce883cca48d9fe35944483a5142447197499b21f7e507",
+      "content_value_report.json": "4ac4a3da42400b76550fff441068ecec0e1841e1c0eaa5f2af912d10fe20ec28",
+      "cover.png": "07b5ad384e7992f70057b613a296ea29f45790dd892b351c6ec054e6f10f08a0",
+      "images/01-pca-fa-goals.png": "64d4ca309a7cb6531dcdeef5bd59480ddc238450ef294b7e8d35126d8eaf51ad",
+      "images/02-model-difference.png": "a4a6db9be5cb152509fbecaaabe341cd2b853888c3bcb08ecd1a100290415211",
+      "images/03-variance-decomposition.png": "15ec9b4e75c6945618f064dd97941e22fcec2d8c81f3a46bf848a05195277bbd",
+      "images/04-method-choice.png": "5398d6a3cef147ef5db54cabf4c0124a47a7d26db3a9d6b3eb4371ef9bf5d4e4",
+      "images/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9",
+      "persona_report.json": "70cd689d19f08f1a774a3bab3cc7be6defe1adf51ed8cdb533a0f9bc1a433a73",
+      "wechat_seo_report.json": "178b2a14a647919f69621982ff4a7f97f09e5162415934a72a884546e6f179de",
+      "@brand/puai-follow-guide-simple.png": "3fd3a3ea86122e0ee7403b813273c116fd43d83a060181fea191af79a1408bd9"
+    }
+  },
+  "publication": {
+    "media_id": "JSIo01kBSF5DsIhhtM79-TzL2sjG-odYao8m-m1gWlhS5v7w2IA0_5qST-K6JgiR",
+    "created_at": "2026-09-06T07:44:29+08:00",
+    "account": "main",
+    "forced_new_draft": false
+  },
+  "wechat_publication": null,
+  "strategy_context": null,
+  "paper_review": null,
+  "related_articles": {
+    "path": "related_articles.json",
+    "status": "no_database",
+    "candidate_count": 0,
+    "generated_at": "2026-09-05T14:21:55+08:00"
+  }
+}

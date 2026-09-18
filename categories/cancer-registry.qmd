@@ -1,0 +1,41 @@
+---
+title: "肿瘤登记"
+kicker: "Cancer Registry"
+subtitle: '<span class="category-rss-directory" role="group" aria-label="肿瘤登记 RSS 订阅"><span class="category-rss-label">RSS 订阅</span><a class="category-rss-link" href="cancer-registry.xml">订阅本栏目</a></span>'
+description: "肿瘤登记实践、数据质量、统计方法与行业资讯。"
+image: ../_extensions/wechat/assets/brand/category-cancer-registry-watercolor.png
+order: 1
+body-classes: category-page category-cancer-registry
+page-layout: full
+toc: false
+format:
+  wechat-html:
+    include-after-body: ../_extensions/wechat/includes/article-list-new-tab.html
+listing:
+  id: cancer-registry-articles
+  contents:
+    - ../main/cancer-registry/**/index.qmd
+  type: custom
+  template: ../_extensions/wechat/listings/article-grid.ejs.md
+  template-params:
+    columns: 2
+  grid-columns: 2
+  sort: "date desc"
+  fields: [image, date, date-modified, title, description, categories]
+  field-display-names:
+    date-modified: "更新于"
+  page-size: 6
+  filter-ui: true
+  sort-ui: false
+  feed:
+    title: "普癌新声 · 肿瘤登记"
+    description: "人群肿瘤登记的实务、数据质量、统计方法与行业资讯。"
+    language: zh-CN
+    type: partial
+    items: 100
+---
+
+<div class="category-masthead-meta" role="group" aria-label="肿瘤登记栏目导航">
+  <span class="category-masthead-count">共 <span class="series-count"><!--COUNT:cancer-registry--></span> 篇</span>
+  <a class="category-masthead-back" href="../index.html">← 返回全部栏目</a>
+</div>
