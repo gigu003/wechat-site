@@ -22,6 +22,7 @@ quarto render
 网站统一以 `_quarto.yml` 的 `format: wechat-html` 生成标准 HTML 到 _site/，导航、搜索、目录、页脚继续使用 Quarto。`project.brand` 指向 extension 内的 `brand.yml`，以便 Quarto 编译品牌色板并加载中文字体。
 `_extensions/wechat/` 是本站的正式本地 Quarto format extension：`brand.yml`、`styles.css`、过滤器、16 套主题、列表组件和品牌资源都随扩展分发。正文只有声明 `article-theme` 时才应用文章主题，首页和栏目页保留原生网站结构。
 网站 HTML 支持 Quarto 原生 light/dark 模式切换，默认尊重系统偏好并保留读者的选择；深色配色定义在 `_extensions/wechat/themes/dark.scss`，站点壳层适配集中在 `styles.css`。
+网站通过 GitHub Actions 使用 Quarto 1.10.18 渲染，并将 `_site/` 部署到 GitHub Pages；每次推送 `main` 分支都会触发部署，Pull Request 只执行渲染检查。
 三个栏目页的标题区分别使用 extension 内 `assets/brand/category-*-watercolor.png` 的水彩背景主视觉，保持标题、简介与 RSS 订阅在左侧清晰可读。
 正文保留原生结构和锚点；列表使用浏览器原生编号，微信使用主题装饰标记。
 文章列表卡片在新标签页打开。

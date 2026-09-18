@@ -7,3 +7,7 @@ _site/
 migration-report.json
 _area.yaml
 tests/
+
+/.quarto/
+**/*.quarto_ipynb
+**/index.html
