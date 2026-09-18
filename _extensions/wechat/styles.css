@@ -817,7 +817,7 @@ body.category-page .category-masthead-meta > p {
 
 .wechat-follow-qr {
   flex: 0 0 auto;
-  width: 7rem;
+  width: 6rem;
   max-width: 100%;
   display: block;
   border-radius: 0.55rem;
