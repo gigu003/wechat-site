@@ -51,9 +51,7 @@ website:
     </div>
     </div>
     <div class="wechat-follow-scan">
-    <a class="wechat-follow-qr-link" href="/site_libs/quarto-contrib/quarto-project/wechat/assets/brand/puai-wechat-qr.jpg" target="_blank" rel="noopener" aria-label="打开普癌新声微信公众号二维码，长按二维码识别或保存">
-    <img class="wechat-follow-qr" src="/site_libs/quarto-contrib/quarto-project/wechat/assets/brand/puai-wechat-qr.jpg" alt="普癌新声微信公众号二维码；长按识别或保存" width="430" height="430" loading="lazy" decoding="async">
-    </a>
+    <img class="wechat-follow-qr" src="/site_libs/quarto-contrib/quarto-project/wechat/assets/brand/puai-wechat-qr.jpg" alt="普癌新声微信公众号二维码，请长按识别或保存" width="430" height="430" loading="lazy" decoding="async">
     <span>长按关注公众号</span>
     </div>
     </aside>

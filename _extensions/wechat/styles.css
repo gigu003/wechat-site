@@ -815,20 +815,12 @@ body.category-page .category-masthead-meta > p {
 }
 .wechat-follow-scan > span { max-width: 12ch; font-size: 0.72rem; }
 
-.wechat-follow-qr-link {
+.wechat-follow-qr {
   flex: 0 0 auto;
   width: 7rem;
   max-width: 100%;
   display: block;
   border-radius: 0.55rem;
-  outline-offset: 0.25rem;
-}
-.wechat-follow-qr-link:focus-visible {
-  outline: 2px solid var(--puai-green);
-}
-.wechat-follow-qr-link:hover .wechat-follow-qr {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(23, 59, 50, 0.18);
 }
 .wechat-follow-qr {
   display: block;
@@ -843,8 +835,12 @@ body.category-page .category-masthead-meta > p {
   background: #fff url("assets/brand/puai-wechat-qr.jpg") center / contain no-repeat;
   box-shadow: 0 5px 14px rgba(23, 59, 50, 0.12);
   transition: transform 180ms ease, box-shadow 180ms ease;
-  user-select: none;
-  -webkit-user-drag: none;
+}
+@media (hover: hover) {
+  .wechat-follow-qr:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(23, 59, 50, 0.18);
+  }
 }
 
 /* The two-column card is a desktop enhancement.  It never has to be undone
@@ -870,7 +866,7 @@ body.category-page .category-masthead-meta > p {
     font-size: 0.7rem;
     text-align: center;
   }
-  .wechat-follow-qr-link { width: 10rem; }
+  .wechat-follow-qr { width: 10rem; }
   .wechat-follow-qr { border-width: 0.35rem; }
 }
 
