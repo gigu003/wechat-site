@@ -16,6 +16,7 @@ image-style: hand-drawn-blue
 article-theme: refined-blue
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/4Q_H8VllohPRIphvlqvvnw"
 ---
 
 ## 1966：先把“谁”和“多久”说清楚

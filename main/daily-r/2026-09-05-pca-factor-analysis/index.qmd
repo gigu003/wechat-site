@@ -16,6 +16,7 @@ image-style: flat-editorial
 article-theme: minimal-mono
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/09jrm5_2aaJqyvYI0ErYTA"
 ---
 
 ## 先分清研究目的：减少变量，还是寻找共同特征？

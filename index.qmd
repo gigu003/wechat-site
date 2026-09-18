@@ -1,5 +1,5 @@
 ---
-title: '<span class="home-channel-mark" aria-hidden="true"></span><span class="home-title-text">普癌新声</span>'
+title: '<span class="home-brand-lockup"><span class="home-brand-logo home-brand-logo-light" aria-hidden="true"></span><span class="home-brand-logo home-brand-logo-dark" aria-hidden="true"></span><span class="home-brand-name">普癌新声</span></span>'
 page-title: "普癌新声"
 subtitle: '<span class="home-rss-directory" role="group" aria-label="RSS 订阅"><span class="home-rss-label">RSS 订阅</span><a class="home-rss-link" href="index.xml">订阅全部文章</a></span>'
 description: "让数据更可靠，让方法可复现，让健康知识有证据。"

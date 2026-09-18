@@ -13,6 +13,11 @@
   --puai-line: rgba(21, 91, 75, 0.16);
   --puai-shadow-sm: 0 8px 24px rgba(23, 59, 50, 0.08);
   --puai-shadow-lg: 0 18px 42px rgba(23, 59, 50, 0.14);
+  /* Keep responsive avatar variants in Quarto's copied resource set. The
+     article filter selects the right file through HTML srcset/sizes. */
+  --puai-avatar-small: url("assets/brand/author-avatar-small.png");
+  --puai-avatar-medium: url("assets/brand/author-avatar-medium.png");
+  --puai-avatar-large: url("assets/brand/author-avatar-large.png");
   --puai-serif: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", serif;
   --puai-sans: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
 }
@@ -175,27 +180,55 @@ main.content > header#title-block-header::before {
   text-wrap: balance;
 }
 
-/* Homepage channel lockup: a single superscript mark distinguishes this
-   public account site while the H1 remains the accessible name “普癌新声”. */
+/* Homepage brand lockup: the horizontal wordmark carries the same identity
+   as the follow card while the H1 keeps a text fallback for accessibility. */
 body.home-page #title-block-header .quarto-title .title {
   display: inline-flex;
   align-items: center;
   flex-wrap: nowrap;
-  gap: clamp(0.22rem, 0.55vw, 0.42rem);
   max-width: none;
   margin: 0;
   white-space: nowrap;
 }
 
-.home-channel-mark {
-  flex: 0 0 auto;
-  width: clamp(1.1rem, 1.7vw, 1.35rem);
-  height: clamp(1.1rem, 1.7vw, 1.35rem);
-  background: url("assets/brand/puai-channel-mark.svg") center / contain no-repeat;
-  transform: translateY(-0.48em);
+.home-brand-lockup {
+  display: block;
+  width: clamp(13rem, 26vw, 20rem);
+  max-width: 100%;
 }
 
-.home-title-text { white-space: nowrap; }
+.home-brand-logo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 360 / 88;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home-brand-logo-light {
+  background-image: url("assets/brand/puai-logo.svg");
+}
+
+.home-brand-logo-dark {
+  display: none;
+  background-image: url("assets/brand/puai-logo-inverse.svg");
+}
+
+.home-brand-name {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+body.quarto-dark .home-brand-logo-light { display: none; }
+body.quarto-dark .home-brand-logo-dark { display: block; }
 
 #title-block-header .description {
   max-width: 48rem;
@@ -782,7 +815,32 @@ body.category-page .category-masthead-meta > p {
 
 .wechat-follow-copy, .wechat-follow-scan { position: relative; z-index: 1; }
 .wechat-follow-copy { text-align: center; }
-.wechat-follow-kicker { display: inline-flex; margin-bottom: 0.35rem; color: var(--puai-warm); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; }
+.wechat-follow-brand { display: inline-flex; align-items: center; justify-content: center; width: min(100%, 15rem); margin: 0 0 0.8rem; }
+.wechat-follow-brand > p,
+.wechat-follow-topics > p,
+.wechat-follow-scan > p { display: contents; }
+.wechat-follow-logo {
+  display: block;
+  width: 100%;
+  max-width: 15rem;
+  aspect-ratio: 360 / 88;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.wechat-follow-logo-light { background-image: url("assets/brand/puai-logo.svg"); }
+.wechat-follow-logo-dark { display: none; background-image: url("assets/brand/puai-logo-inverse.svg"); }
+.wechat-follow-title-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 .wechat-follow-copy h2 { margin: 0 0 0.35rem; color: var(--puai-pine); font-size: 1.2rem; line-height: 1.3; }
 .wechat-follow-copy p { max-width: 38rem; margin: 0 auto; color: #49685f; font-size: 0.84rem; line-height: 1.65; }
 .wechat-follow-topics { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.35rem; margin-top: 0.65rem; }
@@ -870,10 +928,16 @@ body.category-page .category-masthead-meta > p {
 
 .article-author-avatar {
   flex: 0 0 auto;
+  display: block;
   width: 3.6rem;
   height: 3.6rem;
+  aspect-ratio: 1;
   border-radius: 50%;
-  background: var(--puai-green) url("assets/brand/author-avatar.png") center / cover no-repeat;
+  overflow: hidden;
+  clip-path: circle(50% at 50% 50%);
+  object-fit: cover;
+  object-position: center;
+  background-color: var(--puai-green);
   box-shadow: 0 0 0 3px #fff, 0 4px 14px rgba(23, 59, 50, 0.16);
 }
 
@@ -1002,7 +1066,7 @@ body.category-page .category-masthead-meta > p {
     gap: 0.28rem;
   }
   #title-block-header .quarto-title .title { font-size: 2rem; }
-  .home-channel-mark { width: 1.05rem; height: 1.05rem; }
+  .home-brand-lockup { width: min(17rem, 82vw); }
   .level2.home-section-title { margin-top: 2.5rem; }
   .quarto-listing .listing-actions-group { justify-content: stretch; }
   .quarto-listing .quarto-listing-filter { width: 100%; }
@@ -1101,6 +1165,9 @@ body.quarto-dark .wechat-follow-topics span {
   background: rgba(23, 40, 35, 0.72);
   color: #b8d9c7;
 }
+
+body.quarto-dark .wechat-follow-logo-light { display: none; }
+body.quarto-dark .wechat-follow-logo-dark { display: block; }
 
 /* Theme JSON files are intentionally expressive in light mode. These shell
    overrides keep article text, rules, tables, and code legible at night while

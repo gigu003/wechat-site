@@ -18,6 +18,7 @@ website:
   # RSS entries. Update it here if the website is moved to another domain.
   site-url: "https://wechat.chenq.site"
   description: "让数据更可靠，让方法可复现，让健康知识有证据。"
+  favicon: _extensions/wechat/assets/brand/puai-channel-mark.svg
   navbar:
     title: '普癌新声 <span class="navbar-channel-label">· 公众号</span>'
     logo: _extensions/wechat/assets/brand/puai-channel-mark-inverse.svg
@@ -41,8 +42,11 @@ website:
   body-footer: |
     <aside class="wechat-follow-card" aria-labelledby="wechat-follow-title">
     <div class="wechat-follow-copy">
-    <span class="wechat-follow-kicker">微信公众号</span>
-    <h2 id="wechat-follow-title">关注“普癌新声”</h2>
+    <div class="wechat-follow-brand">
+    <span class="wechat-follow-logo wechat-follow-logo-light" aria-hidden="true"></span>
+    <span class="wechat-follow-logo wechat-follow-logo-dark" aria-hidden="true"></span>
+    </div>
+    <h2 id="wechat-follow-title" class="wechat-follow-title-sr">关注“普癌新声”</h2>
     <p>持续获取肿瘤登记、R语言与数据科学、肿瘤防治与健康科普内容。</p>
     <div class="wechat-follow-topics" aria-label="公众号内容方向">
     <span>让数据更可靠</span>

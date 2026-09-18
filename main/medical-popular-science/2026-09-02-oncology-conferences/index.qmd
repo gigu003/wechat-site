@@ -16,6 +16,7 @@ image-style: infographic-mint
 article-theme: warm-editorial
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/ZiVloan_kdZaz60Wgschzg"
 ---
 
 2026 年 9 月至 11 月，国内外将举办多场肿瘤、癌症预防、生物统计和公共卫生相关学术会议。本文根据会议主办方或学会官网截至 2026 年 9 月 2 日公开的信息，按举办月份整理会议名称、地点和主要方向，方便读者提前查看安排。

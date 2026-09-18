@@ -16,6 +16,7 @@ image-style: flat-editorial
 article-theme: minimal-mono
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/Dd6-bInnpvYq_3520SdT6g"
 ---
 
 ## 先给结论：不必从背语法开始

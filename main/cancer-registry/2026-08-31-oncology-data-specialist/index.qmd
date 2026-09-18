@@ -16,6 +16,7 @@ image-style: hand-drawn-blue
 article-theme: refined-blue
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/MkbqXOZ2LO_02wtk3ErSlA"
 ---
 
 ## 肿瘤数据专员（ODS）做什么？肿瘤登记工作内容

@@ -16,6 +16,7 @@ image-style: hand-drawn-blue
 article-theme: refined-blue
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/8NeRkGip80gE1cyqTyUotA"
 ---
 
 CI5 的核心任务，是汇集来自世界各地人群肿瘤登记处的高质量发病资料，并在尽可能一致的标准下呈现不同地区和登记时期的癌症发病情况。它既是肿瘤登记资料的国际交流平台，也是癌症流行病学研究和全球癌症监测的重要数据来源。

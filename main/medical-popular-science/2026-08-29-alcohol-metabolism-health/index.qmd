@@ -16,6 +16,7 @@ image-style: infographic-mint
 article-theme: warm-editorial
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/2rl2S76XrtB9RfHFI80OMw"
 ---
 
 ## 酒杯不同，身体面对的是同一种乙醇

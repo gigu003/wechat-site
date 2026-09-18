@@ -16,6 +16,7 @@ image-style: flat-editorial
 article-theme: minimal-mono
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/e8gOk6bzBx5AlVOA6vmpkQ"
 ---
 
 ## 先认识大数定律

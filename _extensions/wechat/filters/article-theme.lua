@@ -106,7 +106,26 @@ function Pandoc(doc)
   -- section, rather than nesting headings under a non-TOC wrapper.
   rule(scope, 'padding-inline:clamp(0.75rem,2vw,1.375rem);box-sizing:border-box;')
   rule(heading_scope .. '.article-heading' .. theme_attr, 'margin-inline:clamp(0.75rem,2vw,1.375rem);')
-  rule(scope .. ' .article-description', shell.description)
+  -- Descriptions are a shared reading component. Theme JSON supplies the
+  -- accent/soft/muted tokens above; the card itself stays readable in both
+  -- modes instead of inheriting each theme's light-only hard-coded colours.
+  rule(scope .. ' .article-description',
+    'max-width:76ch;box-sizing:border-box;margin:0 0 1.75rem;padding:1rem 1.25rem;' ..
+    'border:1px solid color-mix(in srgb,var(--article-accent) 18%,transparent);' ..
+    'border-inline-start:0.3rem solid var(--article-accent);border-radius:0 0.75rem 0.75rem 0;' ..
+    'background:var(--article-soft);' ..
+    'background:linear-gradient(135deg,color-mix(in srgb,var(--article-soft) 88%,var(--puai-paper, #fcfdfb)),var(--puai-paper, #fcfdfb));' ..
+    'color:var(--article-muted);font-size:0.98rem;line-height:1.8;overflow-wrap:anywhere;')
+  rule(scope .. ' .article-description p',
+    'max-width:none;margin:0;color:inherit!important;font-size:inherit;line-height:inherit;' ..
+    'text-align:left;text-indent:0;letter-spacing:inherit;overflow-wrap:anywhere;')
+  table.insert(css,
+    'body.quarto-dark ' .. scope .. ' .article-description{' ..
+    'border-color:color-mix(in srgb,var(--article-accent) 38%,rgba(187,220,203,.18))!important;' ..
+    'border-inline-start-color:var(--article-accent)!important;' ..
+    'background:linear-gradient(135deg,color-mix(in srgb,var(--article-accent) 13%,#172823),#172823)!important;' ..
+    'color:#dbe9e2!important;box-shadow:0 0.5rem 1.25rem rgba(0,0,0,.16);}' ..
+    'body.quarto-dark ' .. scope .. ' .article-description p{color:#dbe9e2!important;}')
   rule(scope .. ' figcaption', 'color:var(--article-muted);')
   rule(scope .. ' img', shell.image)
   -- Quarto owns the link-level active border that indicates reading progress.
@@ -195,13 +214,23 @@ function Pandoc(doc)
   -- as a read-only fallback so historical articles do not lose their update label.
   local date_modified = format_date(meta_text('date-modified') or meta_text('last-modified'))
   local description = meta_text('description') or meta_text('abstract')
+  local wechat_link = meta_text('wechat-link')
+  if wechat_link and not wechat_link:match('^https?://') then
+    error('Invalid wechat-link: expected an http(s) URL')
+  end
   local reading_units, reading_minutes = reading_stats(doc.blocks)
 
   local pre = pandoc.Blocks({})
   local author_block
   if author or author_focus or date or date_modified then
     local inner = {}
-    table.insert(inner, '<span class="article-author-avatar" role="img" aria-label="' .. escape_html(author or '') .. '"></span>')
+    table.insert(inner,
+      '<img class="article-author-avatar" src="/site_libs/quarto-contrib/quarto-project/wechat/assets/brand/author-avatar-small.png"' ..
+      ' srcset="/site_libs/quarto-contrib/quarto-project/wechat/assets/brand/author-avatar-small.png 96w,' ..
+      ' /site_libs/quarto-contrib/quarto-project/wechat/assets/brand/author-avatar-medium.png 192w,' ..
+      ' /site_libs/quarto-contrib/quarto-project/wechat/assets/brand/author-avatar-large.png 384w"' ..
+      ' sizes="(max-width: 767px) 48px, 58px" width="192" height="192"' ..
+      ' alt="' .. escape_html(author or '作者头像') .. '" decoding="async">')
     table.insert(inner, '<div class="article-author-meta">')
     if author then
       table.insert(inner, '<span class="article-author-name">' .. escape_html(author) .. '</span>')
@@ -224,10 +253,29 @@ function Pandoc(doc)
   end
   if description then
     rule('main.content > header .description', 'display:none !important;')
-    -- The inner <p> must not inherit the theme's text-indent / justify; it
-    -- takes its typography from the .article-description container instead.
-    rule(scope .. ' .article-description p', 'margin:0;text-indent:0;text-align:inherit;color:inherit;font-size:inherit;line-height:inherit;letter-spacing:inherit;')
   end
+  -- A real WeChat article URL is opt-in per article. Keep the bridge visually
+  -- quiet and scoped to the article body so the website can link back without
+  -- changing the shared footer or the WeChat export.
+  rule(scope .. ' .wechat-article-link',
+    'position:relative;display:flex;align-items:center;justify-content:space-between;gap:1rem;' ..
+    'margin:0 0 1.6rem;padding:0.9rem 1rem 0.9rem 1.15rem;border:1px solid color-mix(in srgb,var(--article-accent) 24%,transparent);' ..
+    'border-radius:0.75rem;background:linear-gradient(135deg,color-mix(in srgb,var(--article-soft) 84%,transparent),color-mix(in srgb,var(--article-rule) 24%,transparent));' ..
+    'color:var(--article-accent);text-decoration:none;box-shadow:0 0.45rem 1.1rem color-mix(in srgb,var(--article-accent) 8%,transparent);' ..
+    'overflow:hidden;transition:transform 180ms ease,box-shadow 180ms ease,border-color 180ms ease;')
+  rule(scope .. ' .wechat-article-link::before',
+    'position:absolute;inset:0 auto 0 0;width:0.25rem;background:var(--article-accent);content:"";')
+  rule(scope .. ' .wechat-article-link:hover, ' .. scope .. ' .wechat-article-link:focus-visible',
+    'transform:translateY(-1px);border-color:var(--article-accent);box-shadow:0 0.5rem 1.25rem color-mix(in srgb,var(--article-accent) 12%,transparent);')
+  rule(scope .. ' .wechat-article-link:focus-visible', 'outline:2px solid currentColor;outline-offset:3px;')
+  rule(scope .. ' .wechat-article-link-copy', 'position:relative;z-index:1;display:flex;flex-direction:column;gap:0.18rem;min-width:0;')
+  rule(scope .. ' .wechat-article-link-kicker', 'font-size:0.68rem;letter-spacing:0.1em;font-weight:700;opacity:0.72;')
+  rule(scope .. ' .wechat-article-link-label', 'font-size:0.92rem;font-weight:650;line-height:1.45;')
+  rule(scope .. ' .wechat-article-link-action', 'position:relative;z-index:1;flex:0 0 auto;font-size:0.78rem;font-weight:700;white-space:nowrap;')
+  table.insert(css, '@media (max-width: 480px){' ..
+    scope .. ' .wechat-article-link{align-items:flex-start;}' ..
+    scope .. ' .wechat-article-link-action{padding-top:0.2rem;}' ..
+    '}')
 
   local includes = doc.meta['header-includes'] or pandoc.MetaList({})
   includes:insert(pandoc.MetaBlocks({pandoc.RawBlock('html', '<style>\n' .. table.concat(css, '\n') .. '\n</style>')}))
@@ -240,13 +288,32 @@ function Pandoc(doc)
   if description then
     description_block = pandoc.RawBlock('html', '<div class="article-description"><p>' .. escape_html(description) .. '</p></div>')
   end
+  local wechat_link_block
+  if wechat_link then
+    wechat_link_block = pandoc.RawBlock('html',
+      '<a class="wechat-article-link" href="' .. escape_html(wechat_link) ..
+      '" target="_blank" rel="noopener noreferrer" aria-label="在微信公众号中阅读本文">' ..
+      '<span class="wechat-article-link-copy">' ..
+      '<span class="wechat-article-link-kicker">微信公众号原文</span>' ..
+      '<span class="wechat-article-link-label">在微信中阅读本文</span>' ..
+      '</span><span class="wechat-article-link-action">打开原文 ↗</span></a>')
+  end
   local description_inserted = false
+  local wechat_link_inserted = false
+  local function insert_wechat_link(blocks)
+    if wechat_link_block and not wechat_link_inserted then
+      blocks:insert(wechat_link_block)
+      wechat_link_inserted = true
+    end
+  end
   -- When the body opens with a heading, the description must still appear
   -- *before* that heading. Prepend it as its own .article-body so it keeps the
   -- article-theme scope and stays ahead of the first section.
   if description_block and #doc.blocks > 0 and doc.blocks[1].t == 'Header' then
+    local intro = pandoc.Blocks({description_block})
+    insert_wechat_link(intro)
     out:insert(pandoc.Div(
-      pandoc.Blocks({description_block}),
+      intro,
       pandoc.Attr('', {'article-body'}, {['data-article-theme'] = name})
     ))
     description_inserted = true
@@ -264,9 +331,15 @@ function Pandoc(doc)
       if description_block and not description_inserted then
         body:insert(description_block)
         description_inserted = true
+        insert_wechat_link(body)
       end
       body:insert(blk)
     end
+  end
+  -- Articles without a description still get the bridge, after their final
+  -- body section. Articles with a description have already inserted it above.
+  if wechat_link_block and not wechat_link_inserted then
+    body:insert(wechat_link_block)
   end
   if #body > 0 then
     out:insert(pandoc.Div(body, pandoc.Attr('', {'article-body'}, {['data-article-theme']=name})))

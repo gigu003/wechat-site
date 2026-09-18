@@ -17,6 +17,7 @@ article-theme: minimal-mono
 submit: false
 show-title-block: true
 toc: true
+wechat-link: "https://mp.weixin.qq.com/s/MZbqcu1NH8g8xWG16bEWTQ"
 ---
 
 《五大洲癌症发病率》（Cancer Incidence in Five Continents，CI5）第13卷已发布 **Call for Data**，本次收集2018—2022年的资料。各地肿瘤登记处都在完善数据，希望资料能够被收录。CI5对资料收录有明确的质量要求，各卷方法章节也说明了相应的评价思路。

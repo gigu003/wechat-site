@@ -16,6 +16,7 @@ image-style: infographic-mint
 article-theme: warm-editorial
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/brkI8NV3Z8mEj4YffHnKYg"
 ---
 
 ## 从聊天工具到 Agent

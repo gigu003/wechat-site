@@ -16,6 +16,7 @@ image-style: infographic-mint
 article-theme: warm-editorial
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/pYFSLr_a2Ya-6Bzf_eus6w"
 ---
 
 ## 这15条，管的是患癌之前的风险

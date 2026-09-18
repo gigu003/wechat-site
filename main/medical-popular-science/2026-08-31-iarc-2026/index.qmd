@@ -16,6 +16,7 @@ image-style: infographic-mint
 article-theme: warm-editorial
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/jiRZrybSurZAwZCI8Takfw"
 ---
 
 2026 年 8 月 31 日，IARC 在甲状腺癌宣传月信息中公布了两组容易引起注意的数字：2024 年全球约有 100 万人被诊断为甲状腺癌，约 5 万人死于该病；新发病例中约四分之三是女性。

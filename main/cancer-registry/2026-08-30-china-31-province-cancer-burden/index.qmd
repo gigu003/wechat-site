@@ -16,6 +16,7 @@ image-style: hand-drawn-blue
 article-theme: refined-blue
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/0c-yCp3qWcjMNkh5pmg6MQ"
 ---
 
 ## 2024年中国癌症负担：新发515.06万，死亡258.22万

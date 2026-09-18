@@ -16,6 +16,7 @@ image-style: flat-editorial
 article-theme: minimal-mono
 submit: false
 show-title-block: true
+wechat-link: "https://mp.weixin.qq.com/s/LFNE_MRfN81MfikszHj8oA"
 ---
 
 ## 先看一段可复现的输出

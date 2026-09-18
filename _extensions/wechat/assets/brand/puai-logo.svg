@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 88" fill="none">
+  <title>普癌新声 · 肿瘤登记与健康科普</title>
+  <g transform="translate(0 12)">
+    <circle cx="32" cy="32" r="32" fill="#123D35"/>
+    <path d="M13 20.5A9.5 9.5 0 0 1 22.5 11h19a9.5 9.5 0 0 1 9.5 9.5v10A9.5 9.5 0 0 1 42 40h-11.5l-8 6.2a2.2 2.2 0 0 1-3.3-1.7v-5A9.5 9.5 0 0 1 13 30.5v-10Z" fill="#F3F7F4"/>
+    <path d="M20.5 30.5h4.2l3.1-7.1 4.5 13.4 3.2-7.1h5.9" stroke="#287A61" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="59" cy="10" r="9" fill="#C26B3A"/>
+    <path d="M55.5 10h7M59 6.5v7" stroke="#FCFDFB" stroke-width="2.1" stroke-linecap="round"/>
+  </g>
+  <text x="88" y="49" fill="#123D35" font-family="Noto Serif SC, Songti SC, serif" font-size="31" font-weight="700" letter-spacing="2">普癌新声</text>
+  <text x="91" y="72" fill="#56706A" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="11" letter-spacing="2.2">肿瘤登记 · 数据科学 · 健康科普</text>
+</svg>

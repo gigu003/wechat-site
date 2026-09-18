@@ -10,7 +10,11 @@ title: "文章标题"
 article-theme: refined-blue
 show-title-block: true
 submit: false
+# 发布到公众号后填写对应的原文 URL；留空或省略时不显示回链卡片
+wechat-link: "https://mp.weixin.qq.com/s/..."
 ```
+
+`wechat-link` 只接受 `http://` 或 `https://` 地址。填写后，网站文章正文末尾会显示“微信公众号原文”入口，并在新标签页打开对应文章。
 
 ## 网站
 
