@@ -9,6 +9,7 @@ image: images/cover.png
 categories:
   - "公众号"
   - "个人网站"
+  - "R语言与数据科学"
 wechat-account: main
 series: daily-r
 content-type: statistical-method
@@ -49,3 +50,5 @@ show-title-block: true
 ```bash
 git clone git@github.com:gigu003/wechat-site.git
 ```
+
+发布到微信公众号的功能，我借鉴了wechat-publisher（https://github.com/jiji262/wechat-publisher）的python脚本来实现，有兴趣的同学可以进去查看！
