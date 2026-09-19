@@ -1,0 +1,49 @@
+---
+title: "页面走丢了"
+description: "你访问的页面不存在，或者链接已经发生了变化。"
+page-layout: full
+body-classes: error-page
+toc: false
+page-navigation: false
+---
+
+::: {.error-page-panel aria-labelledby="error-page-heading"}
+
+::: {.error-page-visual aria-hidden="true"}
+
+::: {.error-page-index-label}
+PUAI / INDEX 04
+:::
+
+::: {.error-page-mark}
+404
+:::
+
+::: {.error-page-route}
+栏目 · 文章 · 证据
+:::
+
+:::
+
+::: {.error-page-copy}
+
+::: {.error-page-kicker}
+404 / NOT IN THE INDEX
+:::
+
+# 这页暂时离开了目录 {#error-page-heading}
+
+可能是地址写错了，也可能这篇内容已经换了位置。你可以从首页或文章栏目继续阅读。
+
+::: {.error-page-actions-label}
+从这里继续
+:::
+
+::: {.error-page-actions}
+[返回首页](index.qmd){.error-page-primary}
+[进入 R 语言栏目](categories/daily-r.qmd){.error-page-secondary}
+:::
+
+:::
+
+:::

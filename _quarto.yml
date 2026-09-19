@@ -4,8 +4,11 @@ project:
   # must see it at project scope to compile its palette and Google font faces.
   brand: _extensions/wechat/brand.yml
   output-dir: _site
+  resources:
+    - robots.txt
   render:
     - index.qmd
+    - 404.qmd
     - categories/*.qmd
     - main/**/index.qmd
     - "!**/*.md"

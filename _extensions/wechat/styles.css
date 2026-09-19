@@ -54,6 +54,221 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* ---- 404 page: an editorial index / wayfinding spread ---- */
+body.error-page main.content > header#title-block-header {
+  display: none;
+}
+
+body.error-page {
+  background:
+    radial-gradient(circle at 12% 80%, rgba(194, 107, 58, 0.08), transparent 24rem),
+    var(--puai-paper);
+}
+
+body.error-page main.content {
+  display: grid;
+  min-height: min(42rem, calc(100vh - 4.25rem));
+  place-items: center;
+  padding: clamp(2rem, 7vw, 6.5rem) clamp(1rem, 5vw, 4rem);
+  background-image:
+    linear-gradient(90deg, transparent 0, transparent calc(50% - 0.5px), var(--puai-line) calc(50% - 0.5px), var(--puai-line) 50%, transparent 50%, transparent 100%),
+    linear-gradient(0deg, transparent 0, transparent calc(100% - 1px), var(--puai-line) calc(100% - 1px), var(--puai-line) 100%);
+  background-size: 100% 100%, 100% 100%;
+}
+
+.error-page-panel {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(15rem, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  width: min(100%, 70rem);
+  overflow: hidden;
+  padding: clamp(2.2rem, 5vw, 4.8rem) 0;
+  border-top: 1px solid var(--puai-line);
+  border-bottom: 1px solid var(--puai-line);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--puai-mint) 72%, transparent), transparent 52%);
+}
+
+.error-page-panel::after {
+  position: absolute;
+  top: 1.2rem;
+  right: -4rem;
+  width: 12rem;
+  height: 12rem;
+  border: 1px solid rgba(40, 122, 97, 0.2);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+}
+
+.error-page-visual {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-height: 19rem;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 clamp(2rem, 5vw, 5rem) 0 clamp(1rem, 3vw, 2.5rem);
+  border-right: 1px solid var(--puai-line);
+}
+
+.error-page-index-label,
+.error-page-route,
+.error-page-kicker,
+.error-page-actions-label {
+  font-family: "SFMono-Regular", "Cascadia Code", monospace;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+}
+
+.error-page-index-label {
+  color: var(--puai-warm);
+}
+
+.error-page-index-label p,
+.error-page-route p,
+.error-page-kicker p,
+.error-page-actions-label p { margin: 0; }
+
+.error-page-mark {
+  position: relative;
+  margin-left: -0.09em;
+  color: transparent;
+  font-family: var(--puai-serif);
+  font-size: clamp(8rem, 18vw, 15rem);
+  font-weight: 700;
+  letter-spacing: -0.12em;
+  line-height: 0.72;
+  -webkit-text-stroke: 1px var(--puai-green);
+  text-shadow: 0.06em 0.06em 0 var(--puai-mint);
+}
+
+.error-page-mark p { margin: 0; }
+
+.error-page-route {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  color: var(--puai-slate);
+}
+
+.error-page-route::before {
+  display: block;
+  width: 2.6rem;
+  height: 1px;
+  background: var(--puai-warm);
+  content: "";
+}
+
+.error-page-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 31rem;
+  padding-left: clamp(2rem, 6vw, 6rem);
+}
+
+.error-page-kicker {
+  margin: 0 0 1.1rem;
+  color: var(--puai-warm);
+}
+
+.error-page-copy h1 {
+  max-width: 10ch;
+  margin: 0 0 1rem;
+  color: var(--puai-pine);
+  font-size: clamp(2.1rem, 4.4vw, 3.7rem);
+  letter-spacing: -0.025em;
+  line-height: 1.18;
+}
+
+.error-page-copy .level1 > p {
+  max-width: 30rem;
+  margin: 0;
+  color: var(--puai-slate);
+  font-size: 1rem;
+  line-height: 1.85;
+}
+
+.error-page-actions-label {
+  margin-top: 2rem;
+  color: var(--puai-green);
+}
+
+.error-page-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+.error-page-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 0;
+}
+
+.error-page-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.8rem;
+  padding: 0.62rem 1rem;
+  border-radius: 0.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+}
+
+.error-page-actions a:hover { transform: translateY(-2px); }
+
+.error-page-primary {
+  color: #fff;
+  background: var(--puai-green);
+  box-shadow: 0 8px 18px rgba(21, 91, 75, 0.2);
+}
+
+.error-page-primary:hover { color: #fff; background: var(--puai-fern); }
+
+.error-page-secondary {
+  color: var(--puai-green);
+  border: 1px solid var(--puai-line);
+  background: color-mix(in srgb, var(--puai-paper) 78%, transparent);
+}
+
+.error-page-secondary:hover {
+  color: var(--puai-pine);
+  background: var(--puai-mint);
+}
+
+@media (max-width: 640px) {
+  body.error-page main.content {
+    min-height: calc(100vh - 4.25rem);
+    padding: 2rem 1rem 3rem;
+    background-image: linear-gradient(0deg, transparent 0, transparent calc(100% - 1px), var(--puai-line) calc(100% - 1px), var(--puai-line) 100%);
+  }
+
+  .error-page-panel {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 1.75rem 0 2.25rem;
+  }
+
+  .error-page-visual {
+    min-height: 12rem;
+    padding: 0 0 1.75rem;
+    border-right: 0;
+    border-bottom: 1px solid var(--puai-line);
+  }
+
+  .error-page-mark { font-size: clamp(7rem, 31vw, 11rem); }
+  .error-page-copy { padding-left: 0; }
+  .error-page-copy h1 { max-width: 9ch; }
+}
+
 ::selection { background: rgba(40, 122, 97, 0.22); color: var(--puai-pine); }
 
 h1, h2, h3, h4, h5, h6, .navbar-brand, .quarto-title {
@@ -1081,6 +1296,29 @@ body.quarto-dark .navbar {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
 }
 
+body.quarto-dark.error-page {
+  background:
+    radial-gradient(circle at 12% 80%, rgba(215, 150, 112, 0.1), transparent 24rem),
+    var(--puai-paper);
+}
+
+body.quarto-dark .error-page-panel {
+  background: linear-gradient(90deg, rgba(25, 56, 47, 0.7), transparent 52%);
+}
+
+body.quarto-dark .error-page-mark {
+  -webkit-text-stroke-color: var(--puai-green);
+  text-shadow: 0.06em 0.06em 0 rgba(117, 185, 155, 0.12);
+}
+
+body.quarto-dark .error-page-primary {
+  color: #102c26;
+  background: var(--puai-green);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.24);
+}
+
+body.quarto-dark .error-page-primary:hover { color: #102c26; background: #b4dfc5; }
+
 body.quarto-dark main.content > header#title-block-header {
   border-color: var(--puai-line);
 }
@@ -1168,6 +1406,43 @@ body.quarto-dark .wechat-follow-topics span {
 
 body.quarto-dark .wechat-follow-logo-light { display: none; }
 body.quarto-dark .wechat-follow-logo-dark { display: block; }
+
+/* The author block is outside `.article-body`, but article-theme.lua still
+   gives it each theme's light-mode accent. Dark themes such as minimal-mono,
+   refined-blue, and warm-editorial can therefore resolve the name/focus to a
+   near-black colour. Keep the theme accent in the frame, and reserve the
+   night palette for readable author metadata. */
+body.quarto-dark main.content .article-author-block[data-article-theme] {
+  margin-top: 1.5rem;
+  padding: 0.95rem 1.1rem 1.05rem;
+  border: 1px solid rgba(187, 220, 203, 0.2) !important;
+  border-inline-start: 0.3rem solid color-mix(in srgb, var(--article-accent, var(--puai-green)) 35%, var(--puai-green)) !important;
+  border-radius: 0 0.75rem 0.75rem 0;
+  background: linear-gradient(135deg, rgba(25, 56, 47, 0.9), rgba(23, 40, 35, 0.68));
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.16);
+}
+
+body.quarto-dark main.content .article-author-block[data-article-theme] .article-author-name {
+  color: #e8f2ec !important;
+  font-weight: 750;
+}
+
+body.quarto-dark main.content .article-author-block[data-article-theme] .article-author-focus {
+  color: #a9d8bd !important;
+}
+
+body.quarto-dark main.content .article-author-block[data-article-theme] .article-author-date {
+  color: #b5c9c0 !important;
+}
+
+body.quarto-dark main.content .article-author-block[data-article-theme] .article-author-reading {
+  color: #91aa9e !important;
+}
+
+body.quarto-dark main.content .article-author-block[data-article-theme] .article-author-avatar {
+  background-color: #19382f !important;
+  box-shadow: 0 0 0 3px #19382f, 0 4px 14px rgba(0, 0, 0, 0.3) !important;
+}
 
 /* Theme JSON files are intentionally expressive in light mode. These shell
    overrides keep article text, rules, tables, and code legible at night while
