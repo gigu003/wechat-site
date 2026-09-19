@@ -1,0 +1,51 @@
+---
+title: "基于github创建一个微信公众号镜像网站"
+author: 陈琼博士
+date: 2026-09-19
+date-modified: last-modified
+description: "想把微信公众号文章同步到个人网站？本文介绍如何以 Quarto 维护一份源文件，结合 GitHub、GitHub Actions 和 GitHub Pages 自动构建镜像网站，并说明如何把网站发布与公众号草稿提交纳入同一套工作流。"
+cover-image: images/cover.png
+image: images/cover.png
+categories:
+  - "公众号"
+  - "个人网站"
+wechat-account: main
+series: daily-r
+content-type: statistical-method
+image-style: flat-editorial
+article-theme: minimal-mono
+submit: false
+show-title-block: true
+---
+
+最近写公众号文章比较多，但每次发布前都要花不少时间调整格式。对我来说，这种重复性的排版工作既繁琐，也没有太大必要。
+
+因此，我开始思考：能否基于 Quarto 构建一个微信公众号的镜像网站，把文章写作、网站发布和公众号发布整合到同一套工作流中？
+
+具体来说，可以预先设计多套适合不同内容类型的主题。文章通过 Quarto 渲染后，一方面直接发布到网站，并根据所选主题呈现不同的阅读效果；另一方面，将同一篇文章按照对应主题转换为微信公众号兼容的 HTML，并通过微信公众号 API 自动提交到草稿箱。
+
+这样，只需要维护一份 Quarto 源文件，就可以同时完成网站和微信公众号两个渠道的内容发布，把更多时间留给内容本身，而不是反复调整格式。
+
+先看看效果怎么样，具体网站地址如下：
+
+[https://wechat.chenq.site](https://wechat.chenq.site)
+
+在技术实现方面，整个流程并不复杂。
+
+首先，在本地创建一个 Quarto Website 项目，并根据自己的需求设计网站结构和页面样式。Quarto 本身提供了比较灵活的主题和布局系统，你可以充分发挥想象力，逐步把网站打造成自己喜欢的样子。
+
+接下来，在 GitHub 上创建一个 Public Repository (感兴趣的话，可以查看 https://github.com/gigu003/wechat-site)，并将本地的 Quarto 项目与该仓库关联，实现网站源代码的版本管理和同步。
+
+然后，配置 GitHub Actions：每次将新的文章或修改推送到 GitHub 后，自动触发 Quarto 项目的渲染与部署，并将生成的网站发布到 GitHub Pages。这样，日常更新文章时基本不需要再手动处理网站部署。
+
+最后，将 GitHub Pages 提供的默认域名绑定到自己的独立域名。至此，一套基于 **Quarto + GitHub + GitHub Actions + GitHub Pages** 的自动化网站发布流程就搭建完成了。
+
+以后写完一篇文章，只需要提交并推送到 GitHub，剩下的渲染和网站更新工作就可以自动完成。
+
+如果你觉得可能用得着，可以直接clone我的github仓库，然后修改为自己的站点。
+
+在自己的电脑终端输入如下命令即可：
+
+```bash
+git clone git@github.com:gigu003/wechat-site.git
+```
